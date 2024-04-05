@@ -1,0 +1,255 @@
+---
+title: "EDA for part 3 alternative fuel charging station in the US"
+format:
+  html:
+    embed-resources: true
+    toc: true
+
+---
+
+```{python}
+
+import pandas as pd
+import numpy as np
+
+df = pd.read_csv("data/alt_fuel_stations (Mar 15 2024).csv")
+
+df.head(10)
+```
+
+ELEC: Electricity. This fuel type is used by electric vehicles (EVs), which are powered by electric motors and battery packs, without the use of traditional internal combustion engines.
+
+E85: Ethanol Fuel Blend (85% ethanol, 15% gasoline). E85 is a biofuel blend of 85% denatured ethanol fuel and 15% gasoline or other hydrocarbons by volume. It's used in flexible-fuel vehicles which can operate on gasoline or ethanol blends varying from E85 to E0 (all gasoline).
+
+LPG: Liquefied Petroleum Gas. Also known as propane or butane, LPG is a clean-burning fossil fuel used by some vehicles either as a primary fuel or as an alternative to gasoline. It's stored in a liquid state under pressure in fuel tanks but becomes gas when released.
+
+BD: Biodiesel. Biodiesel is a renewable, biodegradable fuel manufactured domestically from vegetable oils, animal fats, or recycled restaurant grease. It's a cleaner-burning replacement for petroleum diesel fuel.
+
+CNG: Compressed Natural Gas. CNG is a fossil fuel substitute for gasoline, diesel, or propane fuel. It's much cleaner than those fuels and is used in some cars that are specifically designed or modified to run on CNG.
+
+RD: Renewable Diesel. Also known as green diesel, renewable diesel is made from renewable resources like vegetable oils and animal fats. It's chemically similar to petroleum diesel but emits less pollution.
+
+LNG: Liquefied Natural Gas. LNG is natural gas that has been cooled down to liquid form for ease and safety of non-pressurized storage or transport. It's used in vehicles specially equipped to handle LNG, offering lower emissions than traditional diesel.
+
+HY: Hydrogen. This refers to hydrogen fuel cell vehicles which use hydrogen gas to power an electric motor. They emit only water vapor and warm air, making them one of the cleanest fuel options available.
+
+```{python}
+df['Fuel Type Code'].value_counts()
+
+```
+
+# Histogram with drop-down bar for each state. 
+
+```{python}
+import plotly.graph_objs as go
+from plotly.offline import init_notebook_mode, iplot
+import pandas as pd
+
+states = df['State'].unique()
+
+# Create a figure
+fig = go.Figure()
+
+# Add one trace (bar) for each state to the figure
+for state in states:
+    fig.add_trace(
+        go.Histogram(
+            x=df[df['State'] == state]['Fuel Type Code'],
+            name=state,  # This will be the label in the dropdown
+            visible=(state == states[0])  # Only the first state is visible initially
+        )
+    )
+
+# Create dropdown menus
+dropdown_buttons = [
+    {'label': state,
+     'method': 'update',
+     'args': [{'visible': [s == state for s in states]},
+              {'title': f'Histogram of Values for {state}'}]}  # This changes the figure title
+    for state in states]
+
+# Add dropdown to the figure
+fig.update_layout(
+    updatemenus=[{'buttons': dropdown_buttons,
+                  'direction': 'down',
+                  'showactive': True,}]
+)
+
+# Show the figure
+iplot(fig)
+
+```
+
+# Horizontal Stacked histogram for fuel type for each state. 
+
+```{python}
+states = df['State'].unique()
+fuel_types = df['Fuel Type Code'].unique()
+
+# Initialize an empty list for the traces
+traces = []
+
+# Create a trace for each fuel type
+for fuel_type in fuel_types:
+    # Initialize a list to hold the counts for each state
+    counts = []
+    for state in states:
+        # Count the occurrences of the fuel type in the current state
+        count = df[(df['State'] == state) & (df['Fuel Type Code'] == fuel_type)].shape[0]
+        counts.append(count)
+    
+    # Create a horizontal bar trace for the current fuel type
+    traces.append(go.Bar(
+        y=states,  # Swap x and y
+        x=counts,  # Swap x and y
+        name=fuel_type,
+        orientation='h'  # Specify horizontal orientation
+    ))
+
+# Create the figure and update layout for stacked histogram (bar chart)
+fig = go.Figure(data=traces)
+fig.update_layout(
+    barmode='stack',
+    title_text='Stacked Histogram of Fuel Types by State',  # Chart title
+    yaxis_title_text='State',  
+    xaxis_title_text='Frequency', 
+    height = 1000,
+    width = 800
+)
+
+# Show the plot
+fig.show()
+```
+
+# Geospatial Dataset:
+
+```{python}
+import geopandas as gpd
+import pandas as pd
+import plotly.express as px
+
+geojson_path = 'data/alt_fuel_stations (Mar 15 2024).geojson'
+gdf = gpd.read_file(geojson_path)
+
+state_col_name = 'state'  
+fuel_type_col_name = 'fuel_type_code'  
+
+# Aggregate data by 'State' and 'Fuel Type Code'
+aggregated_data = gdf.groupby([state_col_name, fuel_type_col_name]).size().reset_index(name='Count')
+
+fig = px.scatter_geo(aggregated_data,
+                     locations=state_col_name,  
+                     locationmode="USA-states",
+                     color=fuel_type_col_name,  
+                     size="Count",  
+                     hover_name=fuel_type_col_name,  
+                     hover_data={state_col_name: True, "Count": True},  
+                     scope="usa", 
+                     title="Fuel Type Code Counts by State")
+
+fig.show()
+```
+
+# As scattered points
+
+```{python}
+df = pd.DataFrame(gdf.drop(columns='geometry'))
+df['longitude'] = gdf.geometry.x
+df['latitude'] = gdf.geometry.y
+
+fuel_type_col = 'fuel_type_code'
+
+fig = px.scatter_geo(df,
+                     lon='longitude',
+                     lat='latitude',
+                     color=fuel_type_col, 
+                     hover_name=fuel_type_col, 
+                     scope='world',  
+                     title='Fuel Stations by Fuel Type across the USA')
+
+fig.update_traces(marker=dict(size=2))
+
+fig.update_layout(
+    height = 1000,
+    width = 800
+)
+
+fig.update_geos(
+    projection_type="albers usa",  
+    landcolor="lightgrey",
+    lakecolor="white",
+    showocean=True, oceancolor="azure")
+
+fig.show()
+```
+
+
+# As heat map
+
+```{python}
+import plotly.graph_objs as go
+from plotly.offline import init_notebook_mode, iplot
+import pandas as pd
+
+geojson_path = 'data/alt_fuel_stations (Mar 15 2024).geojson'
+df = pd.DataFrame(gdf.drop(columns='geometry'))
+df['longitude'] = gdf.geometry.x
+df['latitude'] = gdf.geometry.y
+df_aggregated = df.groupby(['fuel_type_code', 'latitude', 'longitude']).size().reset_index(name='Count')
+
+fuel_types = df_aggregated['fuel_type_code'].unique()
+
+# Create a figure
+fig = go.Figure()
+
+for fuel_type in fuel_types:
+    df_filtered = df_aggregated[df_aggregated['fuel_type_code'] == fuel_type]
+    
+    # Create a heatmap for each fuel type
+    fig.add_trace(
+        go.Densitymapbox(lat=df_filtered['latitude'], lon=df_filtered['longitude'],
+                         z=df_filtered['Count'], name=fuel_type, visible=False)
+    )
+
+# Make the first fuel type visible by default
+fig.data[0].visible = True
+
+# Set mapbox style
+fig.update_layout(mapbox_style="light", mapbox_center_lon=180)
+fig.update_layout(mapbox=dict(center=dict(lat=38, lon=-94), zoom=1))
+
+# Create dropdown buttons
+buttons = []
+
+for i, fuel_type in enumerate(fuel_types):
+    button = dict(
+        label=fuel_type,
+        method="update",
+        args=[{"visible": [False] * len(fuel_types)},
+              {"title": f"Heatmap of {fuel_type} Fuel Stations"}])
+    button["args"][0]["visible"][i] = True  
+    buttons.append(button)
+
+fig.update_layout(
+    updatemenus=[
+        dict(
+            buttons=buttons,
+            direction="down",
+            pad={"r": 10, "t": 10},
+            showactive=True,
+            x=0.1,
+            xanchor="left",
+            y=1.1,
+            yanchor="top"
+        ),
+    ]
+)
+
+# Note: To use mapbox, you may need to set a Mapbox access token
+# Set your Mapbox token here
+mapbox_access_token = 'pk.eyJ1IjoiY2F0aHl6d24iLCJhIjoiY2x1a2VnN2FjMDNhdzJpbGw5Y3Jud2Q5MyJ9.bjGv9ATrYWnL4B66WwCH7g'
+fig.update_layout(mapbox_accesstoken=mapbox_access_token)
+
+fig.show()
+
+```
