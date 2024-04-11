@@ -1,0 +1,252 @@
+---
+title: "EDA for part 3 alternative fuel charging station in the US"
+format:
+  html:
+    embed-resources: true
+    toc: true
+code-fold: true
+---
+# Part 3: Alternative Fuel Charging Station
+
+As stated above in the previous parts, as the EV sales and registration have been increasing in the past decades, some may wonder: is the complimentory facilities keeping up with the boosting of EV? So let us take a closer look at the charging/alternative fuel station's distribution in the US. The data is retrieved from [U.S. Department of Energy](https://afdc.energy.gov/stations#/find/nearest)
+
+```{python}
+import pandas as pd
+import numpy as np
+
+df = pd.read_csv("data/alt_fuel_stations (Mar 15 2024).csv")
+
+```
+
+
+Within this dataset, there are 6 alternative fuel kinds in total, each of them reprensents: 
+
+ELEC: Electricity. 
+
+E85: Ethanol Fuel Blend (85% ethanol, 15% gasoline). 
+
+LPG: Liquefied Petroleum Gas. 
+
+BD: Biodiesel. 
+
+CNG: Compressed Natural Gas. 
+RD: Renewable Diesel. 
+
+LNG: Liquefied Natural Gas. 
+
+HY: Hydrogen. 
+
+
+```{python}
+df['Fuel Type Code'].value_counts()
+
+```
+
+# Histogram with drop-down bar for each state. 
+
+```{python}
+import plotly.graph_objs as go
+from plotly.offline import init_notebook_mode, iplot
+import pandas as pd
+
+states = df['State'].unique()
+
+# Create a figure
+fig = go.Figure()
+
+# Add one trace (bar) for each state to the figure
+for state in states:
+    fig.add_trace(
+        go.Histogram(
+            x=df[df['State'] == state]['Fuel Type Code'],
+            name=state,  # This will be the label in the dropdown
+            visible=(state == states[0])  # Only the first state is visible initially
+        )
+    )
+
+# Create dropdown menus
+dropdown_buttons = [
+    {'label': state,
+     'method': 'update',
+     'args': [{'visible': [s == state for s in states]},
+              {'title': f'Histogram of Values for {state}'}]}  # This changes the figure title
+    for state in states]
+
+# Add dropdown to the figure
+fig.update_layout(
+    updatemenus=[{'buttons': dropdown_buttons,
+                  'direction': 'down',
+                  'showactive': True,}]
+)
+
+# Show the figure
+iplot(fig)
+
+```
+
+# Horizontal Stacked histogram for fuel type for each state. 
+
+```{python}
+states = df['State'].unique()
+fuel_types = df['Fuel Type Code'].unique()
+
+# Initialize an empty list for the traces
+traces = []
+
+# Create a trace for each fuel type
+for fuel_type in fuel_types:
+    # Initialize a list to hold the counts for each state
+    counts = []
+    for state in states:
+        # Count the occurrences of the fuel type in the current state
+        count = df[(df['State'] == state) & (df['Fuel Type Code'] == fuel_type)].shape[0]
+        counts.append(count)
+    
+    # Create a horizontal bar trace for the current fuel type
+    traces.append(go.Bar(
+        y=states,  # Swap x and y
+        x=counts,  # Swap x and y
+        name=fuel_type,
+        orientation='h'  # Specify horizontal orientation
+    ))
+
+# Create the figure and update layout for stacked histogram (bar chart)
+fig = go.Figure(data=traces)
+fig.update_layout(
+    barmode='stack',
+    title_text='Stacked Histogram of Fuel Types by State',  # Chart title
+    yaxis_title_text='State',  
+    xaxis_title_text='Frequency', 
+    height = 1000,
+    width = 800
+)
+
+# Show the plot
+fig.show()
+```
+
+From the horizontal stacked histogram categorized by states, we can see that for each state: the majority of alternative fuel stations are electrical charging station, which the proportion is rather donimant compares to other alternative kinds. Specifically, the number of alternative fuel stations (both electric and all combined) in California (CA) out-numbered other states. A more straight-forward geographical demonstration below displayes the density of the stations on a US, and a world map. 
+
+# Geospatial Dataset:
+
+```{python}
+import geopandas as gpd
+import pandas as pd
+import plotly.express as px
+
+geojson_path = 'data/alt_fuel_stations (Mar 15 2024).geojson'
+gdf = gpd.read_file(geojson_path)
+
+state_col_name = 'state'  
+fuel_type_col_name = 'fuel_type_code'  
+
+```
+
+# As scattered points
+
+```{python}
+df = pd.DataFrame(gdf.drop(columns='geometry'))
+df['longitude'] = gdf.geometry.x
+df['latitude'] = gdf.geometry.y
+
+fuel_type_col = 'fuel_type_code'
+
+fig = px.scatter_geo(df,
+                     lon='longitude',
+                     lat='latitude',
+                     color=fuel_type_col, 
+                     hover_name=fuel_type_col, 
+                     title='Fuel Stations by Fuel Type across the USA')
+
+fig.update_traces(marker=dict(size=3))
+
+fig.update_layout(
+    height = 500,
+    width = 800
+)
+
+fig.update_geos(
+    projection_type="kavrayskiy7",  
+    landcolor="lightgrey",
+    lakecolor="white",
+    showocean=True, oceancolor="azure",
+)
+
+fig.show()
+```
+
+
+# As heat map
+
+```{python}
+import plotly.graph_objs as go
+from plotly.offline import init_notebook_mode, iplot
+import pandas as pd
+
+geojson_path = 'data/alt_fuel_stations (Mar 15 2024).geojson'
+df = pd.DataFrame(gdf.drop(columns='geometry'))
+df['longitude'] = gdf.geometry.x
+df['latitude'] = gdf.geometry.y
+df_aggregated = df.groupby(['fuel_type_code', 'latitude', 'longitude']).size().reset_index(name='Count')
+
+fuel_types = df_aggregated['fuel_type_code'].unique()
+
+# Create a figure
+fig = go.Figure()
+
+for fuel_type in fuel_types:
+    df_filtered = df_aggregated[df_aggregated['fuel_type_code'] == fuel_type]
+    
+    # Create a heatmap for each fuel type
+    fig.add_trace(
+        go.Densitymapbox(lat=df_filtered['latitude'], lon=df_filtered['longitude'],
+                         z=df_filtered['Count'], name=fuel_type, visible=False)
+    )
+
+# Make the first fuel type visible by default
+fig.data[0].visible = True
+
+# Set mapbox style
+fig.update_layout(mapbox_style="light", mapbox_center_lon=180)
+fig.update_layout(mapbox=dict(center=dict(lat=38, lon=-94), zoom=1))
+
+# Create dropdown buttons
+buttons = []
+
+for i, fuel_type in enumerate(fuel_types):
+    button = dict(
+        label=fuel_type,
+        method="update",
+        args=[{"visible": [False] * len(fuel_types)},
+              {"title": f"Heatmap of {fuel_type} Fuel Stations"}])
+    button["args"][0]["visible"][i] = True  
+    buttons.append(button)
+
+fig.update_layout(
+    height = 500,
+    width = 800,
+    updatemenus=[
+        dict(
+            buttons=buttons,
+            direction="down",
+            pad={"r": 10, "t": 10},
+            showactive=True,
+            x=0.1,
+            xanchor="left",
+            y=1.1,
+            yanchor="top"
+        ),
+    ]
+)
+
+mapbox_access_token = 'pk.eyJ1IjoiY2F0aHl6d24iLCJhIjoiY2x1a2VnN2FjMDNhdzJpbGw5Y3Jud2Q5MyJ9.bjGv9ATrYWnL4B66WwCH7g'
+fig.update_layout(mapbox_accesstoken=mapbox_access_token)
+
+fig.show()
+
+```
+
+From the geographical vizualization: heat map for each type of alternative fuel station, we could see that more stations are gathered in california, especially electric charging stations. According to one journal that: established in January 2018, the California Zero-Emission Vehicle (ZEV) Action Plan set an ambitious target of 1.5 million ZEVs (a mix of PHEVs, BEVs and FCEVs) on the road by 2025, on a path to 5 million by 2030. California has established mandates that require auto manufacturers to make available specific numbers of these vehicles to support achieving these targets. [Reference](https://www.sciencedirect.com/science/article/pii/S0965856422002701#:~:text=Second%2C%20California%20has%20a%20larger,opportunity%20for%20a%20detailed%20assessment.)
+
+So, with intervention of the state policy, the transition from heavily reply on fossil fuel to EV is rather successful in the CA state comparing to other states. 
+
