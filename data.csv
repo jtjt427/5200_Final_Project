@@ -1,0 +1,331 @@
+,Entity,Code,Year,Electric cars sold,Continent
+0,Australia,AUS,2012,250,Oceania
+1,Australia,AUS,2013,290,Oceania
+2,Australia,AUS,2014,1320,Oceania
+3,Australia,AUS,2015,1760,Oceania
+4,Australia,AUS,2016,1370,Oceania
+5,Australia,AUS,2017,2300,Oceania
+6,Australia,AUS,2018,3600,Oceania
+7,Australia,AUS,2019,9200,Oceania
+8,Australia,AUS,2020,6900,Oceania
+9,Australia,AUS,2021,20400,Oceania
+10,Australia,AUS,2022,38900,Oceania
+11,Austria,AUT,2015,2800,Europe
+12,Austria,AUT,2016,5000,Europe
+13,Austria,AUT,2017,7100,Europe
+14,Austria,AUT,2018,9100,Europe
+15,Austria,AUT,2019,11500,Europe
+16,Austria,AUT,2020,23600,Europe
+17,Austria,AUT,2021,48000,Europe
+18,Austria,AUT,2022,47000,Europe
+19,Belgium,BEL,2010,56,Europe
+20,Belgium,BEL,2011,296,Europe
+21,Belgium,BEL,2012,910,Europe
+22,Belgium,BEL,2013,560,Europe
+23,Belgium,BEL,2014,1950,Europe
+24,Belgium,BEL,2015,3900,Europe
+25,Belgium,BEL,2016,9200,Europe
+26,Belgium,BEL,2017,14700,Europe
+27,Belgium,BEL,2018,13200,Europe
+28,Belgium,BEL,2019,17700,Europe
+29,Belgium,BEL,2020,47000,Europe
+30,Belgium,BEL,2021,71000,Europe
+31,Belgium,BEL,2022,97000,Europe
+32,Brazil,BRA,2012,92,South America
+33,Brazil,BRA,2013,163,South America
+34,Brazil,BRA,2015,87,South America
+35,Brazil,BRA,2016,177,South America
+36,Brazil,BRA,2017,315,South America
+37,Brazil,BRA,2018,296,South America
+38,Brazil,BRA,2019,1940,South America
+39,Brazil,BRA,2020,2480,South America
+40,Brazil,BRA,2021,13900,South America
+41,Brazil,BRA,2022,18500,South America
+42,Canada,CAN,2011,520,North America
+43,Canada,CAN,2012,1920,North America
+44,Canada,CAN,2013,3100,North America
+45,Canada,CAN,2014,5100,North America
+46,Canada,CAN,2015,6800,North America
+47,Canada,CAN,2016,11600,North America
+48,Canada,CAN,2017,16700,North America
+49,Canada,CAN,2018,44000,North America
+50,Canada,CAN,2019,51000,North America
+51,Canada,CAN,2020,51000,North America
+52,Canada,CAN,2021,87000,North America
+53,Canada,CAN,2022,114000,North America
+54,Chile,CHL,2014,17,South America
+55,Chile,CHL,2015,36,South America
+56,Chile,CHL,2016,31,South America
+57,Chile,CHL,2017,135,South America
+58,Chile,CHL,2018,178,South America
+59,Chile,CHL,2019,300,South America
+60,Chile,CHL,2020,189,South America
+61,Chile,CHL,2021,570,South America
+62,Chile,CHL,2022,1500,South America
+63,China,CHN,2010,1440,Asia
+64,China,CHN,2011,5120,Asia
+65,China,CHN,2012,9860,Asia
+66,China,CHN,2013,15730,Asia
+67,China,CHN,2014,73000,Asia
+68,China,CHN,2015,211000,Asia
+69,China,CHN,2016,339000,Asia
+70,China,CHN,2017,580000,Asia
+71,China,CHN,2018,1090000,Asia
+72,China,CHN,2019,1060000,Asia
+73,China,CHN,2020,1140000,Asia
+74,China,CHN,2021,3250000,Asia
+75,China,CHN,2022,5900000,Asia
+76,Denmark,DNK,2011,422,Europe
+77,Denmark,DNK,2012,502,Europe
+78,Denmark,DNK,2013,510,Europe
+79,Denmark,DNK,2014,1690,Europe
+80,Denmark,DNK,2015,4720,Europe
+81,Denmark,DNK,2016,1870,Europe
+82,Denmark,DNK,2017,1330,Europe
+83,Denmark,DNK,2018,4600,Europe
+84,Denmark,DNK,2019,9400,Europe
+85,Denmark,DNK,2020,32000,Europe
+86,Denmark,DNK,2021,65000,Europe
+87,Denmark,DNK,2022,57000,Europe
+114,Finland,FIN,2012,181,Europe
+115,Finland,FIN,2013,220,Europe
+116,Finland,FIN,2014,440,Europe
+117,Finland,FIN,2015,660,Europe
+118,Finland,FIN,2016,1420,Europe
+119,Finland,FIN,2017,3100,Europe
+120,Finland,FIN,2018,5680,Europe
+121,Finland,FIN,2019,7900,Europe
+122,Finland,FIN,2020,17200,Europe
+123,Finland,FIN,2021,30000,Europe
+124,Finland,FIN,2022,31000,Europe
+125,France,FRA,2011,2696,Europe
+126,France,FRA,2012,6300,Europe
+127,France,FRA,2013,9630,Europe
+128,France,FRA,2014,13100,Europe
+129,France,FRA,2015,22700,Europe
+130,France,FRA,2016,29400,Europe
+131,France,FRA,2017,37000,Europe
+132,France,FRA,2018,46000,Europe
+133,France,FRA,2019,62000,Europe
+134,France,FRA,2020,185000,Europe
+135,France,FRA,2021,300000,Europe
+136,France,FRA,2022,340000,Europe
+137,Germany,DEU,2011,1640,Europe
+138,Germany,DEU,2012,3400,Europe
+139,Germany,DEU,2013,6800,Europe
+140,Germany,DEU,2014,13500,Europe
+141,Germany,DEU,2015,23000,Europe
+142,Germany,DEU,2016,24000,Europe
+143,Germany,DEU,2017,54000,Europe
+144,Germany,DEU,2018,67000,Europe
+145,Germany,DEU,2019,108000,Europe
+146,Germany,DEU,2020,390000,Europe
+147,Germany,DEU,2021,690000,Europe
+148,Germany,DEU,2022,830000,Europe
+149,Greece,GRC,2015,57,Europe
+150,Greece,GRC,2016,97,Europe
+151,Greece,GRC,2017,190,Europe
+152,Greece,GRC,2018,298,Europe
+153,Greece,GRC,2019,480,Europe
+154,Greece,GRC,2020,2180,Europe
+155,Greece,GRC,2021,7000,Europe
+156,Greece,GRC,2022,8300,Europe
+157,Iceland,ISL,2012,26,Europe
+158,Iceland,ISL,2013,103,Europe
+159,Iceland,ISL,2014,229,Europe
+160,Iceland,ISL,2015,560,Europe
+161,Iceland,ISL,2016,1160,Europe
+162,Iceland,ISL,2017,3050,Europe
+163,Iceland,ISL,2018,3680,Europe
+164,Iceland,ISL,2019,2610,Europe
+165,Iceland,ISL,2020,5000,Europe
+166,Iceland,ISL,2021,9200,Europe
+167,Iceland,ISL,2022,11900,Europe
+168,India,IND,2019,687,Asia
+169,India,IND,2020,3143,Asia
+170,India,IND,2021,12050,Asia
+171,India,IND,2022,48023,Asia
+172,Israel,ISR,2012,601,Asia
+173,Israel,ISR,2013,477,Asia
+174,Israel,ISR,2014,58,Asia
+175,Israel,ISR,2015,68,Asia
+176,Israel,ISR,2016,68,Asia
+177,Israel,ISR,2017,1630,Asia
+178,Israel,ISR,2018,3730,Asia
+179,Israel,ISR,2019,4750,Asia
+180,Israel,ISR,2020,6900,Asia
+181,Israel,ISR,2021,24000,Asia
+182,Israel,ISR,2022,43000,Asia
+183,Italy,ITA,2013,1040,Europe
+184,Italy,ITA,2014,1340,Europe
+185,Italy,ITA,2015,2240,Europe
+186,Italy,ITA,2016,2700,Europe
+187,Italy,ITA,2017,4900,Europe
+188,Italy,ITA,2018,9700,Europe
+189,Italy,ITA,2019,17500,Europe
+190,Italy,ITA,2020,60000,Europe
+191,Italy,ITA,2021,138000,Europe
+192,Italy,ITA,2022,114000,Europe
+193,Japan,JPN,2011,13015,Asia
+194,Japan,JPN,2012,24000,Asia
+195,Japan,JPN,2013,29000,Asia
+196,Japan,JPN,2014,32000,Asia
+197,Japan,JPN,2015,24000,Asia
+198,Japan,JPN,2016,24400,Asia
+199,Japan,JPN,2017,54000,Asia
+200,Japan,JPN,2018,50000,Asia
+201,Japan,JPN,2019,39000,Asia
+202,Japan,JPN,2020,30000,Asia
+203,Japan,JPN,2021,45000,Asia
+204,Japan,JPN,2022,102000,Asia
+205,Mexico,MEX,2015,99,North America
+206,Mexico,MEX,2016,770,North America
+207,Mexico,MEX,2017,1200,North America
+208,Mexico,MEX,2018,1800,North America
+209,Mexico,MEX,2019,1690,North America
+210,Mexico,MEX,2020,3800,North America
+211,Mexico,MEX,2021,6500,North America
+212,Mexico,MEX,2022,8400,North America
+213,Netherlands,NLD,2011,877,Europe
+214,Netherlands,NLD,2012,5090,Europe
+215,Netherlands,NLD,2013,22600,Europe
+216,Netherlands,NLD,2014,14700,Europe
+217,Netherlands,NLD,2015,44800,Europe
+218,Netherlands,NLD,2016,23100,Europe
+219,Netherlands,NLD,2017,10300,Europe
+220,Netherlands,NLD,2018,27500,Europe
+221,Netherlands,NLD,2019,66900,Europe
+222,Netherlands,NLD,2020,88000,Europe
+223,Netherlands,NLD,2021,95000,Europe
+224,Netherlands,NLD,2022,107000,Europe
+225,New Zealand,NZL,2011,15,Oceania
+226,New Zealand,NZL,2012,27,Oceania
+227,New Zealand,NZL,2013,36,Oceania
+228,New Zealand,NZL,2014,320,Oceania
+229,New Zealand,NZL,2015,500,Oceania
+230,New Zealand,NZL,2016,1540,Oceania
+231,New Zealand,NZL,2017,3440,Oceania
+232,New Zealand,NZL,2018,5600,Oceania
+233,New Zealand,NZL,2019,6900,Oceania
+234,New Zealand,NZL,2020,5400,Oceania
+235,New Zealand,NZL,2021,10300,Oceania
+236,New Zealand,NZL,2022,28200,Oceania
+237,Norway,NOR,2012,4220,Europe
+238,Norway,NOR,2013,8240,Europe
+239,Norway,NOR,2014,21700,Europe
+240,Norway,NOR,2015,33900,Europe
+241,Norway,NOR,2016,45000,Europe
+242,Norway,NOR,2017,62000,Europe
+243,Norway,NOR,2018,73000,Europe
+244,Norway,NOR,2019,79000,Europe
+245,Norway,NOR,2020,106000,Europe
+246,Norway,NOR,2021,148000,Europe
+247,Norway,NOR,2022,166000,Europe
+258,Poland,POL,2010,16,Europe
+259,Poland,POL,2012,48,Europe
+260,Poland,POL,2013,37,Europe
+261,Poland,POL,2014,201,Europe
+262,Poland,POL,2015,220,Europe
+263,Poland,POL,2016,510,Europe
+264,Poland,POL,2017,1080,Europe
+265,Poland,POL,2018,1380,Europe
+266,Poland,POL,2019,2700,Europe
+267,Poland,POL,2020,8200,Europe
+268,Poland,POL,2021,16300,Europe
+269,Poland,POL,2022,25000,Europe
+270,Portugal,PRT,2013,207,Europe
+271,Portugal,PRT,2014,199,Europe
+272,Portugal,PRT,2015,1120,Europe
+273,Portugal,PRT,2016,1810,Europe
+274,Portugal,PRT,2017,4400,Europe
+275,Portugal,PRT,2018,8000,Europe
+276,Portugal,PRT,2019,12700,Europe
+277,Portugal,PRT,2020,19800,Europe
+278,Portugal,PRT,2021,29000,Europe
+279,Portugal,PRT,2022,34000,Europe
+291,South Africa,ZAF,2014,15,Africa
+292,South Africa,ZAF,2015,240,Africa
+293,South Africa,ZAF,2016,380,Africa
+294,South Africa,ZAF,2017,198,Africa
+295,South Africa,ZAF,2018,148,Africa
+296,South Africa,ZAF,2019,232,Africa
+297,South Africa,ZAF,2020,242,Africa
+298,South Africa,ZAF,2021,271,Africa
+299,South Africa,ZAF,2022,620,Africa
+300,South Korea,KOR,2015,3350,Asia
+301,South Korea,KOR,2016,5030,Asia
+302,South Korea,KOR,2017,14670,Asia
+303,South Korea,KOR,2018,59400,Asia
+304,South Korea,KOR,2019,35700,Asia
+305,South Korea,KOR,2020,39700,Asia
+306,South Korea,KOR,2021,91000,Asia
+307,South Korea,KOR,2022,131000,Asia
+308,Spain,ESP,2011,398,Europe
+309,Spain,ESP,2012,540,Europe
+310,Spain,ESP,2013,882,Europe
+311,Spain,ESP,2014,1730,Europe
+312,Spain,ESP,2015,2080,Europe
+313,Spain,ESP,2016,3500,Europe
+314,Spain,ESP,2017,7400,Europe
+315,Spain,ESP,2018,11600,Europe
+316,Spain,ESP,2019,17400,Europe
+317,Spain,ESP,2020,42000,Europe
+318,Spain,ESP,2021,67000,Europe
+319,Spain,ESP,2022,82000,Europe
+320,Sweden,SWE,2012,930,Europe
+321,Sweden,SWE,2013,1530,Europe
+322,Sweden,SWE,2014,4600,Europe
+323,Sweden,SWE,2015,8700,Europe
+324,Sweden,SWE,2016,12900,Europe
+325,Sweden,SWE,2017,20400,Europe
+326,Sweden,SWE,2018,29100,Europe
+327,Sweden,SWE,2019,41000,Europe
+328,Sweden,SWE,2020,94000,Europe
+329,Sweden,SWE,2021,135000,Europe
+330,Sweden,SWE,2022,163000,Europe
+331,Switzerland,CHE,2011,441,Europe
+332,Switzerland,CHE,2012,740,Europe
+333,Switzerland,CHE,2013,1370,Europe
+334,Switzerland,CHE,2014,2900,Europe
+335,Switzerland,CHE,2015,5700,Europe
+336,Switzerland,CHE,2016,6100,Europe
+337,Switzerland,CHE,2017,8400,Europe
+338,Switzerland,CHE,2018,9500,Europe
+339,Switzerland,CHE,2019,17300,Europe
+340,Switzerland,CHE,2020,34000,Europe
+341,Switzerland,CHE,2021,54000,Europe
+342,Switzerland,CHE,2022,59000,Europe
+343,Turkey,TUR,2014,68,Asia
+344,Turkey,TUR,2015,230,Asia
+345,Turkey,TUR,2016,127,Asia
+346,Turkey,TUR,2017,111,Asia
+347,Turkey,TUR,2018,235,Asia
+348,Turkey,TUR,2019,324,Asia
+349,Turkey,TUR,2020,1290,Asia
+350,Turkey,TUR,2021,3920,Asia
+351,Turkey,TUR,2022,7540,Asia
+352,United Kingdom,GBR,2010,261,Europe
+353,United Kingdom,GBR,2011,1207,Europe
+354,United Kingdom,GBR,2012,2570,Europe
+355,United Kingdom,GBR,2013,3700,Europe
+356,United Kingdom,GBR,2014,14500,Europe
+357,United Kingdom,GBR,2015,29000,Europe
+358,United Kingdom,GBR,2016,39000,Europe
+359,United Kingdom,GBR,2017,49000,Europe
+360,United Kingdom,GBR,2018,62000,Europe
+361,United Kingdom,GBR,2019,75000,Europe
+362,United Kingdom,GBR,2020,178000,Europe
+363,United Kingdom,GBR,2021,310000,Europe
+364,United Kingdom,GBR,2022,370000,Europe
+365,United States,USA,2011,17800,North America
+366,United States,USA,2012,54000,North America
+367,United States,USA,2013,97000,North America
+368,United States,USA,2014,118000,North America
+369,United States,USA,2015,114000,North America
+370,United States,USA,2016,160000,North America
+371,United States,USA,2017,194000,North America
+372,United States,USA,2018,360000,North America
+373,United States,USA,2019,325000,North America
+374,United States,USA,2020,294000,North America
+375,United States,USA,2021,630000,North America
+376,United States,USA,2022,990000,North America
