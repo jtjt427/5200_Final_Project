@@ -82,4 +82,56 @@ chart = create_interactive_chart(prepared_data)
 chart.show()
 ```
 
+```{python}
+def prepare_new_energy_data(df):
+    new_energy_types = ['Electric (EV)', 'Plug-In Hybrid Electric (PHEV)', 'Hydrogen']
+    df['Total New Energy Registrations'] = df[new_energy_types].sum(axis=1)
+    return df[['State', 'Year', 'Total New Energy Registrations']]
+
+new_energy_data = prepare_new_energy_data(data)
+
+def create_interactive_new_energy_chart(df):
+    fig = go.Figure()
+
+    for state in df['State'].unique():
+        state_data = df[df['State'] == state]
+        fig.add_trace(
+            go.Scatter(
+                x=state_data['Year'],
+                y=state_data['Total New Energy Registrations'],
+                mode='lines+markers',
+                name=state,
+                visible=False
+            )
+        )
+
+    buttons = []
+    for i, state in enumerate(df['State'].unique()):
+        visible = [False] * len(fig.data)
+        visible[i] = True
+
+        buttons.append(dict(label=state,
+                            method='update',
+                            args=[{'visible': visible},
+                                  {'title': f'{state} - Total New Energy Vehicle Registrations Per Year'}]))
+
+    fig.update_layout(
+        updatemenus=[dict(active=0,
+                          buttons=buttons,
+                          x=1.05,
+                          xanchor='right',
+                          y=1.1,
+                          yanchor='top')],
+        title=f'Total New Energy Vehicle Registrations Per Year',
+        xaxis_title='Year',
+        yaxis_title='Total Registrations',
+    )
+
+    fig.data[0].visible = True
+
+    return fig
+
+chart = create_interactive_new_energy_chart(new_energy_data)
+chart.show()
+```
 
