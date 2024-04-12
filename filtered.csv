@@ -1,0 +1,2660 @@
+,Entity,category,parameter,powertrain,Year,unit,value
+0,Australia,Historical,EV sales,BEV,2011,Vehicles,49.0
+1,Australia,Historical,EV sales,BEV,2012,Vehicles,170.0
+2,Australia,Historical,EV sales,BEV,2013,Vehicles,190.0
+3,Australia,Historical,EV sales,BEV,2014,Vehicles,370.0
+4,Australia,Historical,EV sales,BEV,2015,Vehicles,760.0
+5,Australia,Historical,EV sales,BEV,2016,Vehicles,670.0
+6,Australia,Historical,EV sales,BEV,2017,Vehicles,1200.0
+7,Australia,Historical,EV sales,BEV,2018,Vehicles,1800.0
+8,Australia,Historical,EV sales,BEV,2019,Vehicles,6300.0
+9,Australia,Historical,EV sales,BEV,2020,Vehicles,5200.0
+10,Australia,Historical,EV sales,BEV,2021,Vehicles,17000.0
+11,Australia,Historical,EV sales,BEV,2022,Vehicles,33000.0
+12,Australia,Historical,EV sales,PHEV,2012,Vehicles,80.0
+13,Australia,Historical,EV sales,PHEV,2013,Vehicles,100.0
+14,Australia,Historical,EV sales,PHEV,2014,Vehicles,950.0
+15,Australia,Historical,EV sales,PHEV,2015,Vehicles,1000.0
+16,Australia,Historical,EV sales,PHEV,2016,Vehicles,700.0
+17,Australia,Historical,EV sales,PHEV,2017,Vehicles,1100.0
+18,Australia,Historical,EV sales,PHEV,2018,Vehicles,1800.0
+19,Australia,Historical,EV sales,PHEV,2019,Vehicles,2900.0
+20,Australia,Historical,EV sales,PHEV,2020,Vehicles,1700.0
+21,Australia,Historical,EV sales,PHEV,2021,Vehicles,3400.0
+22,Australia,Historical,EV sales,PHEV,2022,Vehicles,5900.0
+23,Australia,Historical,EV sales share,EV,2011,percent,0.0065000001341104
+24,Australia,Historical,EV sales share,EV,2012,percent,0.0299999993294477
+25,Australia,Historical,EV sales share,EV,2013,percent,0.0340000018477439
+26,Australia,Historical,EV sales share,EV,2014,percent,0.1599999964237213
+27,Australia,Historical,EV sales share,EV,2015,percent,0.2000000029802322
+28,Australia,Historical,EV sales share,EV,2016,percent,0.1500000059604644
+29,Australia,Historical,EV sales share,EV,2017,percent,0.2599999904632568
+30,Australia,Historical,EV sales share,EV,2018,percent,0.4199999868869781
+31,Australia,Historical,EV sales share,EV,2019,percent,1.2000000476837158
+32,Australia,Historical,EV sales share,EV,2020,percent,1.100000023841858
+33,Australia,Historical,EV sales share,EV,2021,percent,2.799999952316284
+34,Australia,Historical,EV sales share,EV,2022,percent,5.099999904632568
+35,Australia,Historical,EV stock,BEV,2011,Vehicles,49.0
+36,Australia,Historical,EV stock,BEV,2012,Vehicles,220.0
+37,Australia,Historical,EV stock,BEV,2013,Vehicles,410.0
+38,Australia,Historical,EV stock,BEV,2014,Vehicles,780.0
+39,Australia,Historical,EV stock,BEV,2015,Vehicles,1500.0
+40,Australia,Historical,EV stock,BEV,2016,Vehicles,2200.0
+41,Australia,Historical,EV stock,BEV,2017,Vehicles,3400.0
+42,Australia,Historical,EV stock,BEV,2018,Vehicles,5200.0
+43,Australia,Historical,EV stock,BEV,2019,Vehicles,12000.0
+44,Australia,Historical,EV stock,BEV,2020,Vehicles,17000.0
+45,Australia,Historical,EV stock,BEV,2021,Vehicles,34000.0
+46,Australia,Historical,EV stock,BEV,2022,Vehicles,67000.0
+47,Australia,Historical,EV stock,PHEV,2012,Vehicles,80.0
+48,Australia,Historical,EV stock,PHEV,2013,Vehicles,180.0
+49,Australia,Historical,EV stock,PHEV,2014,Vehicles,1100.0
+50,Australia,Historical,EV stock,PHEV,2015,Vehicles,2100.0
+51,Australia,Historical,EV stock,PHEV,2016,Vehicles,2800.0
+52,Australia,Historical,EV stock,PHEV,2017,Vehicles,3900.0
+53,Australia,Historical,EV stock,PHEV,2018,Vehicles,5700.0
+54,Australia,Historical,EV stock,PHEV,2019,Vehicles,8600.0
+55,Australia,Historical,EV stock,PHEV,2020,Vehicles,10000.0
+56,Australia,Historical,EV stock,PHEV,2021,Vehicles,14000.0
+57,Australia,Historical,EV stock,PHEV,2022,Vehicles,21000.0
+58,Australia,Historical,EV stock share,EV,2011,percent,0.0004600000102072
+59,Australia,Historical,EV stock share,EV,2012,percent,0.0027999999001622
+60,Australia,Historical,EV stock share,EV,2013,percent,0.0054000001400709
+61,Australia,Historical,EV stock share,EV,2014,percent,0.0170000009238719
+62,Australia,Historical,EV stock share,EV,2015,percent,0.0320000015199184
+63,Australia,Historical,EV stock share,EV,2016,percent,0.0430000014603138
+64,Australia,Historical,EV stock share,EV,2017,percent,0.0610000006854534
+65,Australia,Historical,EV stock share,EV,2018,percent,0.0890000015497207
+66,Australia,Historical,EV stock share,EV,2019,percent,0.1599999964237213
+67,Australia,Historical,EV stock share,EV,2020,percent,0.2199999988079071
+68,Australia,Historical,EV stock share,EV,2021,percent,0.3899999856948852
+69,Australia,Historical,EV stock share,EV,2022,percent,0.5899999737739563
+70,Austria,Historical,EV sales,BEV,2013,Vehicles,650.0
+71,Austria,Historical,EV sales,BEV,2014,Vehicles,1700.0
+72,Austria,Historical,EV sales,BEV,2015,Vehicles,1700.0
+73,Austria,Historical,EV sales,BEV,2016,Vehicles,3800.0
+74,Austria,Historical,EV sales,BEV,2017,Vehicles,5400.0
+75,Austria,Historical,EV sales,BEV,2018,Vehicles,6800.0
+76,Austria,Historical,EV sales,BEV,2019,Vehicles,9300.0
+77,Austria,Historical,EV sales,BEV,2020,Vehicles,16000.0
+78,Austria,Historical,EV sales,BEV,2021,Vehicles,33000.0
+79,Austria,Historical,EV sales,BEV,2022,Vehicles,34000.0
+80,Austria,Historical,EV sales,PHEV,2015,Vehicles,1100.0
+81,Austria,Historical,EV sales,PHEV,2016,Vehicles,1200.0
+82,Austria,Historical,EV sales,PHEV,2017,Vehicles,1700.0
+83,Austria,Historical,EV sales,PHEV,2018,Vehicles,2300.0
+84,Austria,Historical,EV sales,PHEV,2019,Vehicles,2200.0
+85,Austria,Historical,EV sales,PHEV,2020,Vehicles,7600.0
+86,Austria,Historical,EV sales,PHEV,2021,Vehicles,15000.0
+87,Austria,Historical,EV sales,PHEV,2022,Vehicles,13000.0
+88,Austria,Historical,EV sales share,EV,2013,percent,0.2000000029802322
+89,Austria,Historical,EV sales share,EV,2014,percent,0.5699999928474426
+90,Austria,Historical,EV sales share,EV,2015,percent,0.8999999761581421
+91,Austria,Historical,EV sales share,EV,2016,percent,1.5
+92,Austria,Historical,EV sales share,EV,2017,percent,2.0
+93,Austria,Historical,EV sales share,EV,2018,percent,2.5999999046325684
+94,Austria,Historical,EV sales share,EV,2019,percent,3.5
+95,Austria,Historical,EV sales share,EV,2020,percent,9.5
+96,Austria,Historical,EV sales share,EV,2021,percent,20.0
+97,Austria,Historical,EV sales share,EV,2022,percent,22.0
+98,Austria,Historical,EV stock,BEV,2010,Vehicles,350.0
+99,Austria,Historical,EV stock,BEV,2011,Vehicles,990.0
+100,Austria,Historical,EV stock,BEV,2012,Vehicles,1400.0
+101,Austria,Historical,EV stock,BEV,2013,Vehicles,2100.0
+102,Austria,Historical,EV stock,BEV,2014,Vehicles,3400.0
+103,Austria,Historical,EV stock,BEV,2015,Vehicles,5000.0
+104,Austria,Historical,EV stock,BEV,2016,Vehicles,9100.0
+105,Austria,Historical,EV stock,BEV,2017,Vehicles,15000.0
+106,Austria,Historical,EV stock,BEV,2018,Vehicles,21000.0
+107,Austria,Historical,EV stock,BEV,2019,Vehicles,30000.0
+108,Austria,Historical,EV stock,BEV,2020,Vehicles,45000.0
+109,Austria,Historical,EV stock,BEV,2021,Vehicles,77000.0
+110,Austria,Historical,EV stock,BEV,2022,Vehicles,110000.0
+111,Austria,Historical,EV stock,PHEV,2012,Vehicles,140.0
+112,Austria,Historical,EV stock,PHEV,2013,Vehicles,410.0
+113,Austria,Historical,EV stock,PHEV,2014,Vehicles,780.0
+114,Austria,Historical,EV stock,PHEV,2015,Vehicles,1500.0
+115,Austria,Historical,EV stock,PHEV,2016,Vehicles,2300.0
+116,Austria,Historical,EV stock,PHEV,2017,Vehicles,3900.0
+117,Austria,Historical,EV stock,PHEV,2018,Vehicles,5700.0
+118,Austria,Historical,EV stock,PHEV,2019,Vehicles,8000.0
+119,Austria,Historical,EV stock,PHEV,2020,Vehicles,15000.0
+120,Austria,Historical,EV stock,PHEV,2021,Vehicles,29000.0
+121,Austria,Historical,EV stock,PHEV,2022,Vehicles,42000.0
+122,Austria,Historical,EV stock share,EV,2010,percent,0.0078999996185302
+123,Austria,Historical,EV stock share,EV,2011,percent,0.0219999998807907
+124,Austria,Historical,EV stock share,EV,2012,percent,0.032999999821186
+125,Austria,Historical,EV stock share,EV,2013,percent,0.0529999993741512
+126,Austria,Historical,EV stock share,EV,2014,percent,0.0890000015497207
+127,Austria,Historical,EV stock share,EV,2015,percent,0.1400000005960464
+128,Austria,Historical,EV stock share,EV,2016,percent,0.2399999946355819
+129,Austria,Historical,EV stock share,EV,2017,percent,0.3799999952316284
+130,Austria,Historical,EV stock share,EV,2018,percent,0.5299999713897705
+131,Austria,Historical,EV stock share,EV,2019,percent,0.75
+132,Austria,Historical,EV stock share,EV,2020,percent,1.2000000476837158
+133,Austria,Historical,EV stock share,EV,2021,percent,2.0999999046325684
+134,Austria,Historical,EV stock share,EV,2022,percent,3.0
+135,Belgium,Historical,EV sales,BEV,2010,Vehicles,48.0
+136,Belgium,Historical,EV sales,BEV,2011,Vehicles,280.0
+137,Belgium,Historical,EV sales,BEV,2012,Vehicles,570.0
+138,Belgium,Historical,EV sales,BEV,2013,Vehicles,500.0
+139,Belgium,Historical,EV sales,BEV,2014,Vehicles,1300.0
+140,Belgium,Historical,EV sales,BEV,2015,Vehicles,1400.0
+141,Belgium,Historical,EV sales,BEV,2016,Vehicles,2100.0
+142,Belgium,Historical,EV sales,BEV,2017,Vehicles,2700.0
+143,Belgium,Historical,EV sales,BEV,2018,Vehicles,3600.0
+144,Belgium,Historical,EV sales,BEV,2019,Vehicles,8800.0
+145,Belgium,Historical,EV sales,BEV,2020,Vehicles,15000.0
+146,Belgium,Historical,EV sales,BEV,2021,Vehicles,23000.0
+147,Belgium,Historical,EV sales,BEV,2022,Vehicles,38000.0
+148,Belgium,Historical,EV sales,PHEV,2010,Vehicles,8.0
+149,Belgium,Historical,EV sales,PHEV,2011,Vehicles,16.0
+150,Belgium,Historical,EV sales,PHEV,2012,Vehicles,340.0
+151,Belgium,Historical,EV sales,PHEV,2013,Vehicles,60.0
+152,Belgium,Historical,EV sales,PHEV,2014,Vehicles,650.0
+153,Belgium,Historical,EV sales,PHEV,2015,Vehicles,2500.0
+154,Belgium,Historical,EV sales,PHEV,2016,Vehicles,7100.0
+155,Belgium,Historical,EV sales,PHEV,2017,Vehicles,12000.0
+156,Belgium,Historical,EV sales,PHEV,2018,Vehicles,9600.0
+157,Belgium,Historical,EV sales,PHEV,2019,Vehicles,8900.0
+158,Belgium,Historical,EV sales,PHEV,2020,Vehicles,32000.0
+159,Belgium,Historical,EV sales,PHEV,2021,Vehicles,48000.0
+160,Belgium,Historical,EV sales,PHEV,2022,Vehicles,59000.0
+161,Belgium,Historical,EV sales share,EV,2010,percent,0.0099999997764825
+162,Belgium,Historical,EV sales share,EV,2011,percent,0.0520000010728836
+163,Belgium,Historical,EV sales share,EV,2012,percent,0.1899999976158142
+164,Belgium,Historical,EV sales share,EV,2013,percent,0.1199999973177909
+165,Belgium,Historical,EV sales share,EV,2014,percent,0.4099999964237213
+166,Belgium,Historical,EV sales share,EV,2015,percent,0.7699999809265137
+167,Belgium,Historical,EV sales share,EV,2016,percent,1.7000000476837158
+168,Belgium,Historical,EV sales share,EV,2017,percent,2.5999999046325684
+169,Belgium,Historical,EV sales share,EV,2018,percent,2.400000095367432
+170,Belgium,Historical,EV sales share,EV,2019,percent,3.200000047683716
+171,Belgium,Historical,EV sales share,EV,2020,percent,11.0
+172,Belgium,Historical,EV sales share,EV,2021,percent,18.0
+173,Belgium,Historical,EV sales share,EV,2022,percent,26.0
+174,Belgium,Historical,EV stock,BEV,2010,Vehicles,61.0
+175,Belgium,Historical,EV stock,BEV,2011,Vehicles,320.0
+176,Belgium,Historical,EV stock,BEV,2012,Vehicles,830.0
+177,Belgium,Historical,EV stock,BEV,2013,Vehicles,1200.0
+178,Belgium,Historical,EV stock,BEV,2014,Vehicles,2200.0
+179,Belgium,Historical,EV stock,BEV,2015,Vehicles,3300.0
+180,Belgium,Historical,EV stock,BEV,2016,Vehicles,5200.0
+181,Belgium,Historical,EV stock,BEV,2017,Vehicles,7500.0
+182,Belgium,Historical,EV stock,BEV,2018,Vehicles,11000.0
+183,Belgium,Historical,EV stock,BEV,2019,Vehicles,19000.0
+184,Belgium,Historical,EV stock,BEV,2020,Vehicles,32000.0
+185,Belgium,Historical,EV stock,BEV,2021,Vehicles,52000.0
+186,Belgium,Historical,EV stock,BEV,2022,Vehicles,90000.0
+187,Belgium,Historical,EV stock,PHEV,2010,Vehicles,9.0
+188,Belgium,Historical,EV stock,PHEV,2011,Vehicles,26.0
+189,Belgium,Historical,EV stock,PHEV,2012,Vehicles,350.0
+190,Belgium,Historical,EV stock,PHEV,2013,Vehicles,590.0
+191,Belgium,Historical,EV stock,PHEV,2014,Vehicles,1500.0
+192,Belgium,Historical,EV stock,PHEV,2015,Vehicles,3800.0
+193,Belgium,Historical,EV stock,PHEV,2016,Vehicles,11000.0
+194,Belgium,Historical,EV stock,PHEV,2017,Vehicles,23000.0
+195,Belgium,Historical,EV stock,PHEV,2018,Vehicles,33000.0
+196,Belgium,Historical,EV stock,PHEV,2019,Vehicles,41000.0
+197,Belgium,Historical,EV stock,PHEV,2020,Vehicles,73000.0
+198,Belgium,Historical,EV stock,PHEV,2021,Vehicles,120000.0
+199,Belgium,Historical,EV stock,PHEV,2022,Vehicles,180000.0
+200,Belgium,Historical,EV stock share,EV,2010,percent,0.001300000003539
+201,Belgium,Historical,EV stock share,EV,2011,percent,0.0063999998383224
+202,Belgium,Historical,EV stock share,EV,2012,percent,0.0219999998807907
+203,Belgium,Historical,EV stock share,EV,2013,percent,0.032999999821186
+204,Belgium,Historical,EV stock share,EV,2014,percent,0.06700000166893
+205,Belgium,Historical,EV stock share,EV,2015,percent,0.1299999952316284
+206,Belgium,Historical,EV stock share,EV,2016,percent,0.2899999916553497
+207,Belgium,Historical,EV stock share,EV,2017,percent,0.5299999713897705
+208,Belgium,Historical,EV stock share,EV,2018,percent,0.75
+209,Belgium,Historical,EV stock share,EV,2019,percent,1.0
+210,Belgium,Historical,EV stock share,EV,2020,percent,1.7999999523162842
+211,Belgium,Historical,EV stock share,EV,2021,percent,3.0
+212,Belgium,Historical,EV stock share,EV,2022,percent,4.5
+213,Brazil,Historical,EV sales,BEV,2012,Vehicles,74.0
+214,Brazil,Historical,EV sales,BEV,2013,Vehicles,130.0
+215,Brazil,Historical,EV sales,BEV,2014,Vehicles,61.0
+216,Brazil,Historical,EV sales,BEV,2015,Vehicles,59.0
+217,Brazil,Historical,EV sales,BEV,2016,Vehicles,130.0
+218,Brazil,Historical,EV sales,BEV,2017,Vehicles,25.0
+219,Brazil,Historical,EV sales,BEV,2018,Vehicles,66.0
+220,Brazil,Historical,EV sales,BEV,2019,Vehicles,540.0
+221,Brazil,Historical,EV sales,BEV,2020,Vehicles,680.0
+222,Brazil,Historical,EV sales,BEV,2021,Vehicles,2900.0
+223,Brazil,Historical,EV sales,BEV,2022,Vehicles,8500.0
+224,Brazil,Historical,EV sales,PHEV,2012,Vehicles,18.0
+225,Brazil,Historical,EV sales,PHEV,2013,Vehicles,33.0
+226,Brazil,Historical,EV sales,PHEV,2015,Vehicles,28.0
+227,Brazil,Historical,EV sales,PHEV,2016,Vehicles,47.0
+228,Brazil,Historical,EV sales,PHEV,2017,Vehicles,290.0
+229,Brazil,Historical,EV sales,PHEV,2018,Vehicles,230.0
+230,Brazil,Historical,EV sales,PHEV,2019,Vehicles,1400.0
+231,Brazil,Historical,EV sales,PHEV,2020,Vehicles,1800.0
+232,Brazil,Historical,EV sales,PHEV,2021,Vehicles,11000.0
+233,Brazil,Historical,EV sales,PHEV,2022,Vehicles,10000.0
+234,Brazil,Historical,EV sales share,EV,2012,percent,0.003000000026077
+235,Brazil,Historical,EV sales share,EV,2013,percent,0.0054999999701976
+236,Brazil,Historical,EV sales share,EV,2014,percent,0.002199999988079
+237,Brazil,Historical,EV sales share,EV,2015,percent,0.0041000000201165
+238,Brazil,Historical,EV sales share,EV,2016,percent,0.0099999997764825
+239,Brazil,Historical,EV sales share,EV,2017,percent,0.0189999993890523
+240,Brazil,Historical,EV sales share,EV,2018,percent,0.0140000004321336
+241,Brazil,Historical,EV sales share,EV,2019,percent,0.0839999988675117
+242,Brazil,Historical,EV sales share,EV,2020,percent,0.1500000059604644
+243,Brazil,Historical,EV sales share,EV,2021,percent,0.7400000095367432
+244,Brazil,Historical,EV sales share,EV,2022,percent,0.9800000190734864
+245,Brazil,Historical,EV stock,BEV,2014,Vehicles,61.0
+246,Brazil,Historical,EV stock,BEV,2015,Vehicles,120.0
+247,Brazil,Historical,EV stock,BEV,2016,Vehicles,250.0
+248,Brazil,Historical,EV stock,BEV,2017,Vehicles,320.0
+249,Brazil,Historical,EV stock,BEV,2018,Vehicles,350.0
+250,Brazil,Historical,EV stock,BEV,2019,Vehicles,890.0
+251,Brazil,Historical,EV stock,BEV,2020,Vehicles,1600.0
+252,Brazil,Historical,EV stock,BEV,2021,Vehicles,4400.0
+253,Brazil,Historical,EV stock,BEV,2022,Vehicles,13000.0
+254,Brazil,Historical,EV stock,PHEV,2015,Vehicles,28.0
+255,Brazil,Historical,EV stock,PHEV,2016,Vehicles,75.0
+256,Brazil,Historical,EV stock,PHEV,2017,Vehicles,360.0
+257,Brazil,Historical,EV stock,PHEV,2018,Vehicles,700.0
+258,Brazil,Historical,EV stock,PHEV,2019,Vehicles,2100.0
+259,Brazil,Historical,EV stock,PHEV,2020,Vehicles,3800.0
+260,Brazil,Historical,EV stock,PHEV,2021,Vehicles,15000.0
+261,Brazil,Historical,EV stock,PHEV,2022,Vehicles,26000.0
+262,Brazil,Historical,EV stock share,EV,2014,percent,0.0001800000027287
+263,Brazil,Historical,EV stock share,EV,2015,percent,0.0004199999966658
+264,Brazil,Historical,EV stock share,EV,2016,percent,0.0009100000024773
+265,Brazil,Historical,EV stock share,EV,2017,percent,0.0019000000320374
+266,Brazil,Historical,EV stock share,EV,2018,percent,0.0027999999001622
+267,Brazil,Historical,EV stock share,EV,2019,percent,0.0077999997884035
+268,Brazil,Historical,EV stock share,EV,2020,percent,0.0140000004321336
+269,Brazil,Historical,EV stock share,EV,2021,percent,0.0509999990463256
+270,Brazil,Historical,EV stock share,EV,2022,percent,0.0979999974370002
+271,Canada,Historical,EV sales,BEV,2011,Vehicles,220.0
+272,Canada,Historical,EV sales,BEV,2012,Vehicles,620.0
+273,Canada,Historical,EV sales,BEV,2013,Vehicles,1600.0
+274,Canada,Historical,EV sales,BEV,2014,Vehicles,2800.0
+275,Canada,Historical,EV sales,BEV,2015,Vehicles,4400.0
+276,Canada,Historical,EV sales,BEV,2016,Vehicles,5200.0
+277,Canada,Historical,EV sales,BEV,2017,Vehicles,8700.0
+278,Canada,Historical,EV sales,BEV,2018,Vehicles,23000.0
+279,Canada,Historical,EV sales,BEV,2019,Vehicles,32000.0
+280,Canada,Historical,EV sales,BEV,2020,Vehicles,37000.0
+281,Canada,Historical,EV sales,BEV,2021,Vehicles,59000.0
+282,Canada,Historical,EV sales,BEV,2022,Vehicles,85000.0
+283,Canada,Historical,EV sales,PHEV,2011,Vehicles,300.0
+284,Canada,Historical,EV sales,PHEV,2012,Vehicles,1300.0
+285,Canada,Historical,EV sales,PHEV,2013,Vehicles,1500.0
+286,Canada,Historical,EV sales,PHEV,2014,Vehicles,2300.0
+287,Canada,Historical,EV sales,PHEV,2015,Vehicles,2400.0
+288,Canada,Historical,EV sales,PHEV,2016,Vehicles,6400.0
+289,Canada,Historical,EV sales,PHEV,2017,Vehicles,8000.0
+290,Canada,Historical,EV sales,PHEV,2018,Vehicles,21000.0
+291,Canada,Historical,EV sales,PHEV,2019,Vehicles,19000.0
+292,Canada,Historical,EV sales,PHEV,2020,Vehicles,14000.0
+293,Canada,Historical,EV sales,PHEV,2021,Vehicles,28000.0
+294,Canada,Historical,EV sales,PHEV,2022,Vehicles,29000.0
+295,Canada,Historical,EV sales share,EV,2011,percent,0.0410000011324882
+296,Canada,Historical,EV sales share,EV,2012,percent,0.1400000005960464
+297,Canada,Historical,EV sales share,EV,2013,percent,0.209999993443489
+298,Canada,Historical,EV sales share,EV,2014,percent,0.3300000131130218
+299,Canada,Historical,EV sales share,EV,2015,percent,0.4300000071525574
+300,Canada,Historical,EV sales share,EV,2016,percent,0.7200000286102295
+301,Canada,Historical,EV sales share,EV,2017,percent,0.9900000095367432
+302,Canada,Historical,EV sales share,EV,2018,percent,2.700000047683716
+303,Canada,Historical,EV sales share,EV,2019,percent,3.200000047683716
+304,Canada,Historical,EV sales share,EV,2020,percent,4.099999904632568
+305,Canada,Historical,EV sales share,EV,2021,percent,6.5
+306,Canada,Historical,EV sales share,EV,2022,percent,9.399999618530272
+307,Canada,Historical,EV stock,BEV,2011,Vehicles,250.0
+308,Canada,Historical,EV stock,BEV,2012,Vehicles,830.0
+309,Canada,Historical,EV stock,BEV,2013,Vehicles,2400.0
+310,Canada,Historical,EV stock,BEV,2014,Vehicles,5400.0
+311,Canada,Historical,EV stock,BEV,2015,Vehicles,9900.0
+312,Canada,Historical,EV stock,BEV,2016,Vehicles,15000.0
+313,Canada,Historical,EV stock,BEV,2017,Vehicles,25000.0
+314,Canada,Historical,EV stock,BEV,2018,Vehicles,45000.0
+315,Canada,Historical,EV stock,BEV,2019,Vehicles,76000.0
+316,Canada,Historical,EV stock,BEV,2020,Vehicles,110000.0
+317,Canada,Historical,EV stock,BEV,2021,Vehicles,160000.0
+318,Canada,Historical,EV stock,BEV,2022,Vehicles,250000.0
+319,Canada,Historical,EV stock,PHEV,2011,Vehicles,300.0
+320,Canada,Historical,EV stock,PHEV,2012,Vehicles,1600.0
+321,Canada,Historical,EV stock,PHEV,2013,Vehicles,3100.0
+322,Canada,Historical,EV stock,PHEV,2014,Vehicles,5300.0
+323,Canada,Historical,EV stock,PHEV,2015,Vehicles,7700.0
+324,Canada,Historical,EV stock,PHEV,2016,Vehicles,14000.0
+325,Canada,Historical,EV stock,PHEV,2017,Vehicles,22000.0
+326,Canada,Historical,EV stock,PHEV,2018,Vehicles,42000.0
+327,Canada,Historical,EV stock,PHEV,2019,Vehicles,60000.0
+328,Canada,Historical,EV stock,PHEV,2020,Vehicles,73000.0
+329,Canada,Historical,EV stock,PHEV,2021,Vehicles,100000.0
+330,Canada,Historical,EV stock,PHEV,2022,Vehicles,130000.0
+331,Canada,Historical,EV stock share,EV,2011,percent,0.0027999999001622
+332,Canada,Historical,EV stock share,EV,2012,percent,0.0120000001043081
+333,Canada,Historical,EV stock share,EV,2013,percent,0.0270000007003545
+334,Canada,Historical,EV stock share,EV,2014,percent,0.0520000010728836
+335,Canada,Historical,EV stock share,EV,2015,percent,0.0850000008940696
+336,Canada,Historical,EV stock share,EV,2016,percent,0.1400000005960464
+337,Canada,Historical,EV stock share,EV,2017,percent,0.209999993443489
+338,Canada,Historical,EV stock share,EV,2018,percent,0.3799999952316284
+339,Canada,Historical,EV stock share,EV,2019,percent,0.5899999737739563
+340,Canada,Historical,EV stock share,EV,2020,percent,0.7300000190734863
+341,Canada,Historical,EV stock share,EV,2021,percent,1.2000000476837158
+342,Canada,Historical,EV stock share,EV,2022,percent,1.600000023841858
+343,Chile,Historical,EV sales,BEV,2011,Vehicles,6.0
+344,Chile,Historical,EV sales,BEV,2012,Vehicles,5.0
+345,Chile,Historical,EV sales,BEV,2013,Vehicles,5.0
+346,Chile,Historical,EV sales,BEV,2014,Vehicles,3.0
+347,Chile,Historical,EV sales,BEV,2015,Vehicles,13.0
+348,Chile,Historical,EV sales,BEV,2016,Vehicles,22.0
+349,Chile,Historical,EV sales,BEV,2017,Vehicles,120.0
+350,Chile,Historical,EV sales,BEV,2018,Vehicles,110.0
+351,Chile,Historical,EV sales,BEV,2019,Vehicles,160.0
+352,Chile,Historical,EV sales,BEV,2020,Vehicles,110.0
+353,Chile,Historical,EV sales,BEV,2021,Vehicles,270.0
+354,Chile,Historical,EV sales,BEV,2022,Vehicles,880.0
+355,Chile,Historical,EV sales,PHEV,2014,Vehicles,14.0
+356,Chile,Historical,EV sales,PHEV,2015,Vehicles,23.0
+357,Chile,Historical,EV sales,PHEV,2016,Vehicles,9.0
+358,Chile,Historical,EV sales,PHEV,2017,Vehicles,15.0
+359,Chile,Historical,EV sales,PHEV,2018,Vehicles,68.0
+360,Chile,Historical,EV sales,PHEV,2019,Vehicles,140.0
+361,Chile,Historical,EV sales,PHEV,2020,Vehicles,79.0
+362,Chile,Historical,EV sales,PHEV,2021,Vehicles,300.0
+363,Chile,Historical,EV sales,PHEV,2022,Vehicles,620.0
+364,Chile,Historical,EV sales share,EV,2011,percent,0.0024000001139938
+365,Chile,Historical,EV sales share,EV,2012,percent,0.0020000000949949
+366,Chile,Historical,EV sales share,EV,2013,percent,0.0019000000320374
+367,Chile,Historical,EV sales share,EV,2014,percent,0.0071000000461936
+368,Chile,Historical,EV sales share,EV,2015,percent,0.0189999993890523
+369,Chile,Historical,EV sales share,EV,2016,percent,0.0149999996647238
+370,Chile,Historical,EV sales share,EV,2017,percent,0.0610000006854534
+371,Chile,Historical,EV sales share,EV,2018,percent,0.0719999969005584
+372,Chile,Historical,EV sales share,EV,2019,percent,0.1400000005960464
+373,Chile,Historical,EV sales share,EV,2020,percent,0.1599999964237213
+374,Chile,Historical,EV sales share,EV,2021,percent,0.1899999976158142
+375,Chile,Historical,EV sales share,EV,2022,percent,0.4900000095367431
+376,Chile,Historical,EV stock,BEV,2011,Vehicles,6.0
+377,Chile,Historical,EV stock,BEV,2012,Vehicles,11.0
+378,Chile,Historical,EV stock,BEV,2013,Vehicles,16.0
+379,Chile,Historical,EV stock,BEV,2014,Vehicles,19.0
+380,Chile,Historical,EV stock,BEV,2015,Vehicles,32.0
+381,Chile,Historical,EV stock,BEV,2016,Vehicles,54.0
+382,Chile,Historical,EV stock,BEV,2017,Vehicles,170.0
+383,Chile,Historical,EV stock,BEV,2018,Vehicles,280.0
+384,Chile,Historical,EV stock,BEV,2019,Vehicles,440.0
+385,Chile,Historical,EV stock,BEV,2020,Vehicles,550.0
+386,Chile,Historical,EV stock,BEV,2021,Vehicles,820.0
+387,Chile,Historical,EV stock,BEV,2022,Vehicles,1700.0
+388,Chile,Historical,EV stock,PHEV,2014,Vehicles,14.0
+389,Chile,Historical,EV stock,PHEV,2015,Vehicles,37.0
+390,Chile,Historical,EV stock,PHEV,2016,Vehicles,46.0
+391,Chile,Historical,EV stock,PHEV,2017,Vehicles,61.0
+392,Chile,Historical,EV stock,PHEV,2018,Vehicles,130.0
+393,Chile,Historical,EV stock,PHEV,2019,Vehicles,210.0
+394,Chile,Historical,EV stock,PHEV,2020,Vehicles,290.0
+395,Chile,Historical,EV stock,PHEV,2021,Vehicles,590.0
+396,Chile,Historical,EV stock,PHEV,2022,Vehicles,1200.0
+397,Chile,Historical,EV stock share,EV,2011,percent,0.0002699999895412
+398,Chile,Historical,EV stock share,EV,2012,percent,0.0004699999990407
+399,Chile,Historical,EV stock share,EV,2013,percent,0.0006399999838322
+400,Chile,Historical,EV stock share,EV,2014,percent,0.0012000000569969
+401,Chile,Historical,EV stock share,EV,2015,percent,0.0024999999441206
+402,Chile,Historical,EV stock share,EV,2016,percent,0.0035000001080334
+403,Chile,Historical,EV stock share,EV,2017,percent,0.0078999996185302
+404,Chile,Historical,EV stock share,EV,2018,percent,0.0130000002682209
+405,Chile,Historical,EV stock share,EV,2019,percent,0.0199999995529651
+406,Chile,Historical,EV stock share,EV,2020,percent,0.0260000005364418
+407,Chile,Historical,EV stock share,EV,2021,percent,0.0419999994337558
+408,Chile,Historical,EV stock share,EV,2022,percent,0.0820000022649765
+409,China,Historical,EV sales,BEV,2010,Vehicles,1100.0
+410,China,Historical,EV sales,BEV,2011,Vehicles,4800.0
+411,China,Historical,EV sales,BEV,2012,Vehicles,9600.0
+412,China,Historical,EV sales,BEV,2013,Vehicles,15000.0
+413,China,Historical,EV sales,BEV,2014,Vehicles,49000.0
+414,China,Historical,EV sales,BEV,2015,Vehicles,150000.0
+415,China,Historical,EV sales,BEV,2016,Vehicles,260000.0
+416,China,Historical,EV sales,BEV,2017,Vehicles,470000.0
+417,China,Historical,EV sales,BEV,2018,Vehicles,820000.0
+418,China,Historical,EV sales,BEV,2019,Vehicles,830000.0
+419,China,Historical,EV sales,BEV,2020,Vehicles,920000.0
+420,China,Historical,EV sales,BEV,2021,Vehicles,2700000.0
+421,China,Historical,EV sales,BEV,2022,Vehicles,4400000.0
+422,China,Historical,EV sales,PHEV,2010,Vehicles,340.0
+423,China,Historical,EV sales,PHEV,2011,Vehicles,320.0
+424,China,Historical,EV sales,PHEV,2012,Vehicles,260.0
+425,China,Historical,EV sales,PHEV,2013,Vehicles,730.0
+426,China,Historical,EV sales,PHEV,2014,Vehicles,24000.0
+427,China,Historical,EV sales,PHEV,2015,Vehicles,61000.0
+428,China,Historical,EV sales,PHEV,2016,Vehicles,79000.0
+429,China,Historical,EV sales,PHEV,2017,Vehicles,110000.0
+430,China,Historical,EV sales,PHEV,2018,Vehicles,270000.0
+431,China,Historical,EV sales,PHEV,2019,Vehicles,230000.0
+432,China,Historical,EV sales,PHEV,2020,Vehicles,220000.0
+433,China,Historical,EV sales,PHEV,2021,Vehicles,550000.0
+434,China,Historical,EV sales,PHEV,2022,Vehicles,1500000.0
+435,China,Historical,EV sales share,EV,2010,percent,0.0099999997764825
+436,China,Historical,EV sales share,EV,2011,percent,0.0340000018477439
+437,China,Historical,EV sales share,EV,2012,percent,0.0729999989271164
+438,China,Historical,EV sales share,EV,2013,percent,0.0949999988079071
+439,China,Historical,EV sales share,EV,2014,percent,0.4000000059604645
+440,China,Historical,EV sales share,EV,2015,percent,1.0
+441,China,Historical,EV sales share,EV,2016,percent,1.5
+442,China,Historical,EV sales share,EV,2017,percent,2.400000095367432
+443,China,Historical,EV sales share,EV,2018,percent,4.900000095367432
+444,China,Historical,EV sales share,EV,2019,percent,5.0
+445,China,Historical,EV sales share,EV,2020,percent,5.800000190734863
+446,China,Historical,EV sales share,EV,2021,percent,16.0
+447,China,Historical,EV sales share,EV,2022,percent,29.0
+448,China,Historical,EV stock,BEV,2010,Vehicles,1600.0
+449,China,Historical,EV stock,BEV,2011,Vehicles,6300.0
+450,China,Historical,EV stock,BEV,2012,Vehicles,16000.0
+451,China,Historical,EV stock,BEV,2013,Vehicles,31000.0
+452,China,Historical,EV stock,BEV,2014,Vehicles,59000.0
+453,China,Historical,EV stock,BEV,2015,Vehicles,210000.0
+454,China,Historical,EV stock,BEV,2016,Vehicles,460000.0
+455,China,Historical,EV stock,BEV,2017,Vehicles,930000.0
+456,China,Historical,EV stock,BEV,2018,Vehicles,1700000.0
+457,China,Historical,EV stock,BEV,2019,Vehicles,2600000.0
+458,China,Historical,EV stock,BEV,2020,Vehicles,3500000.0
+459,China,Historical,EV stock,BEV,2021,Vehicles,6200000.0
+460,China,Historical,EV stock,BEV,2022,Vehicles,11000000.0
+461,China,Historical,EV stock,PHEV,2010,Vehicles,340.0
+462,China,Historical,EV stock,PHEV,2011,Vehicles,660.0
+463,China,Historical,EV stock,PHEV,2012,Vehicles,920.0
+464,China,Historical,EV stock,PHEV,2013,Vehicles,1600.0
+465,China,Historical,EV stock,PHEV,2014,Vehicles,26000.0
+466,China,Historical,EV stock,PHEV,2015,Vehicles,87000.0
+467,China,Historical,EV stock,PHEV,2016,Vehicles,170000.0
+468,China,Historical,EV stock,PHEV,2017,Vehicles,280000.0
+469,China,Historical,EV stock,PHEV,2018,Vehicles,540000.0
+470,China,Historical,EV stock,PHEV,2019,Vehicles,770000.0
+471,China,Historical,EV stock,PHEV,2020,Vehicles,990000.0
+472,China,Historical,EV stock,PHEV,2021,Vehicles,1600000.0
+473,China,Historical,EV stock,PHEV,2022,Vehicles,3100000.0
+474,China,Historical,EV stock share,EV,2010,percent,0.003000000026077
+475,China,Historical,EV stock share,EV,2011,percent,0.0089999996125698
+476,China,Historical,EV stock share,EV,2012,percent,0.0189999993890523
+477,China,Historical,EV stock share,EV,2013,percent,0.0299999993294477
+478,China,Historical,EV stock share,EV,2014,percent,0.0689999982714653
+479,China,Historical,EV stock share,EV,2015,percent,0.2000000029802322
+480,China,Historical,EV stock share,EV,2016,percent,0.3799999952316284
+481,China,Historical,EV stock share,EV,2017,percent,0.6399999856948853
+482,China,Historical,EV stock share,EV,2018,percent,1.100000023841858
+483,China,Historical,EV stock share,EV,2019,percent,1.5
+484,China,Historical,EV stock share,EV,2020,percent,1.7999999523162842
+485,China,Historical,EV stock share,EV,2021,percent,2.900000095367432
+486,China,Historical,EV stock share,EV,2022,percent,4.900000095367432
+487,China,Historical,Electricity demand,EV,2010,GWh,330.0
+488,China,Historical,Electricity demand,EV,2011,GWh,1200.0
+489,China,Historical,Electricity demand,EV,2012,GWh,800.0
+490,China,Historical,Electricity demand,EV,2013,GWh,890.0
+491,China,Historical,Electricity demand,EV,2014,GWh,1500.0
+492,China,Historical,Electricity demand,EV,2015,GWh,1700.0
+493,China,Historical,Electricity demand,EV,2016,GWh,2700.0
+494,China,Historical,Electricity demand,EV,2017,GWh,4000.0
+495,China,Historical,Electricity demand,EV,2018,GWh,6500.0
+496,China,Historical,Electricity demand,EV,2019,GWh,10000.0
+497,China,Historical,Electricity demand,EV,2020,GWh,13000.0
+498,China,Historical,Electricity demand,EV,2021,GWh,22000.0
+499,China,Historical,Electricity demand,EV,2022,GWh,25000.0
+500,China,Historical,Oil displacement Mbd,EV,2010,Milion barrels per day,2.59999997069e-05
+501,China,Historical,Oil displacement Mbd,EV,2011,Milion barrels per day,9.69999964581e-05
+502,China,Historical,Oil displacement Mbd,EV,2012,Milion barrels per day,0.000239999993937
+503,China,Historical,Oil displacement Mbd,EV,2013,Milion barrels per day,0.0004799999878741
+504,China,Historical,Oil displacement Mbd,EV,2014,Milion barrels per day,0.0012000000569969
+505,China,Historical,Oil displacement Mbd,EV,2015,Milion barrels per day,0.0038000000640749
+506,China,Historical,Oil displacement Mbd,EV,2016,Milion barrels per day,0.0076000001281499
+507,China,Historical,Oil displacement Mbd,EV,2017,Milion barrels per day,0.0140000004321336
+508,China,Historical,Oil displacement Mbd,EV,2018,Milion barrels per day,0.0270000007003545
+509,China,Historical,Oil displacement Mbd,EV,2019,Milion barrels per day,0.0390000008046627
+510,China,Historical,Oil displacement Mbd,EV,2020,Milion barrels per day,0.0460000000894069
+511,China,Historical,Oil displacement Mbd,EV,2021,Milion barrels per day,0.0890000015497207
+512,China,Historical,Oil displacement Mbd,EV,2022,Milion barrels per day,0.1800000071525573
+513,China,Historical,"Oil displacement, million lge",EV,2010,"Oil displacement, million lge",1.5
+514,China,Historical,"Oil displacement, million lge",EV,2011,"Oil displacement, million lge",5.800000190734863
+515,China,Historical,"Oil displacement, million lge",EV,2012,"Oil displacement, million lge",14.0
+516,China,Historical,"Oil displacement, million lge",EV,2013,"Oil displacement, million lge",29.0
+517,China,Historical,"Oil displacement, million lge",EV,2014,"Oil displacement, million lge",73.0
+518,China,Historical,"Oil displacement, million lge",EV,2015,"Oil displacement, million lge",230.0
+519,China,Historical,"Oil displacement, million lge",EV,2016,"Oil displacement, million lge",450.0
+520,China,Historical,"Oil displacement, million lge",EV,2017,"Oil displacement, million lge",840.0
+521,China,Historical,"Oil displacement, million lge",EV,2018,"Oil displacement, million lge",1600.0
+522,China,Historical,"Oil displacement, million lge",EV,2019,"Oil displacement, million lge",2300.0
+523,China,Historical,"Oil displacement, million lge",EV,2020,"Oil displacement, million lge",2800.0
+524,China,Historical,"Oil displacement, million lge",EV,2021,"Oil displacement, million lge",5300.0
+525,China,Historical,"Oil displacement, million lge",EV,2022,"Oil displacement, million lge",11000.0
+526,Denmark,Historical,EV sales,BEV,2011,Vehicles,420.0
+527,Denmark,Historical,EV sales,BEV,2012,Vehicles,490.0
+528,Denmark,Historical,EV sales,BEV,2013,Vehicles,500.0
+529,Denmark,Historical,EV sales,BEV,2014,Vehicles,1600.0
+530,Denmark,Historical,EV sales,BEV,2015,Vehicles,4300.0
+531,Denmark,Historical,EV sales,BEV,2016,Vehicles,1300.0
+532,Denmark,Historical,EV sales,BEV,2017,Vehicles,710.0
+533,Denmark,Historical,EV sales,BEV,2018,Vehicles,1500.0
+534,Denmark,Historical,EV sales,BEV,2019,Vehicles,5500.0
+535,Denmark,Historical,EV sales,BEV,2020,Vehicles,14000.0
+536,Denmark,Historical,EV sales,BEV,2021,Vehicles,25000.0
+537,Denmark,Historical,EV sales,BEV,2022,Vehicles,31000.0
+538,Denmark,Historical,EV sales,PHEV,2011,Vehicles,2.0
+539,Denmark,Historical,EV sales,PHEV,2012,Vehicles,12.0
+540,Denmark,Historical,EV sales,PHEV,2013,Vehicles,10.0
+541,Denmark,Historical,EV sales,PHEV,2014,Vehicles,90.0
+542,Denmark,Historical,EV sales,PHEV,2015,Vehicles,420.0
+543,Denmark,Historical,EV sales,PHEV,2016,Vehicles,570.0
+544,Denmark,Historical,EV sales,PHEV,2017,Vehicles,620.0
+545,Denmark,Historical,EV sales,PHEV,2018,Vehicles,3100.0
+546,Denmark,Historical,EV sales,PHEV,2019,Vehicles,3900.0
+547,Denmark,Historical,EV sales,PHEV,2020,Vehicles,18000.0
+548,Denmark,Historical,EV sales,PHEV,2021,Vehicles,40000.0
+549,Denmark,Historical,EV sales,PHEV,2022,Vehicles,26000.0
+550,Denmark,Historical,EV sales share,EV,2011,percent,0.25
+551,Denmark,Historical,EV sales share,EV,2012,percent,0.2899999916553497
+552,Denmark,Historical,EV sales share,EV,2013,percent,0.2800000011920929
+553,Denmark,Historical,EV sales share,EV,2014,percent,0.8999999761581421
+554,Denmark,Historical,EV sales share,EV,2015,percent,2.299999952316284
+555,Denmark,Historical,EV sales share,EV,2016,percent,0.8500000238418579
+556,Denmark,Historical,EV sales share,EV,2017,percent,0.6000000238418579
+557,Denmark,Historical,EV sales share,EV,2018,percent,2.0999999046325684
+558,Denmark,Historical,EV sales share,EV,2019,percent,4.199999809265137
+559,Denmark,Historical,EV sales share,EV,2020,percent,16.0
+560,Denmark,Historical,EV sales share,EV,2021,percent,35.0
+561,Denmark,Historical,EV sales share,EV,2022,percent,39.0
+562,Denmark,Historical,EV stock,BEV,2010,Vehicles,59.0
+563,Denmark,Historical,EV stock,BEV,2011,Vehicles,480.0
+564,Denmark,Historical,EV stock,BEV,2012,Vehicles,1200.0
+565,Denmark,Historical,EV stock,BEV,2013,Vehicles,1500.0
+566,Denmark,Historical,EV stock,BEV,2014,Vehicles,2900.0
+567,Denmark,Historical,EV stock,BEV,2015,Vehicles,7900.0
+568,Denmark,Historical,EV stock,BEV,2016,Vehicles,8700.0
+569,Denmark,Historical,EV stock,BEV,2017,Vehicles,8800.0
+570,Denmark,Historical,EV stock,BEV,2018,Vehicles,10000.0
+571,Denmark,Historical,EV stock,BEV,2019,Vehicles,16000.0
+572,Denmark,Historical,EV stock,BEV,2020,Vehicles,32000.0
+573,Denmark,Historical,EV stock,BEV,2021,Vehicles,67000.0
+574,Denmark,Historical,EV stock,BEV,2022,Vehicles,110000.0
+575,Denmark,Historical,EV stock,PHEV,2010,Vehicles,20.0
+576,Denmark,Historical,EV stock,PHEV,2011,Vehicles,20.0
+577,Denmark,Historical,EV stock,PHEV,2012,Vehicles,14.0
+578,Denmark,Historical,EV stock,PHEV,2013,Vehicles,14.0
+579,Denmark,Historical,EV stock,PHEV,2014,Vehicles,100.0
+580,Denmark,Historical,EV stock,PHEV,2015,Vehicles,570.0
+581,Denmark,Historical,EV stock,PHEV,2016,Vehicles,1100.0
+582,Denmark,Historical,EV stock,PHEV,2017,Vehicles,1800.0
+583,Denmark,Historical,EV stock,PHEV,2018,Vehicles,5200.0
+584,Denmark,Historical,EV stock,PHEV,2019,Vehicles,9900.0
+585,Denmark,Historical,EV stock,PHEV,2020,Vehicles,30000.0
+586,Denmark,Historical,EV stock,PHEV,2021,Vehicles,78000.0
+587,Denmark,Historical,EV stock,PHEV,2022,Vehicles,100000.0
+588,Denmark,Historical,EV stock share,EV,2010,percent,0.0037000000011175
+589,Denmark,Historical,EV stock share,EV,2011,percent,0.0230000000447034
+590,Denmark,Historical,EV stock share,EV,2012,percent,0.0560000017285347
+591,Denmark,Historical,EV stock share,EV,2013,percent,0.0680000036954879
+592,Denmark,Historical,EV stock share,EV,2014,percent,0.1299999952316284
+593,Denmark,Historical,EV stock share,EV,2015,percent,0.3499999940395355
+594,Denmark,Historical,EV stock share,EV,2016,percent,0.4000000059604645
+595,Denmark,Historical,EV stock share,EV,2017,percent,0.4199999868869781
+596,Denmark,Historical,EV stock share,EV,2018,percent,0.5899999737739563
+597,Denmark,Historical,EV stock share,EV,2019,percent,0.959999978542328
+598,Denmark,Historical,EV stock share,EV,2020,percent,2.299999952316284
+599,Denmark,Historical,EV stock share,EV,2021,percent,5.199999809265137
+600,Denmark,Historical,EV stock share,EV,2022,percent,7.800000190734863
+601,EU27,Historical,EV sales,BEV,2010,Vehicles,1400.0
+602,EU27,Historical,EV sales,BEV,2011,Vehicles,6700.0
+603,EU27,Historical,EV sales,BEV,2012,Vehicles,12000.0
+604,EU27,Historical,EV sales,BEV,2013,Vehicles,21000.0
+605,EU27,Historical,EV sales,BEV,2014,Vehicles,32000.0
+606,EU27,Historical,EV sales,BEV,2015,Vehicles,49000.0
+607,EU27,Historical,EV sales,BEV,2016,Vehicles,53000.0
+608,EU27,Historical,EV sales,BEV,2017,Vehicles,84000.0
+609,EU27,Historical,EV sales,BEV,2018,Vehicles,130000.0
+610,EU27,Historical,EV sales,BEV,2019,Vehicles,250000.0
+611,EU27,Historical,EV sales,BEV,2020,Vehicles,540000.0
+612,EU27,Historical,EV sales,BEV,2021,Vehicles,880000.0
+613,EU27,Historical,EV sales,BEV,2022,Vehicles,1100000.0
+614,EU27,Historical,EV sales,PHEV,2010,Vehicles,9.0
+615,EU27,Historical,EV sales,PHEV,2011,Vehicles,380.0
+616,EU27,Historical,EV sales,PHEV,2012,Vehicles,7300.0
+617,EU27,Historical,EV sales,PHEV,2013,Vehicles,24000.0
+618,EU27,Historical,EV sales,PHEV,2014,Vehicles,24000.0
+619,EU27,Historical,EV sales,PHEV,2015,Vehicles,70000.0
+620,EU27,Historical,EV sales,PHEV,2016,Vehicles,65000.0
+621,EU27,Historical,EV sales,PHEV,2017,Vehicles,86000.0
+622,EU27,Historical,EV sales,PHEV,2018,Vehicles,110000.0
+623,EU27,Historical,EV sales,PHEV,2019,Vehicles,140000.0
+624,EU27,Historical,EV sales,PHEV,2020,Vehicles,510000.0
+625,EU27,Historical,EV sales,PHEV,2021,Vehicles,870000.0
+626,EU27,Historical,EV sales,PHEV,2022,Vehicles,880000.0
+627,EU27,Historical,EV sales share,EV,2010,percent,0.0120000001043081
+628,EU27,Historical,EV sales share,EV,2011,percent,0.0630000010132789
+629,EU27,Historical,EV sales share,EV,2012,percent,0.1899999976158142
+630,EU27,Historical,EV sales share,EV,2013,percent,0.4699999988079071
+631,EU27,Historical,EV sales share,EV,2014,percent,0.5600000023841858
+632,EU27,Historical,EV sales share,EV,2015,percent,1.100000023841858
+633,EU27,Historical,EV sales share,EV,2016,percent,0.9800000190734864
+634,EU27,Historical,EV sales share,EV,2017,percent,1.2999999523162842
+635,EU27,Historical,EV sales share,EV,2018,percent,1.899999976158142
+636,EU27,Historical,EV sales share,EV,2019,percent,3.0
+637,EU27,Historical,EV sales share,EV,2020,percent,10.0
+638,EU27,Historical,EV sales share,EV,2021,percent,18.0
+639,EU27,Historical,EV sales share,EV,2022,percent,21.0
+640,EU27,Historical,EV stock,BEV,2010,Vehicles,2800.0
+641,EU27,Historical,EV stock,BEV,2011,Vehicles,10000.0
+642,EU27,Historical,EV stock,BEV,2012,Vehicles,23000.0
+643,EU27,Historical,EV stock,BEV,2013,Vehicles,44000.0
+644,EU27,Historical,EV stock,BEV,2014,Vehicles,75000.0
+645,EU27,Historical,EV stock,BEV,2015,Vehicles,120000.0
+646,EU27,Historical,EV stock,BEV,2016,Vehicles,180000.0
+647,EU27,Historical,EV stock,BEV,2017,Vehicles,250000.0
+648,EU27,Historical,EV stock,BEV,2018,Vehicles,380000.0
+649,EU27,Historical,EV stock,BEV,2019,Vehicles,610000.0
+650,EU27,Historical,EV stock,BEV,2020,Vehicles,1200000.0
+651,EU27,Historical,EV stock,BEV,2021,Vehicles,2000000.0
+652,EU27,Historical,EV stock,BEV,2022,Vehicles,3100000.0
+653,EU27,Historical,EV stock,PHEV,2010,Vehicles,40.0
+654,EU27,Historical,EV stock,PHEV,2011,Vehicles,430.0
+655,EU27,Historical,EV stock,PHEV,2012,Vehicles,7900.0
+656,EU27,Historical,EV stock,PHEV,2013,Vehicles,33000.0
+657,EU27,Historical,EV stock,PHEV,2014,Vehicles,58000.0
+658,EU27,Historical,EV stock,PHEV,2015,Vehicles,130000.0
+659,EU27,Historical,EV stock,PHEV,2016,Vehicles,190000.0
+660,EU27,Historical,EV stock,PHEV,2017,Vehicles,260000.0
+661,EU27,Historical,EV stock,PHEV,2018,Vehicles,370000.0
+662,EU27,Historical,EV stock,PHEV,2019,Vehicles,480000.0
+663,EU27,Historical,EV stock,PHEV,2020,Vehicles,980000.0
+664,EU27,Historical,EV stock,PHEV,2021,Vehicles,1900000.0
+665,EU27,Historical,EV stock,PHEV,2022,Vehicles,2600000.0
+666,EU27,Historical,EV stock share,EV,2010,percent,0.0013999999500811
+667,EU27,Historical,EV stock share,EV,2011,percent,0.0049999998882412
+668,EU27,Historical,EV stock share,EV,2012,percent,0.0140000004321336
+669,EU27,Historical,EV stock share,EV,2013,percent,0.0350000001490116
+670,EU27,Historical,EV stock share,EV,2014,percent,0.0599999986588954
+671,EU27,Historical,EV stock share,EV,2015,percent,0.1099999994039535
+672,EU27,Historical,EV stock share,EV,2016,percent,0.1700000017881393
+673,EU27,Historical,EV stock share,EV,2017,percent,0.2300000041723251
+674,EU27,Historical,EV stock share,EV,2018,percent,0.3300000131130218
+675,EU27,Historical,EV stock share,EV,2019,percent,0.449999988079071
+676,EU27,Historical,EV stock share,EV,2020,percent,0.8600000143051147
+677,EU27,Historical,EV stock share,EV,2021,percent,1.600000023841858
+678,EU27,Historical,EV stock share,EV,2022,percent,2.299999952316284
+679,Europe,Historical,EV sales,BEV,2010,Vehicles,2000.0
+680,Europe,Historical,EV sales,BEV,2011,Vehicles,10000.0
+681,Europe,Historical,EV sales,BEV,2012,Vehicles,18000.0
+682,Europe,Historical,EV sales,BEV,2013,Vehicles,33000.0
+683,Europe,Historical,EV sales,BEV,2014,Vehicles,62000.0
+684,Europe,Historical,EV sales,BEV,2015,Vehicles,88000.0
+685,Europe,Historical,EV sales,BEV,2016,Vehicles,92000.0
+686,Europe,Historical,EV sales,BEV,2017,Vehicles,140000.0
+687,Europe,Historical,EV sales,BEV,2018,Vehicles,200000.0
+688,Europe,Historical,EV sales,BEV,2019,Vehicles,360000.0
+689,Europe,Historical,EV sales,BEV,2020,Vehicles,750000.0
+690,Europe,Historical,EV sales,BEV,2021,Vehicles,1200000.0
+691,Europe,Historical,EV sales,BEV,2022,Vehicles,1600000.0
+692,Europe,Historical,EV sales,PHEV,2010,Vehicles,30.0
+693,Europe,Historical,EV sales,PHEV,2011,Vehicles,430.0
+694,Europe,Historical,EV sales,PHEV,2012,Vehicles,9000.0
+695,Europe,Historical,EV sales,PHEV,2013,Vehicles,26000.0
+696,Europe,Historical,EV sales,PHEV,2014,Vehicles,34000.0
+697,Europe,Historical,EV sales,PHEV,2015,Vehicles,100000.0
+698,Europe,Historical,EV sales,PHEV,2016,Vehicles,120000.0
+699,Europe,Historical,EV sales,PHEV,2017,Vehicles,160000.0
+700,Europe,Historical,EV sales,PHEV,2018,Vehicles,190000.0
+701,Europe,Historical,EV sales,PHEV,2019,Vehicles,210000.0
+702,Europe,Historical,EV sales,PHEV,2020,Vehicles,630000.0
+703,Europe,Historical,EV sales,PHEV,2021,Vehicles,1100000.0
+704,Europe,Historical,EV sales,PHEV,2022,Vehicles,1000000.0
+705,Europe,Historical,EV sales share,EV,2010,percent,0.0140000004321336
+706,Europe,Historical,EV sales share,EV,2011,percent,0.0729999989271164
+707,Europe,Historical,EV sales share,EV,2012,percent,0.2000000029802322
+708,Europe,Historical,EV sales share,EV,2013,percent,0.4399999976158142
+709,Europe,Historical,EV sales share,EV,2014,percent,0.6800000071525574
+710,Europe,Historical,EV sales share,EV,2015,percent,1.2000000476837158
+711,Europe,Historical,EV sales share,EV,2016,percent,1.2999999523162842
+712,Europe,Historical,EV sales share,EV,2017,percent,1.7000000476837158
+713,Europe,Historical,EV sales share,EV,2018,percent,2.299999952316284
+714,Europe,Historical,EV sales share,EV,2019,percent,3.400000095367432
+715,Europe,Historical,EV sales share,EV,2020,percent,10.0
+716,Europe,Historical,EV sales share,EV,2021,percent,18.0
+717,Europe,Historical,EV sales share,EV,2022,percent,21.0
+718,Europe,Historical,EV stock,BEV,2010,Vehicles,7100.0
+719,Europe,Historical,EV stock,BEV,2011,Vehicles,17000.0
+720,Europe,Historical,EV stock,BEV,2012,Vehicles,37000.0
+721,Europe,Historical,EV stock,BEV,2013,Vehicles,68000.0
+722,Europe,Historical,EV stock,BEV,2014,Vehicles,130000.0
+723,Europe,Historical,EV stock,BEV,2015,Vehicles,210000.0
+724,Europe,Historical,EV stock,BEV,2016,Vehicles,300000.0
+725,Europe,Historical,EV stock,BEV,2017,Vehicles,430000.0
+726,Europe,Historical,EV stock,BEV,2018,Vehicles,630000.0
+727,Europe,Historical,EV stock,BEV,2019,Vehicles,970000.0
+728,Europe,Historical,EV stock,BEV,2020,Vehicles,1800000.0
+729,Europe,Historical,EV stock,BEV,2021,Vehicles,3000000.0
+730,Europe,Historical,EV stock,BEV,2022,Vehicles,4400000.0
+731,Europe,Historical,EV stock,PHEV,2010,Vehicles,63.0
+732,Europe,Historical,EV stock,PHEV,2011,Vehicles,510.0
+733,Europe,Historical,EV stock,PHEV,2012,Vehicles,9700.0
+734,Europe,Historical,EV stock,PHEV,2013,Vehicles,36000.0
+735,Europe,Historical,EV stock,PHEV,2014,Vehicles,70000.0
+736,Europe,Historical,EV stock,PHEV,2015,Vehicles,170000.0
+737,Europe,Historical,EV stock,PHEV,2016,Vehicles,290000.0
+738,Europe,Historical,EV stock,PHEV,2017,Vehicles,420000.0
+739,Europe,Historical,EV stock,PHEV,2018,Vehicles,610000.0
+740,Europe,Historical,EV stock,PHEV,2019,Vehicles,780000.0
+741,Europe,Historical,EV stock,PHEV,2020,Vehicles,1400000.0
+742,Europe,Historical,EV stock,PHEV,2021,Vehicles,2500000.0
+743,Europe,Historical,EV stock,PHEV,2022,Vehicles,3400000.0
+744,Europe,Historical,EV stock share,EV,2010,percent,0.0027000000700354
+745,Europe,Historical,EV stock share,EV,2011,percent,0.0065000001341104
+746,Europe,Historical,EV stock share,EV,2012,percent,0.0170000009238719
+747,Europe,Historical,EV stock share,EV,2013,percent,0.0370000004768371
+748,Europe,Historical,EV stock share,EV,2014,percent,0.0700000002980232
+749,Europe,Historical,EV stock share,EV,2015,percent,0.1299999952316284
+750,Europe,Historical,EV stock share,EV,2016,percent,0.209999993443489
+751,Europe,Historical,EV stock share,EV,2017,percent,0.2899999916553497
+752,Europe,Historical,EV stock share,EV,2018,percent,0.4099999964237213
+753,Europe,Historical,EV stock share,EV,2019,percent,0.5600000023841858
+754,Europe,Historical,EV stock share,EV,2020,percent,0.9800000190734864
+755,Europe,Historical,EV stock share,EV,2021,percent,1.7000000476837158
+756,Europe,Historical,EV stock share,EV,2022,percent,2.400000095367432
+757,Europe,Historical,Electricity demand,EV,2010,GWh,110.0
+758,Europe,Historical,Electricity demand,EV,2011,GWh,160.0
+759,Europe,Historical,Electricity demand,EV,2012,GWh,240.0
+760,Europe,Historical,Electricity demand,EV,2013,GWh,420.0
+761,Europe,Historical,Electricity demand,EV,2014,GWh,570.0
+762,Europe,Historical,Electricity demand,EV,2015,GWh,830.0
+763,Europe,Historical,Electricity demand,EV,2016,GWh,1000.0
+764,Europe,Historical,Electricity demand,EV,2017,GWh,1300.0
+765,Europe,Historical,Electricity demand,EV,2018,GWh,1800.0
+766,Europe,Historical,Electricity demand,EV,2019,GWh,2700.0
+767,Europe,Historical,Electricity demand,EV,2020,GWh,3900.0
+768,Europe,Historical,Electricity demand,EV,2021,GWh,4000.0
+769,Europe,Historical,Electricity demand,EV,2022,GWh,19000.0
+770,Europe,Historical,Oil displacement Mbd,EV,2010,Milion barrels per day,7.50000035623e-05
+771,Europe,Historical,Oil displacement Mbd,EV,2011,Milion barrels per day,0.0002500000118743
+772,Europe,Historical,Oil displacement Mbd,EV,2012,Milion barrels per day,0.0005699999746866
+773,Europe,Historical,Oil displacement Mbd,EV,2013,Milion barrels per day,0.0012000000569969
+774,Europe,Historical,Oil displacement Mbd,EV,2014,Milion barrels per day,0.0024000001139938
+775,Europe,Historical,Oil displacement Mbd,EV,2015,Milion barrels per day,0.0043999999761581
+776,Europe,Historical,Oil displacement Mbd,EV,2016,Milion barrels per day,0.0066999997943639
+777,Europe,Historical,Oil displacement Mbd,EV,2017,Milion barrels per day,0.0094999996945261
+778,Europe,Historical,Oil displacement Mbd,EV,2018,Milion barrels per day,0.0130000002682209
+779,Europe,Historical,Oil displacement Mbd,EV,2019,Milion barrels per day,0.0199999995529651
+780,Europe,Historical,Oil displacement Mbd,EV,2020,Milion barrels per day,0.0309999994933605
+781,Europe,Historical,Oil displacement Mbd,EV,2021,Milion barrels per day,0.0719999969005584
+782,Europe,Historical,Oil displacement Mbd,EV,2022,Milion barrels per day,0.1000000014901161
+783,Europe,Historical,"Oil displacement, million lge",EV,2010,"Oil displacement, million lge",4.400000095367432
+784,Europe,Historical,"Oil displacement, million lge",EV,2011,"Oil displacement, million lge",14.0
+785,Europe,Historical,"Oil displacement, million lge",EV,2012,"Oil displacement, million lge",33.0
+786,Europe,Historical,"Oil displacement, million lge",EV,2013,"Oil displacement, million lge",67.0
+787,Europe,Historical,"Oil displacement, million lge",EV,2014,"Oil displacement, million lge",140.0
+788,Europe,Historical,"Oil displacement, million lge",EV,2015,"Oil displacement, million lge",260.0
+789,Europe,Historical,"Oil displacement, million lge",EV,2016,"Oil displacement, million lge",390.0
+790,Europe,Historical,"Oil displacement, million lge",EV,2017,"Oil displacement, million lge",550.0
+791,Europe,Historical,"Oil displacement, million lge",EV,2018,"Oil displacement, million lge",770.0
+792,Europe,Historical,"Oil displacement, million lge",EV,2019,"Oil displacement, million lge",1200.0
+793,Europe,Historical,"Oil displacement, million lge",EV,2020,"Oil displacement, million lge",1800.0
+794,Europe,Historical,"Oil displacement, million lge",EV,2021,"Oil displacement, million lge",4200.0
+795,Europe,Historical,"Oil displacement, million lge",EV,2022,"Oil displacement, million lge",6100.0
+796,Finland,Historical,EV sales,BEV,2011,Vehicles,30.0
+797,Finland,Historical,EV sales,BEV,2012,Vehicles,51.0
+798,Finland,Historical,EV sales,BEV,2013,Vehicles,50.0
+799,Finland,Historical,EV sales,BEV,2014,Vehicles,180.0
+800,Finland,Historical,EV sales,BEV,2015,Vehicles,240.0
+801,Finland,Historical,EV sales,BEV,2016,Vehicles,220.0
+802,Finland,Historical,EV sales,BEV,2017,Vehicles,500.0
+803,Finland,Historical,EV sales,BEV,2018,Vehicles,780.0
+804,Finland,Historical,EV sales,BEV,2019,Vehicles,1900.0
+805,Finland,Historical,EV sales,BEV,2020,Vehicles,4200.0
+806,Finland,Historical,EV sales,BEV,2021,Vehicles,10000.0
+807,Finland,Historical,EV sales,BEV,2022,Vehicles,15000.0
+808,Finland,Historical,EV sales,PHEV,2012,Vehicles,130.0
+809,Finland,Historical,EV sales,PHEV,2013,Vehicles,170.0
+810,Finland,Historical,EV sales,PHEV,2014,Vehicles,260.0
+811,Finland,Historical,EV sales,PHEV,2015,Vehicles,420.0
+812,Finland,Historical,EV sales,PHEV,2016,Vehicles,1200.0
+813,Finland,Historical,EV sales,PHEV,2017,Vehicles,2600.0
+814,Finland,Historical,EV sales,PHEV,2018,Vehicles,4900.0
+815,Finland,Historical,EV sales,PHEV,2019,Vehicles,6000.0
+816,Finland,Historical,EV sales,PHEV,2020,Vehicles,13000.0
+817,Finland,Historical,EV sales,PHEV,2021,Vehicles,20000.0
+818,Finland,Historical,EV sales,PHEV,2022,Vehicles,16000.0
+819,Finland,Historical,EV sales share,EV,2011,percent,0.025000000372529
+820,Finland,Historical,EV sales share,EV,2012,percent,0.1700000017881393
+821,Finland,Historical,EV sales share,EV,2013,percent,0.209999993443489
+822,Finland,Historical,EV sales share,EV,2014,percent,0.4099999964237213
+823,Finland,Historical,EV sales share,EV,2015,percent,0.6000000238418579
+824,Finland,Historical,EV sales share,EV,2016,percent,1.2000000476837158
+825,Finland,Historical,EV sales share,EV,2017,percent,2.5999999046325684
+826,Finland,Historical,EV sales share,EV,2018,percent,4.699999809265137
+827,Finland,Historical,EV sales share,EV,2019,percent,6.900000095367432
+828,Finland,Historical,EV sales share,EV,2020,percent,18.0
+829,Finland,Historical,EV sales share,EV,2021,percent,31.0
+830,Finland,Historical,EV sales share,EV,2022,percent,38.0
+831,Finland,Historical,EV stock,BEV,2011,Vehicles,56.0
+832,Finland,Historical,EV stock,BEV,2012,Vehicles,110.0
+833,Finland,Historical,EV stock,BEV,2013,Vehicles,170.0
+834,Finland,Historical,EV stock,BEV,2014,Vehicles,360.0
+835,Finland,Historical,EV stock,BEV,2015,Vehicles,610.0
+836,Finland,Historical,EV stock,BEV,2016,Vehicles,840.0
+837,Finland,Historical,EV stock,BEV,2017,Vehicles,1400.0
+838,Finland,Historical,EV stock,BEV,2018,Vehicles,2400.0
+839,Finland,Historical,EV stock,BEV,2019,Vehicles,4700.0
+840,Finland,Historical,EV stock,BEV,2020,Vehicles,9700.0
+841,Finland,Historical,EV stock,BEV,2021,Vehicles,23000.0
+842,Finland,Historical,EV stock,BEV,2022,Vehicles,45000.0
+843,Finland,Historical,EV stock,PHEV,2012,Vehicles,130.0
+844,Finland,Historical,EV stock,PHEV,2013,Vehicles,300.0
+845,Finland,Historical,EV stock,PHEV,2014,Vehicles,570.0
+846,Finland,Historical,EV stock,PHEV,2015,Vehicles,970.0
+847,Finland,Historical,EV stock,PHEV,2016,Vehicles,2400.0
+848,Finland,Historical,EV stock,PHEV,2017,Vehicles,5700.0
+849,Finland,Historical,EV stock,PHEV,2018,Vehicles,13000.0
+850,Finland,Historical,EV stock,PHEV,2019,Vehicles,25000.0
+851,Finland,Historical,EV stock,PHEV,2020,Vehicles,46000.0
+852,Finland,Historical,EV stock,PHEV,2021,Vehicles,77000.0
+853,Finland,Historical,EV stock,PHEV,2022,Vehicles,100000.0
+854,Finland,Historical,EV stock share,EV,2011,percent,0.0020000000949949
+855,Finland,Historical,EV stock share,EV,2012,percent,0.008899999782443
+856,Finland,Historical,EV stock share,EV,2013,percent,0.0179999992251396
+857,Finland,Historical,EV stock share,EV,2014,percent,0.0359999984502792
+858,Finland,Historical,EV stock share,EV,2015,percent,0.0610000006854534
+859,Finland,Historical,EV stock share,EV,2016,percent,0.1199999973177909
+860,Finland,Historical,EV stock share,EV,2017,percent,0.270000010728836
+861,Finland,Historical,EV stock share,EV,2018,percent,0.5699999928474426
+862,Finland,Historical,EV stock share,EV,2019,percent,1.100000023841858
+863,Finland,Historical,EV stock share,EV,2020,percent,2.299999952316284
+864,Finland,Historical,EV stock share,EV,2021,percent,3.5999999046325684
+865,Finland,Historical,EV stock share,EV,2022,percent,5.400000095367432
+866,France,Historical,EV sales,BEV,2010,Vehicles,190.0
+867,France,Historical,EV sales,BEV,2011,Vehicles,2600.0
+868,France,Historical,EV sales,BEV,2012,Vehicles,5700.0
+869,France,Historical,EV sales,BEV,2013,Vehicles,8800.0
+870,France,Historical,EV sales,BEV,2014,Vehicles,11000.0
+871,France,Historical,EV sales,BEV,2015,Vehicles,17000.0
+872,France,Historical,EV sales,BEV,2016,Vehicles,22000.0
+873,France,Historical,EV sales,BEV,2017,Vehicles,25000.0
+874,France,Historical,EV sales,BEV,2018,Vehicles,31000.0
+875,France,Historical,EV sales,BEV,2019,Vehicles,43000.0
+876,France,Historical,EV sales,BEV,2020,Vehicles,110000.0
+877,France,Historical,EV sales,BEV,2021,Vehicles,160000.0
+878,France,Historical,EV sales,BEV,2022,Vehicles,210000.0
+879,France,Historical,EV sales,PHEV,2011,Vehicles,96.0
+880,France,Historical,EV sales,PHEV,2012,Vehicles,600.0
+881,France,Historical,EV sales,PHEV,2013,Vehicles,830.0
+882,France,Historical,EV sales,PHEV,2014,Vehicles,2100.0
+883,France,Historical,EV sales,PHEV,2015,Vehicles,5700.0
+884,France,Historical,EV sales,PHEV,2016,Vehicles,7400.0
+885,France,Historical,EV sales,PHEV,2017,Vehicles,12000.0
+886,France,Historical,EV sales,PHEV,2018,Vehicles,15000.0
+887,France,Historical,EV sales,PHEV,2019,Vehicles,19000.0
+888,France,Historical,EV sales,PHEV,2020,Vehicles,75000.0
+889,France,Historical,EV sales,PHEV,2021,Vehicles,140000.0
+890,France,Historical,EV sales,PHEV,2022,Vehicles,130000.0
+891,France,Historical,EV sales share,EV,2010,percent,0.0085000004619359
+892,France,Historical,EV sales share,EV,2011,percent,0.1299999952316284
+893,France,Historical,EV sales share,EV,2012,percent,0.3400000035762787
+894,France,Historical,EV sales share,EV,2013,percent,0.550000011920929
+895,France,Historical,EV sales share,EV,2014,percent,0.7200000286102295
+896,France,Historical,EV sales share,EV,2015,percent,1.2000000476837158
+897,France,Historical,EV sales share,EV,2016,percent,1.5
+898,France,Historical,EV sales share,EV,2017,percent,1.7999999523162842
+899,France,Historical,EV sales share,EV,2018,percent,2.0999999046325684
+900,France,Historical,EV sales share,EV,2019,percent,2.799999952316284
+901,France,Historical,EV sales share,EV,2020,percent,11.0
+902,France,Historical,EV sales share,EV,2021,percent,19.0
+903,France,Historical,EV sales share,EV,2022,percent,21.0
+904,France,Historical,EV stock,BEV,2010,Vehicles,300.0
+905,France,Historical,EV stock,BEV,2011,Vehicles,2900.0
+906,France,Historical,EV stock,BEV,2012,Vehicles,8600.0
+907,France,Historical,EV stock,BEV,2013,Vehicles,17000.0
+908,France,Historical,EV stock,BEV,2014,Vehicles,28000.0
+909,France,Historical,EV stock,BEV,2015,Vehicles,45000.0
+910,France,Historical,EV stock,BEV,2016,Vehicles,67000.0
+911,France,Historical,EV stock,BEV,2017,Vehicles,93000.0
+912,France,Historical,EV stock,BEV,2018,Vehicles,120000.0
+913,France,Historical,EV stock,BEV,2019,Vehicles,170000.0
+914,France,Historical,EV stock,BEV,2020,Vehicles,280000.0
+915,France,Historical,EV stock,BEV,2021,Vehicles,440000.0
+916,France,Historical,EV stock,BEV,2022,Vehicles,620000.0
+917,France,Historical,EV stock,PHEV,2011,Vehicles,96.0
+918,France,Historical,EV stock,PHEV,2012,Vehicles,700.0
+919,France,Historical,EV stock,PHEV,2013,Vehicles,1500.0
+920,France,Historical,EV stock,PHEV,2014,Vehicles,3600.0
+921,France,Historical,EV stock,PHEV,2015,Vehicles,9300.0
+922,France,Historical,EV stock,PHEV,2016,Vehicles,17000.0
+923,France,Historical,EV stock,PHEV,2017,Vehicles,26000.0
+924,France,Historical,EV stock,PHEV,2018,Vehicles,40000.0
+925,France,Historical,EV stock,PHEV,2019,Vehicles,59000.0
+926,France,Historical,EV stock,PHEV,2020,Vehicles,130000.0
+927,France,Historical,EV stock,PHEV,2021,Vehicles,270000.0
+928,France,Historical,EV stock,PHEV,2022,Vehicles,370000.0
+929,France,Historical,EV stock share,EV,2010,percent,0.0009399999980814
+930,France,Historical,EV stock share,EV,2011,percent,0.0093000000342726
+931,France,Historical,EV stock share,EV,2012,percent,0.0289999991655349
+932,France,Historical,EV stock share,EV,2013,percent,0.0590000003576278
+933,France,Historical,EV stock share,EV,2014,percent,0.0979999974370002
+934,France,Historical,EV stock share,EV,2015,percent,0.1700000017881393
+935,France,Historical,EV stock share,EV,2016,percent,0.2599999904632568
+936,France,Historical,EV stock share,EV,2017,percent,0.3700000047683716
+937,France,Historical,EV stock share,EV,2018,percent,0.5099999904632568
+938,France,Historical,EV stock share,EV,2019,percent,0.5899999737739563
+939,France,Historical,EV stock share,EV,2020,percent,1.100000023841858
+940,France,Historical,EV stock share,EV,2021,percent,1.899999976158142
+941,France,Historical,EV stock share,EV,2022,percent,2.700000047683716
+942,Germany,Historical,EV sales,BEV,2010,Vehicles,140.0
+943,Germany,Historical,EV sales,BEV,2011,Vehicles,1400.0
+944,Germany,Historical,EV sales,BEV,2012,Vehicles,2200.0
+945,Germany,Historical,EV sales,BEV,2013,Vehicles,5200.0
+946,Germany,Historical,EV sales,BEV,2014,Vehicles,9100.0
+947,Germany,Historical,EV sales,BEV,2015,Vehicles,12000.0
+948,Germany,Historical,EV sales,BEV,2016,Vehicles,11000.0
+949,Germany,Historical,EV sales,BEV,2017,Vehicles,25000.0
+950,Germany,Historical,EV sales,BEV,2018,Vehicles,36000.0
+951,Germany,Historical,EV sales,BEV,2019,Vehicles,63000.0
+952,Germany,Historical,EV sales,BEV,2020,Vehicles,190000.0
+953,Germany,Historical,EV sales,BEV,2021,Vehicles,360000.0
+954,Germany,Historical,EV sales,BEV,2022,Vehicles,470000.0
+955,Germany,Historical,EV sales,PHEV,2011,Vehicles,240.0
+956,Germany,Historical,EV sales,PHEV,2012,Vehicles,1200.0
+957,Germany,Historical,EV sales,PHEV,2013,Vehicles,1600.0
+958,Germany,Historical,EV sales,PHEV,2014,Vehicles,4400.0
+959,Germany,Historical,EV sales,PHEV,2015,Vehicles,11000.0
+960,Germany,Historical,EV sales,PHEV,2016,Vehicles,13000.0
+961,Germany,Historical,EV sales,PHEV,2017,Vehicles,29000.0
+962,Germany,Historical,EV sales,PHEV,2018,Vehicles,31000.0
+963,Germany,Historical,EV sales,PHEV,2019,Vehicles,45000.0
+964,Germany,Historical,EV sales,PHEV,2020,Vehicles,200000.0
+965,Germany,Historical,EV sales,PHEV,2021,Vehicles,330000.0
+966,Germany,Historical,EV sales,PHEV,2022,Vehicles,360000.0
+967,Germany,Historical,EV sales share,EV,2010,percent,0.0049000000581145
+968,Germany,Historical,EV sales share,EV,2011,percent,0.0520000010728836
+969,Germany,Historical,EV sales share,EV,2012,percent,0.1099999994039535
+970,Germany,Historical,EV sales share,EV,2013,percent,0.2300000041723251
+971,Germany,Historical,EV sales share,EV,2014,percent,0.449999988079071
+972,Germany,Historical,EV sales share,EV,2015,percent,0.7300000190734863
+973,Germany,Historical,EV sales share,EV,2016,percent,0.7300000190734863
+974,Germany,Historical,EV sales share,EV,2017,percent,1.600000023841858
+975,Germany,Historical,EV sales share,EV,2018,percent,1.899999976158142
+976,Germany,Historical,EV sales share,EV,2019,percent,2.900000095367432
+977,Germany,Historical,EV sales share,EV,2020,percent,13.0
+978,Germany,Historical,EV sales share,EV,2021,percent,26.0
+979,Germany,Historical,EV sales share,EV,2022,percent,31.0
+980,Germany,Historical,EV stock,BEV,2010,Vehicles,250.0
+981,Germany,Historical,EV stock,BEV,2011,Vehicles,1600.0
+982,Germany,Historical,EV stock,BEV,2012,Vehicles,3900.0
+983,Germany,Historical,EV stock,BEV,2013,Vehicles,9200.0
+984,Germany,Historical,EV stock,BEV,2014,Vehicles,18000.0
+985,Germany,Historical,EV stock,BEV,2015,Vehicles,30000.0
+986,Germany,Historical,EV stock,BEV,2016,Vehicles,41000.0
+987,Germany,Historical,EV stock,BEV,2017,Vehicles,59000.0
+988,Germany,Historical,EV stock,BEV,2018,Vehicles,95000.0
+989,Germany,Historical,EV stock,BEV,2019,Vehicles,140000.0
+990,Germany,Historical,EV stock,BEV,2020,Vehicles,330000.0
+991,Germany,Historical,EV stock,BEV,2021,Vehicles,690000.0
+992,Germany,Historical,EV stock,BEV,2022,Vehicles,1000000.0
+993,Germany,Historical,EV stock,PHEV,2011,Vehicles,240.0
+994,Germany,Historical,EV stock,PHEV,2012,Vehicles,1400.0
+995,Germany,Historical,EV stock,PHEV,2013,Vehicles,3000.0
+996,Germany,Historical,EV stock,PHEV,2014,Vehicles,7400.0
+997,Germany,Historical,EV stock,PHEV,2015,Vehicles,19000.0
+998,Germany,Historical,EV stock,PHEV,2016,Vehicles,32000.0
+999,Germany,Historical,EV stock,PHEV,2017,Vehicles,50000.0
+1000,Germany,Historical,EV stock,PHEV,2018,Vehicles,82000.0
+1001,Germany,Historical,EV stock,PHEV,2019,Vehicles,100000.0
+1002,Germany,Historical,EV stock,PHEV,2020,Vehicles,300000.0
+1003,Germany,Historical,EV stock,PHEV,2021,Vehicles,630000.0
+1004,Germany,Historical,EV stock,PHEV,2022,Vehicles,890000.0
+1005,Germany,Historical,EV stock share,EV,2010,percent,0.0005799999926239
+1006,Germany,Historical,EV stock share,EV,2011,percent,0.0043999999761581
+1007,Germany,Historical,EV stock share,EV,2012,percent,0.0120000001043081
+1008,Germany,Historical,EV stock share,EV,2013,percent,0.0280000008642673
+1009,Germany,Historical,EV stock share,EV,2014,percent,0.0560000017285347
+1010,Germany,Historical,EV stock share,EV,2015,percent,0.1099999994039535
+1011,Germany,Historical,EV stock share,EV,2016,percent,0.1599999964237213
+1012,Germany,Historical,EV stock share,EV,2017,percent,0.2399999946355819
+1013,Germany,Historical,EV stock share,EV,2018,percent,0.3799999952316284
+1014,Germany,Historical,EV stock share,EV,2019,percent,0.5
+1015,Germany,Historical,EV stock share,EV,2020,percent,1.2999999523162842
+1016,Germany,Historical,EV stock share,EV,2021,percent,2.700000047683716
+1017,Germany,Historical,EV stock share,EV,2022,percent,4.0
+1018,Greece,Historical,EV sales,BEV,2013,Vehicles,3.0
+1019,Greece,Historical,EV sales,BEV,2014,Vehicles,39.0
+1020,Greece,Historical,EV sales,BEV,2015,Vehicles,35.0
+1021,Greece,Historical,EV sales,BEV,2016,Vehicles,41.0
+1022,Greece,Historical,EV sales,BEV,2017,Vehicles,50.0
+1023,Greece,Historical,EV sales,BEV,2018,Vehicles,88.0
+1024,Greece,Historical,EV sales,BEV,2019,Vehicles,190.0
+1025,Greece,Historical,EV sales,BEV,2020,Vehicles,680.0
+1026,Greece,Historical,EV sales,BEV,2021,Vehicles,2200.0
+1027,Greece,Historical,EV sales,BEV,2022,Vehicles,2800.0
+1028,Greece,Historical,EV sales,PHEV,2015,Vehicles,22.0
+1029,Greece,Historical,EV sales,PHEV,2016,Vehicles,56.0
+1030,Greece,Historical,EV sales,PHEV,2017,Vehicles,140.0
+1031,Greece,Historical,EV sales,PHEV,2018,Vehicles,210.0
+1032,Greece,Historical,EV sales,PHEV,2019,Vehicles,290.0
+1033,Greece,Historical,EV sales,PHEV,2020,Vehicles,1500.0
+1034,Greece,Historical,EV sales,PHEV,2021,Vehicles,4800.0
+1035,Greece,Historical,EV sales,PHEV,2022,Vehicles,5500.0
+1036,Greece,Historical,EV sales share,EV,2013,percent,0.0051000001840293
+1037,Greece,Historical,EV sales share,EV,2014,percent,0.0549999997019767
+1038,Greece,Historical,EV sales share,EV,2015,percent,0.0750000029802322
+1039,Greece,Historical,EV sales share,EV,2016,percent,0.1199999973177909
+1040,Greece,Historical,EV sales share,EV,2017,percent,0.2199999988079071
+1041,Greece,Historical,EV sales share,EV,2018,percent,0.2899999916553497
+1042,Greece,Historical,EV sales share,EV,2019,percent,0.4199999868869781
+1043,Greece,Historical,EV sales share,EV,2020,percent,2.5999999046325684
+1044,Greece,Historical,EV sales share,EV,2021,percent,6.900000095367432
+1045,Greece,Historical,EV sales share,EV,2022,percent,7.900000095367432
+1046,Greece,Historical,EV stock,BEV,2013,Vehicles,3.0
+1047,Greece,Historical,EV stock,BEV,2014,Vehicles,42.0
+1048,Greece,Historical,EV stock,BEV,2015,Vehicles,97.0
+1049,Greece,Historical,EV stock,BEV,2016,Vehicles,140.0
+1050,Greece,Historical,EV stock,BEV,2017,Vehicles,190.0
+1051,Greece,Historical,EV stock,BEV,2018,Vehicles,280.0
+1052,Greece,Historical,EV stock,BEV,2019,Vehicles,470.0
+1053,Greece,Historical,EV stock,BEV,2020,Vehicles,1100.0
+1054,Greece,Historical,EV stock,BEV,2021,Vehicles,3300.0
+1055,Greece,Historical,EV stock,BEV,2022,Vehicles,7400.0
+1056,Greece,Historical,EV stock,PHEV,2015,Vehicles,22.0
+1057,Greece,Historical,EV stock,PHEV,2016,Vehicles,78.0
+1058,Greece,Historical,EV stock,PHEV,2017,Vehicles,220.0
+1059,Greece,Historical,EV stock,PHEV,2018,Vehicles,440.0
+1060,Greece,Historical,EV stock,PHEV,2019,Vehicles,730.0
+1061,Greece,Historical,EV stock,PHEV,2020,Vehicles,2200.0
+1062,Greece,Historical,EV stock,PHEV,2021,Vehicles,7000.0
+1063,Greece,Historical,EV stock,PHEV,2022,Vehicles,12000.0
+1064,Greece,Historical,EV stock share,EV,2013,percent,5.90000017837e-05
+1065,Greece,Historical,EV stock share,EV,2014,percent,0.0008200000156648
+1066,Greece,Historical,EV stock share,EV,2015,percent,0.0023000000510364
+1067,Greece,Historical,EV stock share,EV,2016,percent,0.0041999998502433
+1068,Greece,Historical,EV stock share,EV,2017,percent,0.0077999997884035
+1069,Greece,Historical,EV stock share,EV,2018,percent,0.0140000004321336
+1070,Greece,Historical,EV stock share,EV,2019,percent,0.0219999998807907
+1071,Greece,Historical,EV stock share,EV,2020,percent,0.0610000006854534
+1072,Greece,Historical,EV stock share,EV,2021,percent,0.1800000071525573
+1073,Greece,Historical,EV stock share,EV,2022,percent,0.3600000143051147
+1074,Iceland,Historical,EV sales,BEV,2012,Vehicles,17.0
+1075,Iceland,Historical,EV sales,BEV,2013,Vehicles,80.0
+1076,Iceland,Historical,EV sales,BEV,2014,Vehicles,200.0
+1077,Iceland,Historical,EV sales,BEV,2015,Vehicles,390.0
+1078,Iceland,Historical,EV sales,BEV,2016,Vehicles,380.0
+1079,Iceland,Historical,EV sales,BEV,2017,Vehicles,850.0
+1080,Iceland,Historical,EV sales,BEV,2018,Vehicles,780.0
+1081,Iceland,Historical,EV sales,BEV,2019,Vehicles,910.0
+1082,Iceland,Historical,EV sales,BEV,2020,Vehicles,2600.0
+1083,Iceland,Historical,EV sales,BEV,2021,Vehicles,4300.0
+1084,Iceland,Historical,EV sales,BEV,2022,Vehicles,6900.0
+1085,Iceland,Historical,EV sales,PHEV,2012,Vehicles,9.0
+1086,Iceland,Historical,EV sales,PHEV,2013,Vehicles,23.0
+1087,Iceland,Historical,EV sales,PHEV,2014,Vehicles,29.0
+1088,Iceland,Historical,EV sales,PHEV,2015,Vehicles,170.0
+1089,Iceland,Historical,EV sales,PHEV,2016,Vehicles,780.0
+1090,Iceland,Historical,EV sales,PHEV,2017,Vehicles,2200.0
+1091,Iceland,Historical,EV sales,PHEV,2018,Vehicles,2900.0
+1092,Iceland,Historical,EV sales,PHEV,2019,Vehicles,1700.0
+1093,Iceland,Historical,EV sales,PHEV,2020,Vehicles,2400.0
+1094,Iceland,Historical,EV sales,PHEV,2021,Vehicles,4900.0
+1095,Iceland,Historical,EV sales,PHEV,2022,Vehicles,5000.0
+1096,Iceland,Historical,EV sales share,EV,2012,percent,0.3100000023841858
+1097,Iceland,Historical,EV sales share,EV,2013,percent,1.2999999523162842
+1098,Iceland,Historical,EV sales share,EV,2014,percent,2.0999999046325684
+1099,Iceland,Historical,EV sales share,EV,2015,percent,3.5999999046325684
+1100,Iceland,Historical,EV sales share,EV,2016,percent,5.599999904632568
+1101,Iceland,Historical,EV sales share,EV,2017,percent,14.0
+1102,Iceland,Historical,EV sales share,EV,2018,percent,20.0
+1103,Iceland,Historical,EV sales share,EV,2019,percent,23.0
+1104,Iceland,Historical,EV sales share,EV,2020,percent,52.0
+1105,Iceland,Historical,EV sales share,EV,2021,percent,72.0
+1106,Iceland,Historical,EV sales share,EV,2022,percent,70.0
+1107,Iceland,Historical,EV stock,BEV,2010,Vehicles,14.0
+1108,Iceland,Historical,EV stock,BEV,2011,Vehicles,14.0
+1109,Iceland,Historical,EV stock,BEV,2012,Vehicles,31.0
+1110,Iceland,Historical,EV stock,BEV,2013,Vehicles,110.0
+1111,Iceland,Historical,EV stock,BEV,2014,Vehicles,300.0
+1112,Iceland,Historical,EV stock,BEV,2015,Vehicles,690.0
+1113,Iceland,Historical,EV stock,BEV,2016,Vehicles,1100.0
+1114,Iceland,Historical,EV stock,BEV,2017,Vehicles,1900.0
+1115,Iceland,Historical,EV stock,BEV,2018,Vehicles,2700.0
+1116,Iceland,Historical,EV stock,BEV,2019,Vehicles,3700.0
+1117,Iceland,Historical,EV stock,BEV,2020,Vehicles,6300.0
+1118,Iceland,Historical,EV stock,BEV,2021,Vehicles,11000.0
+1119,Iceland,Historical,EV stock,BEV,2022,Vehicles,18000.0
+1120,Iceland,Historical,EV stock,PHEV,2012,Vehicles,9.0
+1121,Iceland,Historical,EV stock,PHEV,2013,Vehicles,32.0
+1122,Iceland,Historical,EV stock,PHEV,2014,Vehicles,61.0
+1123,Iceland,Historical,EV stock,PHEV,2015,Vehicles,230.0
+1124,Iceland,Historical,EV stock,PHEV,2016,Vehicles,1000.0
+1125,Iceland,Historical,EV stock,PHEV,2017,Vehicles,3200.0
+1126,Iceland,Historical,EV stock,PHEV,2018,Vehicles,6100.0
+1127,Iceland,Historical,EV stock,PHEV,2019,Vehicles,8000.0
+1128,Iceland,Historical,EV stock,PHEV,2020,Vehicles,10000.0
+1129,Iceland,Historical,EV stock,PHEV,2021,Vehicles,15000.0
+1130,Iceland,Historical,EV stock,PHEV,2022,Vehicles,21000.0
+1131,Iceland,Historical,EV stock share,EV,2010,percent,0.006800000090152
+1132,Iceland,Historical,EV stock share,EV,2011,percent,0.006800000090152
+1133,Iceland,Historical,EV stock share,EV,2012,percent,0.0189999993890523
+1134,Iceland,Historical,EV stock share,EV,2013,percent,0.06700000166893
+1135,Iceland,Historical,EV stock share,EV,2014,percent,0.1700000017881393
+1136,Iceland,Historical,EV stock share,EV,2015,percent,0.4000000059604645
+1137,Iceland,Historical,EV stock share,EV,2016,percent,0.8700000047683716
+1138,Iceland,Historical,EV stock share,EV,2017,percent,2.0
+1139,Iceland,Historical,EV stock share,EV,2018,percent,3.299999952316284
+1140,Iceland,Historical,EV stock share,EV,2019,percent,4.400000095367432
+1141,Iceland,Historical,EV stock share,EV,2020,percent,6.300000190734863
+1142,Iceland,Historical,EV stock share,EV,2021,percent,11.0
+1143,Iceland,Historical,EV stock share,EV,2022,percent,16.0
+1144,India,Historical,EV sales,BEV,2010,Vehicles,450.0
+1145,India,Historical,EV sales,BEV,2011,Vehicles,1400.0
+1146,India,Historical,EV sales,BEV,2012,Vehicles,190.0
+1147,India,Historical,EV sales,BEV,2013,Vehicles,410.0
+1148,India,Historical,EV sales,BEV,2014,Vehicles,1000.0
+1149,India,Historical,EV sales,BEV,2015,Vehicles,450.0
+1150,India,Historical,EV sales,BEV,2016,Vehicles,730.0
+1151,India,Historical,EV sales,BEV,2017,Vehicles,920.0
+1152,India,Historical,EV sales,BEV,2018,Vehicles,920.0
+1153,India,Historical,EV sales,BEV,2019,Vehicles,680.0
+1154,India,Historical,EV sales,BEV,2020,Vehicles,3100.0
+1155,India,Historical,EV sales,BEV,2021,Vehicles,12000.0
+1156,India,Historical,EV sales,BEV,2022,Vehicles,48000.0
+1157,India,Historical,EV sales,PHEV,2019,Vehicles,7.0
+1158,India,Historical,EV sales,PHEV,2020,Vehicles,43.0
+1159,India,Historical,EV sales,PHEV,2021,Vehicles,50.0
+1160,India,Historical,EV sales,PHEV,2022,Vehicles,23.0
+1161,India,Historical,EV sales share,EV,2010,percent,0.0209999997168779
+1162,India,Historical,EV sales share,EV,2011,percent,0.0560000017285347
+1163,India,Historical,EV sales share,EV,2012,percent,0.0071999998763203
+1164,India,Historical,EV sales share,EV,2013,percent,0.0160000007599592
+1165,India,Historical,EV sales share,EV,2014,percent,0.0379999987781047
+1166,India,Historical,EV sales share,EV,2015,percent,0.0170000009238719
+1167,India,Historical,EV sales share,EV,2016,percent,0.0260000005364418
+1168,India,Historical,EV sales share,EV,2017,percent,0.0309999994933605
+1169,India,Historical,EV sales share,EV,2018,percent,0.0299999993294477
+1170,India,Historical,EV sales share,EV,2019,percent,0.0240000002086162
+1171,India,Historical,EV sales share,EV,2020,percent,0.1299999952316284
+1172,India,Historical,EV sales share,EV,2021,percent,0.4000000059604645
+1173,India,Historical,EV sales share,EV,2022,percent,1.5
+1174,India,Historical,EV stock,BEV,2010,Vehicles,880.0
+1175,India,Historical,EV stock,BEV,2011,Vehicles,1300.0
+1176,India,Historical,EV stock,BEV,2012,Vehicles,2800.0
+1177,India,Historical,EV stock,BEV,2013,Vehicles,2900.0
+1178,India,Historical,EV stock,BEV,2014,Vehicles,3400.0
+1179,India,Historical,EV stock,BEV,2015,Vehicles,4400.0
+1180,India,Historical,EV stock,BEV,2016,Vehicles,4800.0
+1181,India,Historical,EV stock,BEV,2017,Vehicles,7000.0
+1182,India,Historical,EV stock,BEV,2018,Vehicles,7900.0
+1183,India,Historical,EV stock,BEV,2019,Vehicles,8600.0
+1184,India,Historical,EV stock,BEV,2020,Vehicles,12000.0
+1185,India,Historical,EV stock,BEV,2021,Vehicles,23000.0
+1186,India,Historical,EV stock,BEV,2022,Vehicles,72000.0
+1187,India,Historical,EV stock,PHEV,2019,Vehicles,7.0
+1188,India,Historical,EV stock,PHEV,2020,Vehicles,50.0
+1189,India,Historical,EV stock,PHEV,2021,Vehicles,100.0
+1190,India,Historical,EV stock,PHEV,2022,Vehicles,120.0
+1191,India,Historical,EV stock share,EV,2010,percent,0.0052000000141561
+1192,India,Historical,EV stock share,EV,2011,percent,0.0070000002160668
+1193,India,Historical,EV stock share,EV,2012,percent,0.0130000002682209
+1194,India,Historical,EV stock share,EV,2013,percent,0.0120000001043081
+1195,India,Historical,EV stock share,EV,2014,percent,0.0130000002682209
+1196,India,Historical,EV stock share,EV,2015,percent,0.0149999996647238
+1197,India,Historical,EV stock share,EV,2016,percent,0.0160000007599592
+1198,India,Historical,EV stock share,EV,2017,percent,0.0209999997168779
+1199,India,Historical,EV stock share,EV,2018,percent,0.0219999998807907
+1200,India,Historical,EV stock share,EV,2019,percent,0.0230000000447034
+1201,India,Historical,EV stock share,EV,2020,percent,0.0299999993294477
+1202,India,Historical,EV stock share,EV,2021,percent,0.0590000003576278
+1203,India,Historical,EV stock share,EV,2022,percent,0.1599999964237213
+1204,India,Historical,Electricity demand,EV,2019,GWh,0.0082000000402331
+1205,India,Historical,Electricity demand,EV,2020,GWh,0.0509999990463256
+1206,India,Historical,Electricity demand,EV,2021,GWh,0.1199999973177909
+1207,India,Historical,Electricity demand,EV,2022,GWh,210.0
+1208,India,Historical,Oil displacement Mbd,EV,2010,Milion barrels per day,1.59999999596e-05
+1209,India,Historical,Oil displacement Mbd,EV,2011,Milion barrels per day,3.09999995806e-05
+1210,India,Historical,Oil displacement Mbd,EV,2012,Milion barrels per day,3.19999999192e-05
+1211,India,Historical,Oil displacement Mbd,EV,2013,Milion barrels per day,3.70000016118e-05
+1212,India,Historical,Oil displacement Mbd,EV,2014,Milion barrels per day,4.99999987368e-05
+1213,India,Historical,Oil displacement Mbd,EV,2015,Milion barrels per day,5.90000017837e-05
+1214,India,Historical,Oil displacement Mbd,EV,2016,Milion barrels per day,6.80000011925e-05
+1215,India,Historical,Oil displacement Mbd,EV,2017,Milion barrels per day,8.19999986561e-05
+1216,India,Historical,Oil displacement Mbd,EV,2018,Milion barrels per day,9.30000023799e-05
+1217,India,Historical,Oil displacement Mbd,EV,2019,Milion barrels per day,9.99999974737e-05
+1218,India,Historical,Oil displacement Mbd,EV,2020,Milion barrels per day,0.0001300000003539
+1219,India,Historical,Oil displacement Mbd,EV,2021,Milion barrels per day,0.0003199999919161
+1220,India,Historical,Oil displacement Mbd,EV,2022,Milion barrels per day,0.0010000000474974
+1221,India,Historical,"Oil displacement, million lge",EV,2010,"Oil displacement, million lge",0.9100000262260436
+1222,India,Historical,"Oil displacement, million lge",EV,2011,"Oil displacement, million lge",1.7999999523162842
+1223,India,Historical,"Oil displacement, million lge",EV,2012,"Oil displacement, million lge",1.899999976158142
+1224,India,Historical,"Oil displacement, million lge",EV,2013,"Oil displacement, million lge",2.0999999046325684
+1225,India,Historical,"Oil displacement, million lge",EV,2014,"Oil displacement, million lge",2.900000095367432
+1226,India,Historical,"Oil displacement, million lge",EV,2015,"Oil displacement, million lge",3.400000095367432
+1227,India,Historical,"Oil displacement, million lge",EV,2016,"Oil displacement, million lge",3.900000095367432
+1228,India,Historical,"Oil displacement, million lge",EV,2017,"Oil displacement, million lge",4.699999809265137
+1229,India,Historical,"Oil displacement, million lge",EV,2018,"Oil displacement, million lge",5.300000190734863
+1230,India,Historical,"Oil displacement, million lge",EV,2019,"Oil displacement, million lge",5.800000190734863
+1231,India,Historical,"Oil displacement, million lge",EV,2020,"Oil displacement, million lge",7.699999809265137
+1232,India,Historical,"Oil displacement, million lge",EV,2021,"Oil displacement, million lge",18.0
+1233,India,Historical,"Oil displacement, million lge",EV,2022,"Oil displacement, million lge",57.0
+1234,Israel,Historical,EV sales,BEV,2011,Vehicles,3.0
+1235,Israel,Historical,EV sales,BEV,2012,Vehicles,600.0
+1236,Israel,Historical,EV sales,BEV,2013,Vehicles,460.0
+1237,Israel,Historical,EV sales,BEV,2014,Vehicles,6.0
+1238,Israel,Historical,EV sales,BEV,2015,Vehicles,3.0
+1239,Israel,Historical,EV sales,BEV,2016,Vehicles,5.0
+1240,Israel,Historical,EV sales,BEV,2017,Vehicles,130.0
+1241,Israel,Historical,EV sales,BEV,2018,Vehicles,130.0
+1242,Israel,Historical,EV sales,BEV,2019,Vehicles,850.0
+1243,Israel,Historical,EV sales,BEV,2020,Vehicles,1500.0
+1244,Israel,Historical,EV sales,BEV,2021,Vehicles,11000.0
+1245,Israel,Historical,EV sales,BEV,2022,Vehicles,27000.0
+1246,Israel,Historical,EV sales,PHEV,2012,Vehicles,1.0
+1247,Israel,Historical,EV sales,PHEV,2013,Vehicles,17.0
+1248,Israel,Historical,EV sales,PHEV,2014,Vehicles,52.0
+1249,Israel,Historical,EV sales,PHEV,2015,Vehicles,65.0
+1250,Israel,Historical,EV sales,PHEV,2016,Vehicles,63.0
+1251,Israel,Historical,EV sales,PHEV,2017,Vehicles,1500.0
+1252,Israel,Historical,EV sales,PHEV,2018,Vehicles,3600.0
+1253,Israel,Historical,EV sales,PHEV,2019,Vehicles,3900.0
+1254,Israel,Historical,EV sales,PHEV,2020,Vehicles,5400.0
+1255,Israel,Historical,EV sales,PHEV,2021,Vehicles,13000.0
+1256,Israel,Historical,EV sales,PHEV,2022,Vehicles,16000.0
+1257,Israel,Historical,EV sales share,EV,2011,percent,0.001300000003539
+1258,Israel,Historical,EV sales share,EV,2012,percent,0.270000010728836
+1259,Israel,Historical,EV sales share,EV,2013,percent,0.209999993443489
+1260,Israel,Historical,EV sales share,EV,2014,percent,0.0219999998807907
+1261,Israel,Historical,EV sales share,EV,2015,percent,0.0240000002086162
+1262,Israel,Historical,EV sales share,EV,2016,percent,0.0219999998807907
+1263,Israel,Historical,EV sales share,EV,2017,percent,0.5199999809265137
+1264,Israel,Historical,EV sales share,EV,2018,percent,1.2000000476837158
+1265,Israel,Historical,EV sales share,EV,2019,percent,1.600000023841858
+1266,Israel,Historical,EV sales share,EV,2020,percent,2.5999999046325684
+1267,Israel,Historical,EV sales share,EV,2021,percent,6.800000190734863
+1268,Israel,Historical,EV sales share,EV,2022,percent,13.0
+1269,Israel,Historical,EV stock,BEV,2010,Vehicles,6.0
+1270,Israel,Historical,EV stock,BEV,2011,Vehicles,85.0
+1271,Israel,Historical,EV stock,BEV,2012,Vehicles,610.0
+1272,Israel,Historical,EV stock,BEV,2013,Vehicles,1000.0
+1273,Israel,Historical,EV stock,BEV,2014,Vehicles,1200.0
+1274,Israel,Historical,EV stock,BEV,2015,Vehicles,1200.0
+1275,Israel,Historical,EV stock,BEV,2016,Vehicles,1200.0
+1276,Israel,Historical,EV stock,BEV,2017,Vehicles,1400.0
+1277,Israel,Historical,EV stock,BEV,2018,Vehicles,1500.0
+1278,Israel,Historical,EV stock,BEV,2019,Vehicles,2200.0
+1279,Israel,Historical,EV stock,BEV,2020,Vehicles,3800.0
+1280,Israel,Historical,EV stock,BEV,2021,Vehicles,15000.0
+1281,Israel,Historical,EV stock,BEV,2022,Vehicles,44000.0
+1282,Israel,Historical,EV stock,PHEV,2012,Vehicles,1.0
+1283,Israel,Historical,EV stock,PHEV,2013,Vehicles,18.0
+1284,Israel,Historical,EV stock,PHEV,2014,Vehicles,70.0
+1285,Israel,Historical,EV stock,PHEV,2015,Vehicles,140.0
+1286,Israel,Historical,EV stock,PHEV,2016,Vehicles,200.0
+1287,Israel,Historical,EV stock,PHEV,2017,Vehicles,1700.0
+1288,Israel,Historical,EV stock,PHEV,2018,Vehicles,5300.0
+1289,Israel,Historical,EV stock,PHEV,2019,Vehicles,9200.0
+1290,Israel,Historical,EV stock,PHEV,2020,Vehicles,15000.0
+1291,Israel,Historical,EV stock,PHEV,2021,Vehicles,28000.0
+1292,Israel,Historical,EV stock,PHEV,2022,Vehicles,44000.0
+1293,Israel,Historical,EV stock share,EV,2010,percent,0.0002600000007078
+1294,Israel,Historical,EV stock share,EV,2011,percent,0.0035000001080334
+1295,Israel,Historical,EV stock share,EV,2012,percent,0.0240000002086162
+1296,Israel,Historical,EV stock share,EV,2013,percent,0.0390000008046627
+1297,Israel,Historical,EV stock share,EV,2014,percent,0.0460000000894069
+1298,Israel,Historical,EV stock share,EV,2015,percent,0.0460000000894069
+1299,Israel,Historical,EV stock share,EV,2016,percent,0.0460000000894069
+1300,Israel,Historical,EV stock share,EV,2017,percent,0.0949999988079071
+1301,Israel,Historical,EV stock share,EV,2018,percent,0.2000000029802322
+1302,Israel,Historical,EV stock share,EV,2019,percent,0.3300000131130218
+1303,Israel,Historical,EV stock share,EV,2020,percent,0.5099999904632568
+1304,Israel,Historical,EV stock share,EV,2021,percent,1.100000023841858
+1305,Israel,Historical,EV stock share,EV,2022,percent,2.200000047683716
+1306,Italy,Historical,EV sales,BEV,2010,Vehicles,40.0
+1307,Italy,Historical,EV sales,BEV,2011,Vehicles,110.0
+1308,Italy,Historical,EV sales,BEV,2012,Vehicles,460.0
+1309,Italy,Historical,EV sales,BEV,2013,Vehicles,860.0
+1310,Italy,Historical,EV sales,BEV,2014,Vehicles,1000.0
+1311,Italy,Historical,EV sales,BEV,2015,Vehicles,1500.0
+1312,Italy,Historical,EV sales,BEV,2016,Vehicles,1400.0
+1313,Italy,Historical,EV sales,BEV,2017,Vehicles,2000.0
+1314,Italy,Historical,EV sales,BEV,2018,Vehicles,5000.0
+1315,Italy,Historical,EV sales,BEV,2019,Vehicles,11000.0
+1316,Italy,Historical,EV sales,BEV,2020,Vehicles,33000.0
+1317,Italy,Historical,EV sales,BEV,2021,Vehicles,67000.0
+1318,Italy,Historical,EV sales,BEV,2022,Vehicles,49000.0
+1319,Italy,Historical,EV sales,PHEV,2013,Vehicles,180.0
+1320,Italy,Historical,EV sales,PHEV,2014,Vehicles,340.0
+1321,Italy,Historical,EV sales,PHEV,2015,Vehicles,740.0
+1322,Italy,Historical,EV sales,PHEV,2016,Vehicles,1300.0
+1323,Italy,Historical,EV sales,PHEV,2017,Vehicles,2900.0
+1324,Italy,Historical,EV sales,PHEV,2018,Vehicles,4700.0
+1325,Italy,Historical,EV sales,PHEV,2019,Vehicles,6500.0
+1326,Italy,Historical,EV sales,PHEV,2020,Vehicles,27000.0
+1327,Italy,Historical,EV sales,PHEV,2021,Vehicles,71000.0
+1328,Italy,Historical,EV sales,PHEV,2022,Vehicles,65000.0
+1329,Italy,Historical,EV sales share,EV,2010,percent,0.0020000000949949
+1330,Italy,Historical,EV sales share,EV,2011,percent,0.0065000001341104
+1331,Italy,Historical,EV sales share,EV,2012,percent,0.032999999821186
+1332,Italy,Historical,EV sales share,EV,2013,percent,0.0799999982118606
+1333,Italy,Historical,EV sales share,EV,2014,percent,0.1000000014901161
+1334,Italy,Historical,EV sales share,EV,2015,percent,0.1400000005960464
+1335,Italy,Historical,EV sales share,EV,2016,percent,0.1500000059604644
+1336,Italy,Historical,EV sales share,EV,2017,percent,0.25
+1337,Italy,Historical,EV sales share,EV,2018,percent,0.5099999904632568
+1338,Italy,Historical,EV sales share,EV,2019,percent,0.8999999761581421
+1339,Italy,Historical,EV sales share,EV,2020,percent,4.300000190734863
+1340,Italy,Historical,EV sales share,EV,2021,percent,9.5
+1341,Italy,Historical,EV sales share,EV,2022,percent,9.0
+1342,Italy,Historical,EV stock,BEV,2010,Vehicles,650.0
+1343,Italy,Historical,EV stock,BEV,2011,Vehicles,760.0
+1344,Italy,Historical,EV stock,BEV,2012,Vehicles,1200.0
+1345,Italy,Historical,EV stock,BEV,2013,Vehicles,2000.0
+1346,Italy,Historical,EV stock,BEV,2014,Vehicles,3100.0
+1347,Italy,Historical,EV stock,BEV,2015,Vehicles,4400.0
+1348,Italy,Historical,EV stock,BEV,2016,Vehicles,5800.0
+1349,Italy,Historical,EV stock,BEV,2017,Vehicles,7800.0
+1350,Italy,Historical,EV stock,BEV,2018,Vehicles,13000.0
+1351,Italy,Historical,EV stock,BEV,2019,Vehicles,23000.0
+1352,Italy,Historical,EV stock,BEV,2020,Vehicles,55000.0
+1353,Italy,Historical,EV stock,BEV,2021,Vehicles,120000.0
+1354,Italy,Historical,EV stock,BEV,2022,Vehicles,170000.0
+1355,Italy,Historical,EV stock,PHEV,2013,Vehicles,180.0
+1356,Italy,Historical,EV stock,PHEV,2014,Vehicles,520.0
+1357,Italy,Historical,EV stock,PHEV,2015,Vehicles,1300.0
+1358,Italy,Historical,EV stock,PHEV,2016,Vehicles,2700.0
+1359,Italy,Historical,EV stock,PHEV,2017,Vehicles,5600.0
+1360,Italy,Historical,EV stock,PHEV,2018,Vehicles,10000.0
+1361,Italy,Historical,EV stock,PHEV,2019,Vehicles,17000.0
+1362,Italy,Historical,EV stock,PHEV,2020,Vehicles,44000.0
+1363,Italy,Historical,EV stock,PHEV,2021,Vehicles,110000.0
+1364,Italy,Historical,EV stock,PHEV,2022,Vehicles,180000.0
+1365,Italy,Historical,EV stock share,EV,2010,percent,0.00179999996908
+1366,Italy,Historical,EV stock share,EV,2011,percent,0.0020000000949949
+1367,Italy,Historical,EV stock share,EV,2012,percent,0.0032999999821186
+1368,Italy,Historical,EV stock share,EV,2013,percent,0.0059000002220273
+1369,Italy,Historical,EV stock share,EV,2014,percent,0.0096000004559755
+1370,Italy,Historical,EV stock share,EV,2015,percent,0.0149999996647238
+1371,Italy,Historical,EV stock share,EV,2016,percent,0.0230000000447034
+1372,Italy,Historical,EV stock share,EV,2017,percent,0.0350000001490116
+1373,Italy,Historical,EV stock share,EV,2018,percent,0.0590000003576278
+1374,Italy,Historical,EV stock share,EV,2019,percent,0.1000000014901161
+1375,Italy,Historical,EV stock share,EV,2020,percent,0.25
+1376,Italy,Historical,EV stock share,EV,2021,percent,0.6000000238418579
+1377,Italy,Historical,EV stock share,EV,2022,percent,0.9200000166893004
+1378,Japan,Historical,EV sales,BEV,2010,Vehicles,2400.0
+1379,Japan,Historical,EV sales,BEV,2011,Vehicles,13000.0
+1380,Japan,Historical,EV sales,BEV,2012,Vehicles,13000.0
+1381,Japan,Historical,EV sales,BEV,2013,Vehicles,15000.0
+1382,Japan,Historical,EV sales,BEV,2014,Vehicles,16000.0
+1383,Japan,Historical,EV sales,BEV,2015,Vehicles,10000.0
+1384,Japan,Historical,EV sales,BEV,2016,Vehicles,15000.0
+1385,Japan,Historical,EV sales,BEV,2017,Vehicles,18000.0
+1386,Japan,Historical,EV sales,BEV,2018,Vehicles,27000.0
+1387,Japan,Historical,EV sales,BEV,2019,Vehicles,21000.0
+1388,Japan,Historical,EV sales,BEV,2020,Vehicles,15000.0
+1389,Japan,Historical,EV sales,BEV,2021,Vehicles,22000.0
+1390,Japan,Historical,EV sales,BEV,2022,Vehicles,61000.0
+1391,Japan,Historical,EV sales,PHEV,2011,Vehicles,15.0
+1392,Japan,Historical,EV sales,PHEV,2012,Vehicles,11000.0
+1393,Japan,Historical,EV sales,PHEV,2013,Vehicles,14000.0
+1394,Japan,Historical,EV sales,PHEV,2014,Vehicles,16000.0
+1395,Japan,Historical,EV sales,PHEV,2015,Vehicles,14000.0
+1396,Japan,Historical,EV sales,PHEV,2016,Vehicles,9400.0
+1397,Japan,Historical,EV sales,PHEV,2017,Vehicles,36000.0
+1398,Japan,Historical,EV sales,PHEV,2018,Vehicles,23000.0
+1399,Japan,Historical,EV sales,PHEV,2019,Vehicles,18000.0
+1400,Japan,Historical,EV sales,PHEV,2020,Vehicles,15000.0
+1401,Japan,Historical,EV sales,PHEV,2021,Vehicles,23000.0
+1402,Japan,Historical,EV sales,PHEV,2022,Vehicles,41000.0
+1403,Japan,Historical,EV sales share,EV,2010,percent,0.0579999983310699
+1404,Japan,Historical,EV sales share,EV,2011,percent,0.3100000023841858
+1405,Japan,Historical,EV sales share,EV,2012,percent,0.5299999713897705
+1406,Japan,Historical,EV sales share,EV,2013,percent,0.6299999952316284
+1407,Japan,Historical,EV sales share,EV,2014,percent,0.6899999976158142
+1408,Japan,Historical,EV sales share,EV,2015,percent,0.5799999833106995
+1409,Japan,Historical,EV sales share,EV,2016,percent,0.6000000238418579
+1410,Japan,Historical,EV sales share,EV,2017,percent,1.2000000476837158
+1411,Japan,Historical,EV sales share,EV,2018,percent,1.100000023841858
+1412,Japan,Historical,EV sales share,EV,2019,percent,0.8999999761581421
+1413,Japan,Historical,EV sales share,EV,2020,percent,0.7699999809265137
+1414,Japan,Historical,EV sales share,EV,2021,percent,1.2000000476837158
+1415,Japan,Historical,EV sales share,EV,2022,percent,3.0
+1416,Japan,Historical,EV stock,BEV,2010,Vehicles,3500.0
+1417,Japan,Historical,EV stock,BEV,2011,Vehicles,16000.0
+1418,Japan,Historical,EV stock,BEV,2012,Vehicles,30000.0
+1419,Japan,Historical,EV stock,BEV,2013,Vehicles,44000.0
+1420,Japan,Historical,EV stock,BEV,2014,Vehicles,70000.0
+1421,Japan,Historical,EV stock,BEV,2015,Vehicles,79000.0
+1422,Japan,Historical,EV stock,BEV,2016,Vehicles,88000.0
+1423,Japan,Historical,EV stock,BEV,2017,Vehicles,100000.0
+1424,Japan,Historical,EV stock,BEV,2018,Vehicles,110000.0
+1425,Japan,Historical,EV stock,BEV,2019,Vehicles,120000.0
+1426,Japan,Historical,EV stock,BEV,2020,Vehicles,140000.0
+1427,Japan,Historical,EV stock,BEV,2021,Vehicles,160000.0
+1428,Japan,Historical,EV stock,BEV,2022,Vehicles,210000.0
+1429,Japan,Historical,EV stock,PHEV,2011,Vehicles,15.0
+1430,Japan,Historical,EV stock,PHEV,2012,Vehicles,11000.0
+1431,Japan,Historical,EV stock,PHEV,2013,Vehicles,25000.0
+1432,Japan,Historical,EV stock,PHEV,2014,Vehicles,41000.0
+1433,Japan,Historical,EV stock,PHEV,2015,Vehicles,55000.0
+1434,Japan,Historical,EV stock,PHEV,2016,Vehicles,65000.0
+1435,Japan,Historical,EV stock,PHEV,2017,Vehicles,100000.0
+1436,Japan,Historical,EV stock,PHEV,2018,Vehicles,120000.0
+1437,Japan,Historical,EV stock,PHEV,2019,Vehicles,140000.0
+1438,Japan,Historical,EV stock,PHEV,2020,Vehicles,160000.0
+1439,Japan,Historical,EV stock,PHEV,2021,Vehicles,180000.0
+1440,Japan,Historical,EV stock,PHEV,2022,Vehicles,200000.0
+1441,Japan,Historical,EV stock share,EV,2010,percent,0.0060999998822808
+1442,Japan,Historical,EV stock share,EV,2011,percent,0.0280000008642673
+1443,Japan,Historical,EV stock share,EV,2012,percent,0.0689999982714653
+1444,Japan,Historical,EV stock share,EV,2013,percent,0.1199999973177909
+1445,Japan,Historical,EV stock share,EV,2014,percent,0.1800000071525573
+1446,Japan,Historical,EV stock share,EV,2015,percent,0.2199999988079071
+1447,Japan,Historical,EV stock share,EV,2016,percent,0.25
+1448,Japan,Historical,EV stock share,EV,2017,percent,0.3100000023841858
+1449,Japan,Historical,EV stock share,EV,2018,percent,0.3600000143051147
+1450,Japan,Historical,EV stock share,EV,2019,percent,0.4099999964237213
+1451,Japan,Historical,EV stock share,EV,2020,percent,0.449999988079071
+1452,Japan,Historical,EV stock share,EV,2021,percent,0.5099999904632568
+1453,Japan,Historical,EV stock share,EV,2022,percent,0.6399999856948853
+1454,Korea,Historical,EV sales,BEV,2010,Vehicles,61.0
+1455,Korea,Historical,EV sales,BEV,2011,Vehicles,270.0
+1456,Korea,Historical,EV sales,BEV,2012,Vehicles,510.0
+1457,Korea,Historical,EV sales,BEV,2013,Vehicles,600.0
+1458,Korea,Historical,EV sales,BEV,2014,Vehicles,1300.0
+1459,Korea,Historical,EV sales,BEV,2015,Vehicles,3100.0
+1460,Korea,Historical,EV sales,BEV,2016,Vehicles,4700.0
+1461,Korea,Historical,EV sales,BEV,2017,Vehicles,14000.0
+1462,Korea,Historical,EV sales,BEV,2018,Vehicles,55000.0
+1463,Korea,Historical,EV sales,BEV,2019,Vehicles,33000.0
+1464,Korea,Historical,EV sales,BEV,2020,Vehicles,31000.0
+1465,Korea,Historical,EV sales,BEV,2021,Vehicles,72000.0
+1466,Korea,Historical,EV sales,BEV,2022,Vehicles,120000.0
+1467,Korea,Historical,EV sales,PHEV,2015,Vehicles,250.0
+1468,Korea,Historical,EV sales,PHEV,2016,Vehicles,330.0
+1469,Korea,Historical,EV sales,PHEV,2017,Vehicles,670.0
+1470,Korea,Historical,EV sales,PHEV,2018,Vehicles,4400.0
+1471,Korea,Historical,EV sales,PHEV,2019,Vehicles,2700.0
+1472,Korea,Historical,EV sales,PHEV,2020,Vehicles,8700.0
+1473,Korea,Historical,EV sales,PHEV,2021,Vehicles,19000.0
+1474,Korea,Historical,EV sales,PHEV,2022,Vehicles,11000.0
+1475,Korea,Historical,EV sales share,EV,2010,percent,0.0049999998882412
+1476,Korea,Historical,EV sales share,EV,2011,percent,0.0219999998807907
+1477,Korea,Historical,EV sales share,EV,2012,percent,0.0399999991059303
+1478,Korea,Historical,EV sales share,EV,2013,percent,0.0469999983906745
+1479,Korea,Historical,EV sales share,EV,2014,percent,0.0900000035762786
+1480,Korea,Historical,EV sales share,EV,2015,percent,0.209999993443489
+1481,Korea,Historical,EV sales share,EV,2016,percent,0.3199999928474426
+1482,Korea,Historical,EV sales share,EV,2017,percent,0.9200000166893004
+1483,Korea,Historical,EV sales share,EV,2018,percent,3.5999999046325684
+1484,Korea,Historical,EV sales share,EV,2019,percent,2.200000047683716
+1485,Korea,Historical,EV sales share,EV,2020,percent,2.5
+1486,Korea,Historical,EV sales share,EV,2021,percent,6.199999809265137
+1487,Korea,Historical,EV sales share,EV,2022,percent,9.399999618530272
+1488,Korea,Historical,EV stock,BEV,2010,Vehicles,61.0
+1489,Korea,Historical,EV stock,BEV,2011,Vehicles,340.0
+1490,Korea,Historical,EV stock,BEV,2012,Vehicles,850.0
+1491,Korea,Historical,EV stock,BEV,2013,Vehicles,1400.0
+1492,Korea,Historical,EV stock,BEV,2014,Vehicles,2700.0
+1493,Korea,Historical,EV stock,BEV,2015,Vehicles,5800.0
+1494,Korea,Historical,EV stock,BEV,2016,Vehicles,10000.0
+1495,Korea,Historical,EV stock,BEV,2017,Vehicles,24000.0
+1496,Korea,Historical,EV stock,BEV,2018,Vehicles,55000.0
+1497,Korea,Historical,EV stock,BEV,2019,Vehicles,89000.0
+1498,Korea,Historical,EV stock,BEV,2020,Vehicles,120000.0
+1499,Korea,Historical,EV stock,BEV,2021,Vehicles,190000.0
+1500,Korea,Historical,EV stock,BEV,2022,Vehicles,300000.0
+1501,Korea,Historical,EV stock,PHEV,2015,Vehicles,250.0
+1502,Korea,Historical,EV stock,PHEV,2016,Vehicles,580.0
+1503,Korea,Historical,EV stock,PHEV,2017,Vehicles,1300.0
+1504,Korea,Historical,EV stock,PHEV,2018,Vehicles,5600.0
+1505,Korea,Historical,EV stock,PHEV,2019,Vehicles,11000.0
+1506,Korea,Historical,EV stock,PHEV,2020,Vehicles,24000.0
+1507,Korea,Historical,EV stock,PHEV,2021,Vehicles,44000.0
+1508,Korea,Historical,EV stock,PHEV,2022,Vehicles,57000.0
+1509,Korea,Historical,EV stock share,EV,2010,percent,0.0003999999898951
+1510,Korea,Historical,EV stock share,EV,2011,percent,0.002199999988079
+1511,Korea,Historical,EV stock share,EV,2012,percent,0.0054999999701976
+1512,Korea,Historical,EV stock share,EV,2013,percent,0.0092000002041459
+1513,Korea,Historical,EV stock share,EV,2014,percent,0.0170000009238719
+1514,Korea,Historical,EV stock share,EV,2015,percent,0.0359999984502792
+1515,Korea,Historical,EV stock share,EV,2016,percent,0.0640000030398368
+1516,Korea,Historical,EV stock share,EV,2017,percent,0.1500000059604644
+1517,Korea,Historical,EV stock share,EV,2018,percent,0.3400000035762787
+1518,Korea,Historical,EV stock share,EV,2019,percent,0.5199999809265137
+1519,Korea,Historical,EV stock share,EV,2020,percent,0.7200000286102295
+1520,Korea,Historical,EV stock share,EV,2021,percent,1.2000000476837158
+1521,Korea,Historical,EV stock share,EV,2022,percent,1.7000000476837158
+1522,Mexico,Historical,EV sales,BEV,2011,Vehicles,3.0
+1523,Mexico,Historical,EV sales,BEV,2012,Vehicles,88.0
+1524,Mexico,Historical,EV sales,BEV,2013,Vehicles,12.0
+1525,Mexico,Historical,EV sales,BEV,2014,Vehicles,48.0
+1526,Mexico,Historical,EV sales,BEV,2015,Vehicles,92.0
+1527,Mexico,Historical,EV sales,BEV,2016,Vehicles,250.0
+1528,Mexico,Historical,EV sales,BEV,2017,Vehicles,230.0
+1529,Mexico,Historical,EV sales,BEV,2018,Vehicles,200.0
+1530,Mexico,Historical,EV sales,BEV,2019,Vehicles,290.0
+1531,Mexico,Historical,EV sales,BEV,2020,Vehicles,1800.0
+1532,Mexico,Historical,EV sales,BEV,2021,Vehicles,3000.0
+1533,Mexico,Historical,EV sales,BEV,2022,Vehicles,4400.0
+1534,Mexico,Historical,EV sales,PHEV,2015,Vehicles,7.0
+1535,Mexico,Historical,EV sales,PHEV,2016,Vehicles,520.0
+1536,Mexico,Historical,EV sales,PHEV,2017,Vehicles,970.0
+1537,Mexico,Historical,EV sales,PHEV,2018,Vehicles,1600.0
+1538,Mexico,Historical,EV sales,PHEV,2019,Vehicles,1400.0
+1539,Mexico,Historical,EV sales,PHEV,2020,Vehicles,2000.0
+1540,Mexico,Historical,EV sales,PHEV,2021,Vehicles,3500.0
+1541,Mexico,Historical,EV sales,PHEV,2022,Vehicles,4000.0
+1542,Mexico,Historical,EV sales share,EV,2011,percent,0.0002600000007078
+1543,Mexico,Historical,EV sales share,EV,2012,percent,0.0076000001281499
+1544,Mexico,Historical,EV sales share,EV,2013,percent,0.0008800000068731
+1545,Mexico,Historical,EV sales share,EV,2014,percent,0.0038000000640749
+1546,Mexico,Historical,EV sales share,EV,2015,percent,0.0074999998323619
+1547,Mexico,Historical,EV sales share,EV,2016,percent,0.0509999990463256
+1548,Mexico,Historical,EV sales share,EV,2017,percent,0.0829999968409538
+1549,Mexico,Historical,EV sales share,EV,2018,percent,0.1299999952316284
+1550,Mexico,Historical,EV sales share,EV,2019,percent,0.1299999952316284
+1551,Mexico,Historical,EV sales share,EV,2020,percent,0.4199999868869781
+1552,Mexico,Historical,EV sales share,EV,2021,percent,0.75
+1553,Mexico,Historical,EV sales share,EV,2022,percent,0.9100000262260436
+1554,Mexico,Historical,EV stock,BEV,2011,Vehicles,3.0
+1555,Mexico,Historical,EV stock,BEV,2012,Vehicles,91.0
+1556,Mexico,Historical,EV stock,BEV,2013,Vehicles,100.0
+1557,Mexico,Historical,EV stock,BEV,2014,Vehicles,150.0
+1558,Mexico,Historical,EV stock,BEV,2015,Vehicles,240.0
+1559,Mexico,Historical,EV stock,BEV,2016,Vehicles,500.0
+1560,Mexico,Historical,EV stock,BEV,2017,Vehicles,730.0
+1561,Mexico,Historical,EV stock,BEV,2018,Vehicles,930.0
+1562,Mexico,Historical,EV stock,BEV,2019,Vehicles,1200.0
+1563,Mexico,Historical,EV stock,BEV,2020,Vehicles,3100.0
+1564,Mexico,Historical,EV stock,BEV,2021,Vehicles,6100.0
+1565,Mexico,Historical,EV stock,BEV,2022,Vehicles,10000.0
+1566,Mexico,Historical,EV stock,PHEV,2015,Vehicles,7.0
+1567,Mexico,Historical,EV stock,PHEV,2016,Vehicles,530.0
+1568,Mexico,Historical,EV stock,PHEV,2017,Vehicles,1500.0
+1569,Mexico,Historical,EV stock,PHEV,2018,Vehicles,3100.0
+1570,Mexico,Historical,EV stock,PHEV,2019,Vehicles,4400.0
+1571,Mexico,Historical,EV stock,PHEV,2020,Vehicles,6400.0
+1572,Mexico,Historical,EV stock,PHEV,2021,Vehicles,9900.0
+1573,Mexico,Historical,EV stock,PHEV,2022,Vehicles,14000.0
+1574,Mexico,Historical,EV stock share,EV,2011,percent,1.70000002981e-05
+1575,Mexico,Historical,EV stock share,EV,2012,percent,0.0004900000058114
+1576,Mexico,Historical,EV stock share,EV,2013,percent,0.0005399999790824
+1577,Mexico,Historical,EV stock share,EV,2014,percent,0.0007600000244565
+1578,Mexico,Historical,EV stock share,EV,2015,percent,0.0012000000569969
+1579,Mexico,Historical,EV stock share,EV,2016,percent,0.0048000002279877
+1580,Mexico,Historical,EV stock share,EV,2017,percent,0.0099999997764825
+1581,Mexico,Historical,EV stock share,EV,2018,percent,0.0189999993890523
+1582,Mexico,Historical,EV stock share,EV,2019,percent,0.0270000007003545
+1583,Mexico,Historical,EV stock share,EV,2020,percent,0.0480000004172325
+1584,Mexico,Historical,EV stock share,EV,2021,percent,0.0820000022649765
+1585,Mexico,Historical,EV stock share,EV,2022,percent,0.1299999952316284
+1586,Netherlands,Historical,EV sales,BEV,2010,Vehicles,120.0
+1587,Netherlands,Historical,EV sales,BEV,2011,Vehicles,860.0
+1588,Netherlands,Historical,EV sales,BEV,2012,Vehicles,790.0
+1589,Netherlands,Historical,EV sales,BEV,2013,Vehicles,2600.0
+1590,Netherlands,Historical,EV sales,BEV,2014,Vehicles,2700.0
+1591,Netherlands,Historical,EV sales,BEV,2015,Vehicles,3800.0
+1592,Netherlands,Historical,EV sales,BEV,2016,Vehicles,4100.0
+1593,Netherlands,Historical,EV sales,BEV,2017,Vehicles,9200.0
+1594,Netherlands,Historical,EV sales,BEV,2018,Vehicles,24000.0
+1595,Netherlands,Historical,EV sales,BEV,2019,Vehicles,62000.0
+1596,Netherlands,Historical,EV sales,BEV,2020,Vehicles,73000.0
+1597,Netherlands,Historical,EV sales,BEV,2021,Vehicles,64000.0
+1598,Netherlands,Historical,EV sales,BEV,2022,Vehicles,73000.0
+1599,Netherlands,Historical,EV sales,PHEV,2011,Vehicles,17.0
+1600,Netherlands,Historical,EV sales,PHEV,2012,Vehicles,4300.0
+1601,Netherlands,Historical,EV sales,PHEV,2013,Vehicles,20000.0
+1602,Netherlands,Historical,EV sales,PHEV,2014,Vehicles,12000.0
+1603,Netherlands,Historical,EV sales,PHEV,2015,Vehicles,41000.0
+1604,Netherlands,Historical,EV sales,PHEV,2016,Vehicles,19000.0
+1605,Netherlands,Historical,EV sales,PHEV,2017,Vehicles,1100.0
+1606,Netherlands,Historical,EV sales,PHEV,2018,Vehicles,3500.0
+1607,Netherlands,Historical,EV sales,PHEV,2019,Vehicles,4900.0
+1608,Netherlands,Historical,EV sales,PHEV,2020,Vehicles,15000.0
+1609,Netherlands,Historical,EV sales,PHEV,2021,Vehicles,31000.0
+1610,Netherlands,Historical,EV sales,PHEV,2022,Vehicles,34000.0
+1611,Netherlands,Historical,EV sales share,EV,2010,percent,0.025000000372529
+1612,Netherlands,Historical,EV sales share,EV,2011,percent,0.1599999964237213
+1613,Netherlands,Historical,EV sales share,EV,2012,percent,1.0
+1614,Netherlands,Historical,EV sales share,EV,2013,percent,5.5
+1615,Netherlands,Historical,EV sales share,EV,2014,percent,3.900000095367432
+1616,Netherlands,Historical,EV sales share,EV,2015,percent,10.0
+1617,Netherlands,Historical,EV sales share,EV,2016,percent,6.0
+1618,Netherlands,Historical,EV sales share,EV,2017,percent,2.5
+1619,Netherlands,Historical,EV sales share,EV,2018,percent,6.300000190734863
+1620,Netherlands,Historical,EV sales share,EV,2019,percent,15.0
+1621,Netherlands,Historical,EV sales share,EV,2020,percent,25.0
+1622,Netherlands,Historical,EV sales share,EV,2021,percent,30.0
+1623,Netherlands,Historical,EV sales share,EV,2022,percent,35.0
+1624,Netherlands,Historical,EV stock,BEV,2010,Vehicles,270.0
+1625,Netherlands,Historical,EV stock,BEV,2011,Vehicles,1100.0
+1626,Netherlands,Historical,EV stock,BEV,2012,Vehicles,1900.0
+1627,Netherlands,Historical,EV stock,BEV,2013,Vehicles,4200.0
+1628,Netherlands,Historical,EV stock,BEV,2014,Vehicles,6800.0
+1629,Netherlands,Historical,EV stock,BEV,2015,Vehicles,9400.0
+1630,Netherlands,Historical,EV stock,BEV,2016,Vehicles,13000.0
+1631,Netherlands,Historical,EV stock,BEV,2017,Vehicles,21000.0
+1632,Netherlands,Historical,EV stock,BEV,2018,Vehicles,45000.0
+1633,Netherlands,Historical,EV stock,BEV,2019,Vehicles,110000.0
+1634,Netherlands,Historical,EV stock,BEV,2020,Vehicles,180000.0
+1635,Netherlands,Historical,EV stock,BEV,2021,Vehicles,250000.0
+1636,Netherlands,Historical,EV stock,BEV,2022,Vehicles,340000.0
+1637,Netherlands,Historical,EV stock,PHEV,2010,Vehicles,11.0
+1638,Netherlands,Historical,EV stock,PHEV,2011,Vehicles,26.0
+1639,Netherlands,Historical,EV stock,PHEV,2012,Vehicles,4400.0
+1640,Netherlands,Historical,EV stock,PHEV,2013,Vehicles,24000.0
+1641,Netherlands,Historical,EV stock,PHEV,2014,Vehicles,37000.0
+1642,Netherlands,Historical,EV stock,PHEV,2015,Vehicles,78000.0
+1643,Netherlands,Historical,EV stock,PHEV,2016,Vehicles,99000.0
+1644,Netherlands,Historical,EV stock,PHEV,2017,Vehicles,98000.0
+1645,Netherlands,Historical,EV stock,PHEV,2018,Vehicles,98000.0
+1646,Netherlands,Historical,EV stock,PHEV,2019,Vehicles,96000.0
+1647,Netherlands,Historical,EV stock,PHEV,2020,Vehicles,110000.0
+1648,Netherlands,Historical,EV stock,PHEV,2021,Vehicles,140000.0
+1649,Netherlands,Historical,EV stock,PHEV,2022,Vehicles,190000.0
+1650,Netherlands,Historical,EV stock share,EV,2010,percent,0.0035999999381601
+1651,Netherlands,Historical,EV stock share,EV,2011,percent,0.0149999996647238
+1652,Netherlands,Historical,EV stock share,EV,2012,percent,0.0790000036358833
+1653,Netherlands,Historical,EV stock share,EV,2013,percent,0.3600000143051147
+1654,Netherlands,Historical,EV stock share,EV,2014,percent,0.550000011920929
+1655,Netherlands,Historical,EV stock share,EV,2015,percent,1.100000023841858
+1656,Netherlands,Historical,EV stock share,EV,2016,percent,1.399999976158142
+1657,Netherlands,Historical,EV stock share,EV,2017,percent,1.399999976158142
+1658,Netherlands,Historical,EV stock share,EV,2018,percent,1.7000000476837158
+1659,Netherlands,Historical,EV stock share,EV,2019,percent,2.299999952316284
+1660,Netherlands,Historical,EV stock share,EV,2020,percent,3.299999952316284
+1661,Netherlands,Historical,EV stock share,EV,2021,percent,4.199999809265137
+1662,Netherlands,Historical,EV stock share,EV,2022,percent,5.599999904632568
+1663,New Zealand,Historical,EV sales,BEV,2010,Vehicles,10.0
+1664,New Zealand,Historical,EV sales,BEV,2011,Vehicles,13.0
+1665,New Zealand,Historical,EV sales,BEV,2012,Vehicles,22.0
+1666,New Zealand,Historical,EV sales,BEV,2013,Vehicles,30.0
+1667,New Zealand,Historical,EV sales,BEV,2014,Vehicles,110.0
+1668,New Zealand,Historical,EV sales,BEV,2015,Vehicles,300.0
+1669,New Zealand,Historical,EV sales,BEV,2016,Vehicles,1200.0
+1670,New Zealand,Historical,EV sales,BEV,2017,Vehicles,2900.0
+1671,New Zealand,Historical,EV sales,BEV,2018,Vehicles,4400.0
+1672,New Zealand,Historical,EV sales,BEV,2019,Vehicles,5300.0
+1673,New Zealand,Historical,EV sales,BEV,2020,Vehicles,3900.0
+1674,New Zealand,Historical,EV sales,BEV,2021,Vehicles,6800.0
+1675,New Zealand,Historical,EV sales,BEV,2022,Vehicles,19000.0
+1676,New Zealand,Historical,EV sales,PHEV,2011,Vehicles,2.0
+1677,New Zealand,Historical,EV sales,PHEV,2012,Vehicles,5.0
+1678,New Zealand,Historical,EV sales,PHEV,2013,Vehicles,6.0
+1679,New Zealand,Historical,EV sales,PHEV,2014,Vehicles,210.0
+1680,New Zealand,Historical,EV sales,PHEV,2015,Vehicles,200.0
+1681,New Zealand,Historical,EV sales,PHEV,2016,Vehicles,340.0
+1682,New Zealand,Historical,EV sales,PHEV,2017,Vehicles,540.0
+1683,New Zealand,Historical,EV sales,PHEV,2018,Vehicles,1200.0
+1684,New Zealand,Historical,EV sales,PHEV,2019,Vehicles,1600.0
+1685,New Zealand,Historical,EV sales,PHEV,2020,Vehicles,1500.0
+1686,New Zealand,Historical,EV sales,PHEV,2021,Vehicles,3500.0
+1687,New Zealand,Historical,EV sales,PHEV,2022,Vehicles,9200.0
+1688,New Zealand,Historical,EV sales share,EV,2010,percent,0.0063000000081956
+1689,New Zealand,Historical,EV sales share,EV,2011,percent,0.0098999999463558
+1690,New Zealand,Historical,EV sales share,EV,2012,percent,0.0170000009238719
+1691,New Zealand,Historical,EV sales share,EV,2013,percent,0.0189999993890523
+1692,New Zealand,Historical,EV sales share,EV,2014,percent,0.1400000005960464
+1693,New Zealand,Historical,EV sales share,EV,2015,percent,0.2000000029802322
+1694,New Zealand,Historical,EV sales share,EV,2016,percent,0.5699999928474426
+1695,New Zealand,Historical,EV sales share,EV,2017,percent,1.2000000476837158
+1696,New Zealand,Historical,EV sales share,EV,2018,percent,1.899999976158142
+1697,New Zealand,Historical,EV sales share,EV,2019,percent,2.799999952316284
+1698,New Zealand,Historical,EV sales share,EV,2020,percent,2.799999952316284
+1699,New Zealand,Historical,EV sales share,EV,2021,percent,3.5999999046325684
+1700,New Zealand,Historical,EV sales share,EV,2022,percent,13.0
+1701,New Zealand,Historical,EV stock,BEV,2010,Vehicles,14.0
+1702,New Zealand,Historical,EV stock,BEV,2011,Vehicles,27.0
+1703,New Zealand,Historical,EV stock,BEV,2012,Vehicles,49.0
+1704,New Zealand,Historical,EV stock,BEV,2013,Vehicles,79.0
+1705,New Zealand,Historical,EV stock,BEV,2014,Vehicles,190.0
+1706,New Zealand,Historical,EV stock,BEV,2015,Vehicles,490.0
+1707,New Zealand,Historical,EV stock,BEV,2016,Vehicles,1600.0
+1708,New Zealand,Historical,EV stock,BEV,2017,Vehicles,4600.0
+1709,New Zealand,Historical,EV stock,BEV,2018,Vehicles,8900.0
+1710,New Zealand,Historical,EV stock,BEV,2019,Vehicles,13000.0
+1711,New Zealand,Historical,EV stock,BEV,2020,Vehicles,17000.0
+1712,New Zealand,Historical,EV stock,BEV,2021,Vehicles,26000.0
+1713,New Zealand,Historical,EV stock,BEV,2022,Vehicles,46000.0
+1714,New Zealand,Historical,EV stock,PHEV,2011,Vehicles,2.0
+1715,New Zealand,Historical,EV stock,PHEV,2012,Vehicles,7.0
+1716,New Zealand,Historical,EV stock,PHEV,2013,Vehicles,13.0
+1717,New Zealand,Historical,EV stock,PHEV,2014,Vehicles,220.0
+1718,New Zealand,Historical,EV stock,PHEV,2015,Vehicles,420.0
+1719,New Zealand,Historical,EV stock,PHEV,2016,Vehicles,760.0
+1720,New Zealand,Historical,EV stock,PHEV,2017,Vehicles,1300.0
+1721,New Zealand,Historical,EV stock,PHEV,2018,Vehicles,2500.0
+1722,New Zealand,Historical,EV stock,PHEV,2019,Vehicles,4400.0
+1723,New Zealand,Historical,EV stock,PHEV,2020,Vehicles,5900.0
+1724,New Zealand,Historical,EV stock,PHEV,2021,Vehicles,9400.0
+1725,New Zealand,Historical,EV stock,PHEV,2022,Vehicles,19000.0
+1726,New Zealand,Historical,EV stock share,EV,2010,percent,0.000609999988228
+1727,New Zealand,Historical,EV stock share,EV,2011,percent,0.001300000003539
+1728,New Zealand,Historical,EV stock share,EV,2012,percent,0.002600000007078
+1729,New Zealand,Historical,EV stock share,EV,2013,percent,0.0043000001460313
+1730,New Zealand,Historical,EV stock share,EV,2014,percent,0.0189999993890523
+1731,New Zealand,Historical,EV stock share,EV,2015,percent,0.0419999994337558
+1732,New Zealand,Historical,EV stock share,EV,2016,percent,0.1099999994039535
+1733,New Zealand,Historical,EV stock share,EV,2017,percent,0.25
+1734,New Zealand,Historical,EV stock share,EV,2018,percent,0.4600000083446502
+1735,New Zealand,Historical,EV stock share,EV,2019,percent,0.5099999904632568
+1736,New Zealand,Historical,EV stock share,EV,2020,percent,0.6600000262260437
+1737,New Zealand,Historical,EV stock share,EV,2021,percent,1.0
+1738,New Zealand,Historical,EV stock share,EV,2022,percent,1.7999999523162842
+1739,Norway,Historical,EV sales,BEV,2010,Vehicles,360.0
+1740,Norway,Historical,EV sales,BEV,2011,Vehicles,2000.0
+1741,Norway,Historical,EV sales,BEV,2012,Vehicles,3900.0
+1742,Norway,Historical,EV sales,BEV,2013,Vehicles,7900.0
+1743,Norway,Historical,EV sales,BEV,2014,Vehicles,20000.0
+1744,Norway,Historical,EV sales,BEV,2015,Vehicles,26000.0
+1745,Norway,Historical,EV sales,BEV,2016,Vehicles,24000.0
+1746,Norway,Historical,EV sales,BEV,2017,Vehicles,33000.0
+1747,Norway,Historical,EV sales,BEV,2018,Vehicles,46000.0
+1748,Norway,Historical,EV sales,BEV,2019,Vehicles,60000.0
+1749,Norway,Historical,EV sales,BEV,2020,Vehicles,77000.0
+1750,Norway,Historical,EV sales,BEV,2021,Vehicles,110000.0
+1751,Norway,Historical,EV sales,BEV,2022,Vehicles,150000.0
+1752,Norway,Historical,EV sales,PHEV,2012,Vehicles,320.0
+1753,Norway,Historical,EV sales,PHEV,2013,Vehicles,340.0
+1754,Norway,Historical,EV sales,PHEV,2014,Vehicles,1700.0
+1755,Norway,Historical,EV sales,PHEV,2015,Vehicles,7900.0
+1756,Norway,Historical,EV sales,PHEV,2016,Vehicles,21000.0
+1757,Norway,Historical,EV sales,PHEV,2017,Vehicles,29000.0
+1758,Norway,Historical,EV sales,PHEV,2018,Vehicles,27000.0
+1759,Norway,Historical,EV sales,PHEV,2019,Vehicles,19000.0
+1760,Norway,Historical,EV sales,PHEV,2020,Vehicles,29000.0
+1761,Norway,Historical,EV sales,PHEV,2021,Vehicles,38000.0
+1762,Norway,Historical,EV sales,PHEV,2022,Vehicles,16000.0
+1763,Norway,Historical,EV sales share,EV,2010,percent,0.2800000011920929
+1764,Norway,Historical,EV sales share,EV,2011,percent,1.399999976158142
+1765,Norway,Historical,EV sales share,EV,2012,percent,3.0999999046325684
+1766,Norway,Historical,EV sales share,EV,2013,percent,5.800000190734863
+1767,Norway,Historical,EV sales share,EV,2014,percent,15.0
+1768,Norway,Historical,EV sales share,EV,2015,percent,22.0
+1769,Norway,Historical,EV sales share,EV,2016,percent,29.0
+1770,Norway,Historical,EV sales share,EV,2017,percent,39.0
+1771,Norway,Historical,EV sales share,EV,2018,percent,49.0
+1772,Norway,Historical,EV sales share,EV,2019,percent,56.0
+1773,Norway,Historical,EV sales share,EV,2020,percent,75.0
+1774,Norway,Historical,EV sales share,EV,2021,percent,86.0
+1775,Norway,Historical,EV sales share,EV,2022,percent,88.0
+1776,Norway,Historical,EV stock,BEV,2010,Vehicles,2700.0
+1777,Norway,Historical,EV stock,BEV,2011,Vehicles,3900.0
+1778,Norway,Historical,EV stock,BEV,2012,Vehicles,8000.0
+1779,Norway,Historical,EV stock,BEV,2013,Vehicles,15000.0
+1780,Norway,Historical,EV stock,BEV,2014,Vehicles,33000.0
+1781,Norway,Historical,EV stock,BEV,2015,Vehicles,59000.0
+1782,Norway,Historical,EV stock,BEV,2016,Vehicles,83000.0
+1783,Norway,Historical,EV stock,BEV,2017,Vehicles,120000.0
+1784,Norway,Historical,EV stock,BEV,2018,Vehicles,160000.0
+1785,Norway,Historical,EV stock,BEV,2019,Vehicles,220000.0
+1786,Norway,Historical,EV stock,BEV,2020,Vehicles,340000.0
+1787,Norway,Historical,EV stock,BEV,2021,Vehicles,450000.0
+1788,Norway,Historical,EV stock,BEV,2022,Vehicles,590000.0
+1789,Norway,Historical,EV stock,PHEV,2010,Vehicles,2.0
+1790,Norway,Historical,EV stock,PHEV,2011,Vehicles,3.0
+1791,Norway,Historical,EV stock,PHEV,2012,Vehicles,340.0
+1792,Norway,Historical,EV stock,PHEV,2013,Vehicles,660.0
+1793,Norway,Historical,EV stock,PHEV,2014,Vehicles,2300.0
+1794,Norway,Historical,EV stock,PHEV,2015,Vehicles,10000.0
+1795,Norway,Historical,EV stock,PHEV,2016,Vehicles,31000.0
+1796,Norway,Historical,EV stock,PHEV,2017,Vehicles,60000.0
+1797,Norway,Historical,EV stock,PHEV,2018,Vehicles,87000.0
+1798,Norway,Historical,EV stock,PHEV,2019,Vehicles,110000.0
+1799,Norway,Historical,EV stock,PHEV,2020,Vehicles,150000.0
+1800,Norway,Historical,EV stock,PHEV,2021,Vehicles,180000.0
+1801,Norway,Historical,EV stock,PHEV,2022,Vehicles,200000.0
+1802,Norway,Historical,EV stock share,EV,2010,percent,0.1199999973177909
+1803,Norway,Historical,EV stock share,EV,2011,percent,0.1599999964237213
+1804,Norway,Historical,EV stock share,EV,2012,percent,0.3400000035762787
+1805,Norway,Historical,EV stock share,EV,2013,percent,0.6299999952316284
+1806,Norway,Historical,EV stock share,EV,2014,percent,1.399999976158142
+1807,Norway,Historical,EV stock share,EV,2015,percent,2.5999999046325684
+1808,Norway,Historical,EV stock share,EV,2016,percent,4.300000190734863
+1809,Norway,Historical,EV stock share,EV,2017,percent,6.5
+1810,Norway,Historical,EV stock share,EV,2018,percent,9.0
+1811,Norway,Historical,EV stock share,EV,2019,percent,12.0
+1812,Norway,Historical,EV stock share,EV,2020,percent,17.0
+1813,Norway,Historical,EV stock share,EV,2021,percent,22.0
+1814,Norway,Historical,EV stock share,EV,2022,percent,27.0
+1815,Other Europe,Historical,EV sales,BEV,2010,Vehicles,21.0
+1816,Other Europe,Historical,EV sales,BEV,2011,Vehicles,180.0
+1817,Other Europe,Historical,EV sales,BEV,2012,Vehicles,750.0
+1818,Other Europe,Historical,EV sales,BEV,2013,Vehicles,220.0
+1819,Other Europe,Historical,EV sales,BEV,2014,Vehicles,1200.0
+1820,Other Europe,Historical,EV sales,BEV,2015,Vehicles,1300.0
+1821,Other Europe,Historical,EV sales,BEV,2016,Vehicles,1500.0
+1822,Other Europe,Historical,EV sales,BEV,2017,Vehicles,3200.0
+1823,Other Europe,Historical,EV sales,BEV,2018,Vehicles,6300.0
+1824,Other Europe,Historical,EV sales,BEV,2019,Vehicles,11000.0
+1825,Other Europe,Historical,EV sales,BEV,2020,Vehicles,21000.0
+1826,Other Europe,Historical,EV sales,BEV,2021,Vehicles,35000.0
+1827,Other Europe,Historical,EV sales,BEV,2022,Vehicles,53000.0
+1828,Other Europe,Historical,EV sales,PHEV,2012,Vehicles,4.0
+1829,Other Europe,Historical,EV sales,PHEV,2014,Vehicles,2.0
+1830,Other Europe,Historical,EV sales,PHEV,2015,Vehicles,140.0
+1831,Other Europe,Historical,EV sales,PHEV,2016,Vehicles,540.0
+1832,Other Europe,Historical,EV sales,PHEV,2017,Vehicles,1800.0
+1833,Other Europe,Historical,EV sales,PHEV,2018,Vehicles,2300.0
+1834,Other Europe,Historical,EV sales,PHEV,2019,Vehicles,5000.0
+1835,Other Europe,Historical,EV sales,PHEV,2020,Vehicles,13000.0
+1836,Other Europe,Historical,EV sales,PHEV,2021,Vehicles,25000.0
+1837,Other Europe,Historical,EV sales,PHEV,2022,Vehicles,25000.0
+1838,Other Europe,Historical,EV sales share,EV,2010,percent,0.0020999999251216
+1839,Other Europe,Historical,EV sales share,EV,2011,percent,0.0179999992251396
+1840,Other Europe,Historical,EV sales share,EV,2012,percent,0.0740000009536743
+1841,Other Europe,Historical,EV sales share,EV,2013,percent,0.0230000000447034
+1842,Other Europe,Historical,EV sales share,EV,2014,percent,0.1299999952316284
+1843,Other Europe,Historical,EV sales share,EV,2015,percent,0.1500000059604644
+1844,Other Europe,Historical,EV sales share,EV,2016,percent,0.1800000071525573
+1845,Other Europe,Historical,EV sales share,EV,2017,percent,0.4099999964237213
+1846,Other Europe,Historical,EV sales share,EV,2018,percent,0.6700000166893005
+1847,Other Europe,Historical,EV sales share,EV,2019,percent,1.100000023841858
+1848,Other Europe,Historical,EV sales share,EV,2020,percent,3.0
+1849,Other Europe,Historical,EV sales share,EV,2021,percent,5.199999809265137
+1850,Other Europe,Historical,EV sales share,EV,2022,percent,7.0
+1851,Other Europe,Historical,EV stock,BEV,2010,Vehicles,110.0
+1852,Other Europe,Historical,EV stock,BEV,2011,Vehicles,370.0
+1853,Other Europe,Historical,EV stock,BEV,2012,Vehicles,1500.0
+1854,Other Europe,Historical,EV stock,BEV,2013,Vehicles,2000.0
+1855,Other Europe,Historical,EV stock,BEV,2014,Vehicles,4000.0
+1856,Other Europe,Historical,EV stock,BEV,2015,Vehicles,5600.0
+1857,Other Europe,Historical,EV stock,BEV,2016,Vehicles,7600.0
+1858,Other Europe,Historical,EV stock,BEV,2017,Vehicles,11000.0
+1859,Other Europe,Historical,EV stock,BEV,2018,Vehicles,18000.0
+1860,Other Europe,Historical,EV stock,BEV,2019,Vehicles,30000.0
+1861,Other Europe,Historical,EV stock,BEV,2020,Vehicles,50000.0
+1862,Other Europe,Historical,EV stock,BEV,2021,Vehicles,85000.0
+1863,Other Europe,Historical,EV stock,BEV,2022,Vehicles,160000.0
+1864,Other Europe,Historical,EV stock,PHEV,2011,Vehicles,17.0
+1865,Other Europe,Historical,EV stock,PHEV,2012,Vehicles,98.0
+1866,Other Europe,Historical,EV stock,PHEV,2013,Vehicles,150.0
+1867,Other Europe,Historical,EV stock,PHEV,2014,Vehicles,530.0
+1868,Other Europe,Historical,EV stock,PHEV,2015,Vehicles,1200.0
+1869,Other Europe,Historical,EV stock,PHEV,2016,Vehicles,2200.0
+1870,Other Europe,Historical,EV stock,PHEV,2017,Vehicles,4600.0
+1871,Other Europe,Historical,EV stock,PHEV,2018,Vehicles,8500.0
+1872,Other Europe,Historical,EV stock,PHEV,2019,Vehicles,14000.0
+1873,Other Europe,Historical,EV stock,PHEV,2020,Vehicles,26000.0
+1874,Other Europe,Historical,EV stock,PHEV,2021,Vehicles,51000.0
+1875,Other Europe,Historical,EV stock,PHEV,2022,Vehicles,87000.0
+1876,Other Europe,Historical,EV stock share,EV,2010,percent,0.0002800000074785
+1877,Other Europe,Historical,EV stock share,EV,2011,percent,0.0009699999936856
+1878,Other Europe,Historical,EV stock share,EV,2012,percent,0.0038999998942017
+1879,Other Europe,Historical,EV stock share,EV,2013,percent,0.0052999998442828
+1880,Other Europe,Historical,EV stock share,EV,2014,percent,0.0109999999403953
+1881,Other Europe,Historical,EV stock share,EV,2015,percent,0.0160000007599592
+1882,Other Europe,Historical,EV stock share,EV,2016,percent,0.0219999998807907
+1883,Other Europe,Historical,EV stock share,EV,2017,percent,0.0340000018477439
+1884,Other Europe,Historical,EV stock share,EV,2018,percent,0.0560000017285347
+1885,Other Europe,Historical,EV stock share,EV,2019,percent,0.0900000035762786
+1886,Other Europe,Historical,EV stock share,EV,2020,percent,0.1500000059604644
+1887,Other Europe,Historical,EV stock share,EV,2021,percent,0.2599999904632568
+1888,Other Europe,Historical,EV stock share,EV,2022,percent,0.4799999892711639
+1889,Poland,Historical,EV sales,BEV,2010,Vehicles,15.0
+1890,Poland,Historical,EV sales,BEV,2011,Vehicles,43.0
+1891,Poland,Historical,EV sales,BEV,2012,Vehicles,44.0
+1892,Poland,Historical,EV sales,BEV,2013,Vehicles,31.0
+1893,Poland,Historical,EV sales,BEV,2014,Vehicles,140.0
+1894,Poland,Historical,EV sales,BEV,2015,Vehicles,70.0
+1895,Poland,Historical,EV sales,BEV,2016,Vehicles,110.0
+1896,Poland,Historical,EV sales,BEV,2017,Vehicles,440.0
+1897,Poland,Historical,EV sales,BEV,2018,Vehicles,620.0
+1898,Poland,Historical,EV sales,BEV,2019,Vehicles,1500.0
+1899,Poland,Historical,EV sales,BEV,2020,Vehicles,3700.0
+1900,Poland,Historical,EV sales,BEV,2021,Vehicles,7200.0
+1901,Poland,Historical,EV sales,BEV,2022,Vehicles,14000.0
+1902,Poland,Historical,EV sales,PHEV,2010,Vehicles,1.0
+1903,Poland,Historical,EV sales,PHEV,2012,Vehicles,4.0
+1904,Poland,Historical,EV sales,PHEV,2013,Vehicles,6.0
+1905,Poland,Historical,EV sales,PHEV,2014,Vehicles,61.0
+1906,Poland,Historical,EV sales,PHEV,2015,Vehicles,150.0
+1907,Poland,Historical,EV sales,PHEV,2016,Vehicles,400.0
+1908,Poland,Historical,EV sales,PHEV,2017,Vehicles,640.0
+1909,Poland,Historical,EV sales,PHEV,2018,Vehicles,760.0
+1910,Poland,Historical,EV sales,PHEV,2019,Vehicles,1200.0
+1911,Poland,Historical,EV sales,PHEV,2020,Vehicles,4500.0
+1912,Poland,Historical,EV sales,PHEV,2021,Vehicles,9100.0
+1913,Poland,Historical,EV sales,PHEV,2022,Vehicles,11000.0
+1914,Poland,Historical,EV sales share,EV,2010,percent,0.0048000002279877
+1915,Poland,Historical,EV sales share,EV,2011,percent,0.0140000004321336
+1916,Poland,Historical,EV sales share,EV,2012,percent,0.0179999992251396
+1917,Poland,Historical,EV sales share,EV,2013,percent,0.0130000002682209
+1918,Poland,Historical,EV sales share,EV,2014,percent,0.061999998986721
+1919,Poland,Historical,EV sales share,EV,2015,percent,0.061999998986721
+1920,Poland,Historical,EV sales share,EV,2016,percent,0.1199999973177909
+1921,Poland,Historical,EV sales share,EV,2017,percent,0.2199999988079071
+1922,Poland,Historical,EV sales share,EV,2018,percent,0.2599999904632568
+1923,Poland,Historical,EV sales share,EV,2019,percent,0.4900000095367431
+1924,Poland,Historical,EV sales share,EV,2020,percent,1.899999976158142
+1925,Poland,Historical,EV sales share,EV,2021,percent,3.700000047683716
+1926,Poland,Historical,EV sales share,EV,2022,percent,6.0
+1927,Poland,Historical,EV stock,BEV,2015,Vehicles,2500.0
+1928,Poland,Historical,EV stock,BEV,2016,Vehicles,2600.0
+1929,Poland,Historical,EV stock,BEV,2017,Vehicles,3100.0
+1930,Poland,Historical,EV stock,BEV,2018,Vehicles,3700.0
+1931,Poland,Historical,EV stock,BEV,2019,Vehicles,5200.0
+1932,Poland,Historical,EV stock,BEV,2020,Vehicles,8800.0
+1933,Poland,Historical,EV stock,BEV,2021,Vehicles,19000.0
+1934,Poland,Historical,EV stock,BEV,2022,Vehicles,31000.0
+1935,Poland,Historical,EV stock,PHEV,2019,Vehicles,3800.0
+1936,Poland,Historical,EV stock,PHEV,2020,Vehicles,8300.0
+1937,Poland,Historical,EV stock,PHEV,2021,Vehicles,19000.0
+1938,Poland,Historical,EV stock,PHEV,2022,Vehicles,30000.0
+1939,Poland,Historical,EV stock share,EV,2015,percent,0.0120000001043081
+1940,Poland,Historical,EV stock share,EV,2016,percent,0.0170000009238719
+1941,Poland,Historical,EV stock share,EV,2017,percent,0.0179999992251396
+1942,Poland,Historical,EV stock share,EV,2018,percent,0.0209999997168779
+1943,Poland,Historical,EV stock share,EV,2019,percent,0.0489999987185001
+1944,Poland,Historical,EV stock share,EV,2020,percent,0.0710000023245811
+1945,Poland,Historical,EV stock share,EV,2021,percent,0.1800000071525573
+1946,Poland,Historical,EV stock share,EV,2022,percent,0.3199999928474426
+1947,Portugal,Historical,EV sales,BEV,2010,Vehicles,720.0
+1948,Portugal,Historical,EV sales,BEV,2011,Vehicles,190.0
+1949,Portugal,Historical,EV sales,BEV,2012,Vehicles,52.0
+1950,Portugal,Historical,EV sales,BEV,2013,Vehicles,170.0
+1951,Portugal,Historical,EV sales,BEV,2014,Vehicles,190.0
+1952,Portugal,Historical,EV sales,BEV,2015,Vehicles,640.0
+1953,Portugal,Historical,EV sales,BEV,2016,Vehicles,810.0
+1954,Portugal,Historical,EV sales,BEV,2017,Vehicles,1900.0
+1955,Portugal,Historical,EV sales,BEV,2018,Vehicles,4100.0
+1956,Portugal,Historical,EV sales,BEV,2019,Vehicles,6900.0
+1957,Portugal,Historical,EV sales,BEV,2020,Vehicles,7800.0
+1958,Portugal,Historical,EV sales,BEV,2021,Vehicles,13000.0
+1959,Portugal,Historical,EV sales,BEV,2022,Vehicles,18000.0
+1960,Portugal,Historical,EV sales,PHEV,2013,Vehicles,37.0
+1961,Portugal,Historical,EV sales,PHEV,2014,Vehicles,9.0
+1962,Portugal,Historical,EV sales,PHEV,2015,Vehicles,480.0
+1963,Portugal,Historical,EV sales,PHEV,2016,Vehicles,1000.0
+1964,Portugal,Historical,EV sales,PHEV,2017,Vehicles,2500.0
+1965,Portugal,Historical,EV sales,PHEV,2018,Vehicles,3900.0
+1966,Portugal,Historical,EV sales,PHEV,2019,Vehicles,5800.0
+1967,Portugal,Historical,EV sales,PHEV,2020,Vehicles,12000.0
+1968,Portugal,Historical,EV sales,PHEV,2021,Vehicles,16000.0
+1969,Portugal,Historical,EV sales,PHEV,2022,Vehicles,16000.0
+1970,Portugal,Historical,EV sales share,EV,2010,percent,0.3199999928474426
+1971,Portugal,Historical,EV sales share,EV,2011,percent,0.1199999973177909
+1972,Portugal,Historical,EV sales share,EV,2012,percent,0.0549999997019767
+1973,Portugal,Historical,EV sales share,EV,2013,percent,0.1899999976158142
+1974,Portugal,Historical,EV sales share,EV,2014,percent,0.1400000005960464
+1975,Portugal,Historical,EV sales share,EV,2015,percent,0.5699999928474426
+1976,Portugal,Historical,EV sales share,EV,2016,percent,0.8100000023841858
+1977,Portugal,Historical,EV sales share,EV,2017,percent,1.899999976158142
+1978,Portugal,Historical,EV sales share,EV,2018,percent,3.5
+1979,Portugal,Historical,EV sales share,EV,2019,percent,5.699999809265137
+1980,Portugal,Historical,EV sales share,EV,2020,percent,14.0
+1981,Portugal,Historical,EV sales share,EV,2021,percent,20.0
+1982,Portugal,Historical,EV sales share,EV,2022,percent,22.0
+1983,Portugal,Historical,EV stock,BEV,2010,Vehicles,720.0
+1984,Portugal,Historical,EV stock,BEV,2011,Vehicles,910.0
+1985,Portugal,Historical,EV stock,BEV,2012,Vehicles,960.0
+1986,Portugal,Historical,EV stock,BEV,2013,Vehicles,1100.0
+1987,Portugal,Historical,EV stock,BEV,2014,Vehicles,1300.0
+1988,Portugal,Historical,EV stock,BEV,2015,Vehicles,2000.0
+1989,Portugal,Historical,EV stock,BEV,2016,Vehicles,2800.0
+1990,Portugal,Historical,EV stock,BEV,2017,Vehicles,4700.0
+1991,Portugal,Historical,EV stock,BEV,2018,Vehicles,8700.0
+1992,Portugal,Historical,EV stock,BEV,2019,Vehicles,16000.0
+1993,Portugal,Historical,EV stock,BEV,2020,Vehicles,23000.0
+1994,Portugal,Historical,EV stock,BEV,2021,Vehicles,37000.0
+1995,Portugal,Historical,EV stock,BEV,2022,Vehicles,54000.0
+1996,Portugal,Historical,EV stock,PHEV,2013,Vehicles,37.0
+1997,Portugal,Historical,EV stock,PHEV,2014,Vehicles,46.0
+1998,Portugal,Historical,EV stock,PHEV,2015,Vehicles,530.0
+1999,Portugal,Historical,EV stock,PHEV,2016,Vehicles,1600.0
+2000,Portugal,Historical,EV stock,PHEV,2017,Vehicles,4100.0
+2001,Portugal,Historical,EV stock,PHEV,2018,Vehicles,8000.0
+2002,Portugal,Historical,EV stock,PHEV,2019,Vehicles,14000.0
+2003,Portugal,Historical,EV stock,PHEV,2020,Vehicles,26000.0
+2004,Portugal,Historical,EV stock,PHEV,2021,Vehicles,41000.0
+2005,Portugal,Historical,EV stock,PHEV,2022,Vehicles,57000.0
+2006,Portugal,Historical,EV stock share,EV,2010,percent,0.0149999996647238
+2007,Portugal,Historical,EV stock share,EV,2011,percent,0.0189999993890523
+2008,Portugal,Historical,EV stock share,EV,2012,percent,0.0230000000447034
+2009,Portugal,Historical,EV stock share,EV,2013,percent,0.0270000007003545
+2010,Portugal,Historical,EV stock share,EV,2014,percent,0.0289999991655349
+2011,Portugal,Historical,EV stock share,EV,2015,percent,0.0529999993741512
+2012,Portugal,Historical,EV stock share,EV,2016,percent,0.0900000035762786
+2013,Portugal,Historical,EV stock share,EV,2017,percent,0.1700000017881393
+2014,Portugal,Historical,EV stock share,EV,2018,percent,0.3199999928474426
+2015,Portugal,Historical,EV stock share,EV,2019,percent,0.5400000214576721
+2016,Portugal,Historical,EV stock share,EV,2020,percent,0.8799999952316284
+2017,Portugal,Historical,EV stock share,EV,2021,percent,1.399999976158142
+2018,Portugal,Historical,EV stock share,EV,2022,percent,2.0
+2019,Rest of the world,Historical,EV sales,BEV,2011,Vehicles,42.0
+2020,Rest of the world,Historical,EV sales,BEV,2012,Vehicles,280.0
+2021,Rest of the world,Historical,EV sales,BEV,2013,Vehicles,140.0
+2022,Rest of the world,Historical,EV sales,BEV,2014,Vehicles,120.0
+2023,Rest of the world,Historical,EV sales,BEV,2015,Vehicles,3300.0
+2024,Rest of the world,Historical,EV sales,BEV,2016,Vehicles,890.0
+2025,Rest of the world,Historical,EV sales,BEV,2017,Vehicles,1700.0
+2026,Rest of the world,Historical,EV sales,BEV,2018,Vehicles,1600.0
+2027,Rest of the world,Historical,EV sales,BEV,2019,Vehicles,4000.0
+2028,Rest of the world,Historical,EV sales,BEV,2020,Vehicles,5700.0
+2029,Rest of the world,Historical,EV sales,BEV,2021,Vehicles,14000.0
+2030,Rest of the world,Historical,EV sales,BEV,2022,Vehicles,25000.0
+2031,Rest of the world,Historical,EV sales,PHEV,2012,Vehicles,68.0
+2032,Rest of the world,Historical,EV sales,PHEV,2013,Vehicles,21.0
+2033,Rest of the world,Historical,EV sales,PHEV,2014,Vehicles,400.0
+2034,Rest of the world,Historical,EV sales,PHEV,2015,Vehicles,900.0
+2035,Rest of the world,Historical,EV sales,PHEV,2016,Vehicles,700.0
+2036,Rest of the world,Historical,EV sales,PHEV,2017,Vehicles,550.0
+2037,Rest of the world,Historical,EV sales,PHEV,2018,Vehicles,2200.0
+2038,Rest of the world,Historical,EV sales,PHEV,2019,Vehicles,2400.0
+2039,Rest of the world,Historical,EV sales,PHEV,2020,Vehicles,2800.0
+2040,Rest of the world,Historical,EV sales,PHEV,2021,Vehicles,5400.0
+2041,Rest of the world,Historical,EV sales,PHEV,2022,Vehicles,5300.0
+2042,Rest of the world,Historical,EV sales share,EV,2011,percent,0.0003300000098533
+2043,Rest of the world,Historical,EV sales share,EV,2012,percent,0.0027000000700354
+2044,Rest of the world,Historical,EV sales share,EV,2013,percent,0.0012000000569969
+2045,Rest of the world,Historical,EV sales share,EV,2014,percent,0.0041999998502433
+2046,Rest of the world,Historical,EV sales share,EV,2015,percent,0.0359999984502792
+2047,Rest of the world,Historical,EV sales share,EV,2016,percent,0.0130000002682209
+2048,Rest of the world,Historical,EV sales share,EV,2017,percent,0.0209999997168779
+2049,Rest of the world,Historical,EV sales share,EV,2018,percent,0.0350000001490116
+2050,Rest of the world,Historical,EV sales share,EV,2019,percent,0.0649999976158142
+2051,Rest of the world,Historical,EV sales share,EV,2020,percent,0.0839999988675117
+2052,Rest of the world,Historical,EV sales share,EV,2021,percent,0.1800000071525573
+2053,Rest of the world,Historical,EV sales share,EV,2022,percent,0.2800000011920929
+2054,Rest of the world,Historical,EV stock,BEV,2011,Vehicles,42.0
+2055,Rest of the world,Historical,EV stock,BEV,2012,Vehicles,320.0
+2056,Rest of the world,Historical,EV stock,BEV,2013,Vehicles,460.0
+2057,Rest of the world,Historical,EV stock,BEV,2014,Vehicles,570.0
+2058,Rest of the world,Historical,EV stock,BEV,2015,Vehicles,3900.0
+2059,Rest of the world,Historical,EV stock,BEV,2016,Vehicles,4800.0
+2060,Rest of the world,Historical,EV stock,BEV,2017,Vehicles,6500.0
+2061,Rest of the world,Historical,EV stock,BEV,2018,Vehicles,8100.0
+2062,Rest of the world,Historical,EV stock,BEV,2019,Vehicles,12000.0
+2063,Rest of the world,Historical,EV stock,BEV,2020,Vehicles,18000.0
+2064,Rest of the world,Historical,EV stock,BEV,2021,Vehicles,32000.0
+2065,Rest of the world,Historical,EV stock,BEV,2022,Vehicles,57000.0
+2066,Rest of the world,Historical,EV stock,PHEV,2012,Vehicles,68.0
+2067,Rest of the world,Historical,EV stock,PHEV,2013,Vehicles,89.0
+2068,Rest of the world,Historical,EV stock,PHEV,2014,Vehicles,490.0
+2069,Rest of the world,Historical,EV stock,PHEV,2015,Vehicles,1400.0
+2070,Rest of the world,Historical,EV stock,PHEV,2016,Vehicles,2100.0
+2071,Rest of the world,Historical,EV stock,PHEV,2017,Vehicles,2700.0
+2072,Rest of the world,Historical,EV stock,PHEV,2018,Vehicles,4900.0
+2073,Rest of the world,Historical,EV stock,PHEV,2019,Vehicles,7200.0
+2074,Rest of the world,Historical,EV stock,PHEV,2020,Vehicles,10000.0
+2075,Rest of the world,Historical,EV stock,PHEV,2021,Vehicles,15000.0
+2076,Rest of the world,Historical,EV stock,PHEV,2022,Vehicles,21000.0
+2077,Rest of the world,Historical,EV stock share,EV,2011,percent,3.70000016118e-05
+2078,Rest of the world,Historical,EV stock share,EV,2012,percent,0.0003199999919161
+2079,Rest of the world,Historical,EV stock share,EV,2013,percent,0.0004299999854993
+2080,Rest of the world,Historical,EV stock share,EV,2014,percent,0.0007999999797903
+2081,Rest of the world,Historical,EV stock share,EV,2015,percent,0.0038000000640749
+2082,Rest of the world,Historical,EV stock share,EV,2016,percent,0.0048000002279877
+2083,Rest of the world,Historical,EV stock share,EV,2017,percent,0.0062000001780688
+2084,Rest of the world,Historical,EV stock share,EV,2018,percent,0.0086000002920627
+2085,Rest of the world,Historical,EV stock share,EV,2019,percent,0.0130000002682209
+2086,Rest of the world,Historical,EV stock share,EV,2020,percent,0.0179999992251396
+2087,Rest of the world,Historical,EV stock share,EV,2021,percent,0.0299999993294477
+2088,Rest of the world,Historical,EV stock share,EV,2022,percent,0.0469999983906745
+2089,Rest of the world,Historical,Electricity demand,EV,2010,GWh,0.1000000014901161
+2090,Rest of the world,Historical,Electricity demand,EV,2011,GWh,730.0
+2091,Rest of the world,Historical,Electricity demand,EV,2012,GWh,900.0
+2092,Rest of the world,Historical,Electricity demand,EV,2013,GWh,1100.0
+2093,Rest of the world,Historical,Electricity demand,EV,2014,GWh,1600.0
+2094,Rest of the world,Historical,Electricity demand,EV,2015,GWh,1800.0
+2095,Rest of the world,Historical,Electricity demand,EV,2016,GWh,1700.0
+2096,Rest of the world,Historical,Electricity demand,EV,2017,GWh,1600.0
+2097,Rest of the world,Historical,Electricity demand,EV,2018,GWh,1500.0
+2098,Rest of the world,Historical,Electricity demand,EV,2019,GWh,1800.0
+2099,Rest of the world,Historical,Electricity demand,EV,2020,GWh,1800.0
+2100,Rest of the world,Historical,Electricity demand,EV,2021,GWh,1900.0
+2101,Rest of the world,Historical,Electricity demand,EV,2022,GWh,4900.0
+2102,Rest of the world,Historical,Oil displacement Mbd,EV,2010,Milion barrels per day,6.39999998384e-05
+2103,Rest of the world,Historical,Oil displacement Mbd,EV,2011,Milion barrels per day,0.0003000000142492
+2104,Rest of the world,Historical,Oil displacement Mbd,EV,2012,Milion barrels per day,0.0005699999746866
+2105,Rest of the world,Historical,Oil displacement Mbd,EV,2013,Milion barrels per day,0.0008900000248104
+2106,Rest of the world,Historical,Oil displacement Mbd,EV,2014,Milion barrels per day,0.0012000000569969
+2107,Rest of the world,Historical,Oil displacement Mbd,EV,2015,Milion barrels per day,0.00179999996908
+2108,Rest of the world,Historical,Oil displacement Mbd,EV,2016,Milion barrels per day,0.0024000001139938
+2109,Rest of the world,Historical,Oil displacement Mbd,EV,2017,Milion barrels per day,0.0035000001080334
+2110,Rest of the world,Historical,Oil displacement Mbd,EV,2018,Milion barrels per day,0.0057999999262392
+2111,Rest of the world,Historical,Oil displacement Mbd,EV,2019,Milion barrels per day,0.0082999998703598
+2112,Rest of the world,Historical,Oil displacement Mbd,EV,2020,Milion barrels per day,0.0109999999403953
+2113,Rest of the world,Historical,Oil displacement Mbd,EV,2021,Milion barrels per day,0.0179999992251396
+2114,Rest of the world,Historical,Oil displacement Mbd,EV,2022,Milion barrels per day,0.032999999821186
+2115,Rest of the world,Historical,"Oil displacement, million lge",EV,2010,"Oil displacement, million lge",3.700000047683716
+2116,Rest of the world,Historical,"Oil displacement, million lge",EV,2011,"Oil displacement, million lge",17.0
+2117,Rest of the world,Historical,"Oil displacement, million lge",EV,2012,"Oil displacement, million lge",33.0
+2118,Rest of the world,Historical,"Oil displacement, million lge",EV,2013,"Oil displacement, million lge",51.0
+2119,Rest of the world,Historical,"Oil displacement, million lge",EV,2014,"Oil displacement, million lge",72.0
+2120,Rest of the world,Historical,"Oil displacement, million lge",EV,2015,"Oil displacement, million lge",100.0
+2121,Rest of the world,Historical,"Oil displacement, million lge",EV,2016,"Oil displacement, million lge",140.0
+2122,Rest of the world,Historical,"Oil displacement, million lge",EV,2017,"Oil displacement, million lge",200.0
+2123,Rest of the world,Historical,"Oil displacement, million lge",EV,2018,"Oil displacement, million lge",330.0
+2124,Rest of the world,Historical,"Oil displacement, million lge",EV,2019,"Oil displacement, million lge",480.0
+2125,Rest of the world,Historical,"Oil displacement, million lge",EV,2020,"Oil displacement, million lge",640.0
+2126,Rest of the world,Historical,"Oil displacement, million lge",EV,2021,"Oil displacement, million lge",1000.0
+2127,Rest of the world,Historical,"Oil displacement, million lge",EV,2022,"Oil displacement, million lge",1900.0
+2128,South Africa,Historical,EV sales,BEV,2013,Vehicles,34.0
+2129,South Africa,Historical,EV sales,BEV,2014,Vehicles,14.0
+2130,South Africa,Historical,EV sales,BEV,2015,Vehicles,120.0
+2131,South Africa,Historical,EV sales,BEV,2016,Vehicles,100.0
+2132,South Africa,Historical,EV sales,BEV,2017,Vehicles,68.0
+2133,South Africa,Historical,EV sales,BEV,2018,Vehicles,66.0
+2134,South Africa,Historical,EV sales,BEV,2019,Vehicles,160.0
+2135,South Africa,Historical,EV sales,BEV,2020,Vehicles,92.0
+2136,South Africa,Historical,EV sales,BEV,2021,Vehicles,220.0
+2137,South Africa,Historical,EV sales,BEV,2022,Vehicles,500.0
+2138,South Africa,Historical,EV sales,PHEV,2014,Vehicles,1.0
+2139,South Africa,Historical,EV sales,PHEV,2015,Vehicles,120.0
+2140,South Africa,Historical,EV sales,PHEV,2016,Vehicles,280.0
+2141,South Africa,Historical,EV sales,PHEV,2017,Vehicles,130.0
+2142,South Africa,Historical,EV sales,PHEV,2018,Vehicles,82.0
+2143,South Africa,Historical,EV sales,PHEV,2019,Vehicles,72.0
+2144,South Africa,Historical,EV sales,PHEV,2020,Vehicles,150.0
+2145,South Africa,Historical,EV sales,PHEV,2021,Vehicles,51.0
+2146,South Africa,Historical,EV sales,PHEV,2022,Vehicles,120.0
+2147,South Africa,Historical,EV sales share,EV,2013,percent,0.0074999998323619
+2148,South Africa,Historical,EV sales share,EV,2014,percent,0.003400000045076
+2149,South Africa,Historical,EV sales share,EV,2015,percent,0.0579999983310699
+2150,South Africa,Historical,EV sales share,EV,2016,percent,0.1000000014901161
+2151,South Africa,Historical,EV sales share,EV,2017,percent,0.0529999993741512
+2152,South Africa,Historical,EV sales share,EV,2018,percent,0.0410000011324882
+2153,South Africa,Historical,EV sales share,EV,2019,percent,0.0640000030398368
+2154,South Africa,Historical,EV sales share,EV,2020,percent,0.0979999974370002
+2155,South Africa,Historical,EV sales share,EV,2021,percent,0.0890000015497207
+2156,South Africa,Historical,EV sales share,EV,2022,percent,0.1700000017881393
+2157,South Africa,Historical,EV stock,BEV,2013,Vehicles,34.0
+2158,South Africa,Historical,EV stock,BEV,2014,Vehicles,48.0
+2159,South Africa,Historical,EV stock,BEV,2015,Vehicles,160.0
+2160,South Africa,Historical,EV stock,BEV,2016,Vehicles,260.0
+2161,South Africa,Historical,EV stock,BEV,2017,Vehicles,330.0
+2162,South Africa,Historical,EV stock,BEV,2018,Vehicles,400.0
+2163,South Africa,Historical,EV stock,BEV,2019,Vehicles,560.0
+2164,South Africa,Historical,EV stock,BEV,2020,Vehicles,640.0
+2165,South Africa,Historical,EV stock,BEV,2021,Vehicles,860.0
+2166,South Africa,Historical,EV stock,BEV,2022,Vehicles,1400.0
+2167,South Africa,Historical,EV stock,PHEV,2014,Vehicles,1.0
+2168,South Africa,Historical,EV stock,PHEV,2015,Vehicles,120.0
+2169,South Africa,Historical,EV stock,PHEV,2016,Vehicles,400.0
+2170,South Africa,Historical,EV stock,PHEV,2017,Vehicles,530.0
+2171,South Africa,Historical,EV stock,PHEV,2018,Vehicles,610.0
+2172,South Africa,Historical,EV stock,PHEV,2019,Vehicles,680.0
+2173,South Africa,Historical,EV stock,PHEV,2020,Vehicles,830.0
+2174,South Africa,Historical,EV stock,PHEV,2021,Vehicles,880.0
+2175,South Africa,Historical,EV stock,PHEV,2022,Vehicles,820.0
+2176,South Africa,Historical,EV stock share,EV,2013,percent,0.0005799999926239
+2177,South Africa,Historical,EV stock share,EV,2014,percent,0.0007999999797903
+2178,South Africa,Historical,EV stock share,EV,2015,percent,0.0046000001020729
+2179,South Africa,Historical,EV stock share,EV,2016,percent,0.0099999997764825
+2180,South Africa,Historical,EV stock share,EV,2017,percent,0.0130000002682209
+2181,South Africa,Historical,EV stock share,EV,2018,percent,0.0149999996647238
+2182,South Africa,Historical,EV stock share,EV,2019,percent,0.0179999992251396
+2183,South Africa,Historical,EV stock share,EV,2020,percent,0.0219999998807907
+2184,South Africa,Historical,EV stock share,EV,2021,percent,0.0260000005364418
+2185,South Africa,Historical,EV stock share,EV,2022,percent,0.0320000015199184
+2186,Spain,Historical,EV sales,BEV,2010,Vehicles,76.0
+2187,Spain,Historical,EV sales,BEV,2011,Vehicles,390.0
+2188,Spain,Historical,EV sales,BEV,2012,Vehicles,430.0
+2189,Spain,Historical,EV sales,BEV,2013,Vehicles,810.0
+2190,Spain,Historical,EV sales,BEV,2014,Vehicles,1400.0
+2191,Spain,Historical,EV sales,BEV,2015,Vehicles,1300.0
+2192,Spain,Historical,EV sales,BEV,2016,Vehicles,2000.0
+2193,Spain,Historical,EV sales,BEV,2017,Vehicles,3900.0
+2194,Spain,Historical,EV sales,BEV,2018,Vehicles,6000.0
+2195,Spain,Historical,EV sales,BEV,2019,Vehicles,10000.0
+2196,Spain,Historical,EV sales,BEV,2020,Vehicles,18000.0
+2197,Spain,Historical,EV sales,BEV,2021,Vehicles,24000.0
+2198,Spain,Historical,EV sales,BEV,2022,Vehicles,33000.0
+2199,Spain,Historical,EV sales,PHEV,2011,Vehicles,8.0
+2200,Spain,Historical,EV sales,PHEV,2012,Vehicles,110.0
+2201,Spain,Historical,EV sales,PHEV,2013,Vehicles,72.0
+2202,Spain,Historical,EV sales,PHEV,2014,Vehicles,330.0
+2203,Spain,Historical,EV sales,PHEV,2015,Vehicles,780.0
+2204,Spain,Historical,EV sales,PHEV,2016,Vehicles,1500.0
+2205,Spain,Historical,EV sales,PHEV,2017,Vehicles,3500.0
+2206,Spain,Historical,EV sales,PHEV,2018,Vehicles,5600.0
+2207,Spain,Historical,EV sales,PHEV,2019,Vehicles,7400.0
+2208,Spain,Historical,EV sales,PHEV,2020,Vehicles,24000.0
+2209,Spain,Historical,EV sales,PHEV,2021,Vehicles,43000.0
+2210,Spain,Historical,EV sales,PHEV,2022,Vehicles,49000.0
+2211,Spain,Historical,EV sales share,EV,2010,percent,0.0076999999582767
+2212,Spain,Historical,EV sales share,EV,2011,percent,0.0489999987185001
+2213,Spain,Historical,EV sales share,EV,2012,percent,0.0759999975562095
+2214,Spain,Historical,EV sales share,EV,2013,percent,0.1199999973177909
+2215,Spain,Historical,EV sales share,EV,2014,percent,0.2000000029802322
+2216,Spain,Historical,EV sales share,EV,2015,percent,0.209999993443489
+2217,Spain,Historical,EV sales share,EV,2016,percent,0.3100000023841858
+2218,Spain,Historical,EV sales share,EV,2017,percent,0.6000000238418579
+2219,Spain,Historical,EV sales share,EV,2018,percent,0.8799999952316284
+2220,Spain,Historical,EV sales share,EV,2019,percent,1.399999976158142
+2221,Spain,Historical,EV sales share,EV,2020,percent,4.900000095367432
+2222,Spain,Historical,EV sales share,EV,2021,percent,7.800000190734863
+2223,Spain,Historical,EV sales share,EV,2022,percent,8.899999618530273
+2224,Spain,Historical,EV stock,BEV,2010,Vehicles,76.0
+2225,Spain,Historical,EV stock,BEV,2011,Vehicles,460.0
+2226,Spain,Historical,EV stock,BEV,2012,Vehicles,890.0
+2227,Spain,Historical,EV stock,BEV,2013,Vehicles,1700.0
+2228,Spain,Historical,EV stock,BEV,2014,Vehicles,3100.0
+2229,Spain,Historical,EV stock,BEV,2015,Vehicles,4400.0
+2230,Spain,Historical,EV stock,BEV,2016,Vehicles,6500.0
+2231,Spain,Historical,EV stock,BEV,2017,Vehicles,10000.0
+2232,Spain,Historical,EV stock,BEV,2018,Vehicles,16000.0
+2233,Spain,Historical,EV stock,BEV,2019,Vehicles,26000.0
+2234,Spain,Historical,EV stock,BEV,2020,Vehicles,45000.0
+2235,Spain,Historical,EV stock,BEV,2021,Vehicles,69000.0
+2236,Spain,Historical,EV stock,BEV,2022,Vehicles,96000.0
+2237,Spain,Historical,EV stock,PHEV,2011,Vehicles,8.0
+2238,Spain,Historical,EV stock,PHEV,2012,Vehicles,120.0
+2239,Spain,Historical,EV stock,PHEV,2013,Vehicles,190.0
+2240,Spain,Historical,EV stock,PHEV,2014,Vehicles,520.0
+2241,Spain,Historical,EV stock,PHEV,2015,Vehicles,1300.0
+2242,Spain,Historical,EV stock,PHEV,2016,Vehicles,2800.0
+2243,Spain,Historical,EV stock,PHEV,2017,Vehicles,6300.0
+2244,Spain,Historical,EV stock,PHEV,2018,Vehicles,12000.0
+2245,Spain,Historical,EV stock,PHEV,2019,Vehicles,19000.0
+2246,Spain,Historical,EV stock,PHEV,2020,Vehicles,43000.0
+2247,Spain,Historical,EV stock,PHEV,2021,Vehicles,86000.0
+2248,Spain,Historical,EV stock,PHEV,2022,Vehicles,130000.0
+2249,Spain,Historical,EV stock share,EV,2010,percent,0.0003399999986868
+2250,Spain,Historical,EV stock share,EV,2011,percent,0.0020999999251216
+2251,Spain,Historical,EV stock share,EV,2012,percent,0.0044999998062849
+2252,Spain,Historical,EV stock share,EV,2013,percent,0.0086000002920627
+2253,Spain,Historical,EV stock share,EV,2014,percent,0.0160000007599592
+2254,Spain,Historical,EV stock share,EV,2015,percent,0.0260000005364418
+2255,Spain,Historical,EV stock share,EV,2016,percent,0.0399999991059303
+2256,Spain,Historical,EV stock share,EV,2017,percent,0.0710000023245811
+2257,Spain,Historical,EV stock share,EV,2018,percent,0.1199999973177909
+2258,Spain,Historical,EV stock share,EV,2019,percent,0.1899999976158142
+2259,Spain,Historical,EV stock share,EV,2020,percent,0.3600000143051147
+2260,Spain,Historical,EV stock share,EV,2021,percent,0.6100000143051147
+2261,Spain,Historical,EV stock share,EV,2022,percent,0.9100000262260436
+2262,Sweden,Historical,EV sales,BEV,2010,Vehicles,4.0
+2263,Sweden,Historical,EV sales,BEV,2011,Vehicles,180.0
+2264,Sweden,Historical,EV sales,BEV,2012,Vehicles,270.0
+2265,Sweden,Historical,EV sales,BEV,2013,Vehicles,430.0
+2266,Sweden,Historical,EV sales,BEV,2014,Vehicles,1200.0
+2267,Sweden,Historical,EV sales,BEV,2015,Vehicles,3000.0
+2268,Sweden,Historical,EV sales,BEV,2016,Vehicles,2900.0
+2269,Sweden,Historical,EV sales,BEV,2017,Vehicles,4400.0
+2270,Sweden,Historical,EV sales,BEV,2018,Vehicles,7100.0
+2271,Sweden,Historical,EV sales,BEV,2019,Vehicles,16000.0
+2272,Sweden,Historical,EV sales,BEV,2020,Vehicles,28000.0
+2273,Sweden,Historical,EV sales,BEV,2021,Vehicles,57000.0
+2274,Sweden,Historical,EV sales,BEV,2022,Vehicles,96000.0
+2275,Sweden,Historical,EV sales,PHEV,2012,Vehicles,660.0
+2276,Sweden,Historical,EV sales,PHEV,2013,Vehicles,1100.0
+2277,Sweden,Historical,EV sales,PHEV,2014,Vehicles,3400.0
+2278,Sweden,Historical,EV sales,PHEV,2015,Vehicles,5700.0
+2279,Sweden,Historical,EV sales,PHEV,2016,Vehicles,10000.0
+2280,Sweden,Historical,EV sales,PHEV,2017,Vehicles,16000.0
+2281,Sweden,Historical,EV sales,PHEV,2018,Vehicles,22000.0
+2282,Sweden,Historical,EV sales,PHEV,2019,Vehicles,25000.0
+2283,Sweden,Historical,EV sales,PHEV,2020,Vehicles,66000.0
+2284,Sweden,Historical,EV sales,PHEV,2021,Vehicles,78000.0
+2285,Sweden,Historical,EV sales,PHEV,2022,Vehicles,67000.0
+2286,Sweden,Historical,EV sales share,EV,2010,percent,0.001300000003539
+2287,Sweden,Historical,EV sales share,EV,2011,percent,0.0540000014007091
+2288,Sweden,Historical,EV sales share,EV,2012,percent,0.3100000023841858
+2289,Sweden,Historical,EV sales share,EV,2013,percent,0.5299999713897705
+2290,Sweden,Historical,EV sales share,EV,2014,percent,1.399999976158142
+2291,Sweden,Historical,EV sales share,EV,2015,percent,2.400000095367432
+2292,Sweden,Historical,EV sales share,EV,2016,percent,3.400000095367432
+2293,Sweden,Historical,EV sales share,EV,2017,percent,5.099999904632568
+2294,Sweden,Historical,EV sales share,EV,2018,percent,7.599999904632568
+2295,Sweden,Historical,EV sales share,EV,2019,percent,11.0
+2296,Sweden,Historical,EV sales share,EV,2020,percent,32.0
+2297,Sweden,Historical,EV sales share,EV,2021,percent,43.0
+2298,Sweden,Historical,EV sales share,EV,2022,percent,54.0
+2299,Sweden,Historical,EV stock,BEV,2010,Vehicles,4.0
+2300,Sweden,Historical,EV stock,BEV,2011,Vehicles,180.0
+2301,Sweden,Historical,EV stock,BEV,2012,Vehicles,600.0
+2302,Sweden,Historical,EV stock,BEV,2013,Vehicles,1000.0
+2303,Sweden,Historical,EV stock,BEV,2014,Vehicles,2200.0
+2304,Sweden,Historical,EV stock,BEV,2015,Vehicles,4800.0
+2305,Sweden,Historical,EV stock,BEV,2016,Vehicles,7500.0
+2306,Sweden,Historical,EV stock,BEV,2017,Vehicles,11000.0
+2307,Sweden,Historical,EV stock,BEV,2018,Vehicles,17000.0
+2308,Sweden,Historical,EV stock,BEV,2019,Vehicles,30000.0
+2309,Sweden,Historical,EV stock,BEV,2020,Vehicles,56000.0
+2310,Sweden,Historical,EV stock,BEV,2021,Vehicles,110000.0
+2311,Sweden,Historical,EV stock,BEV,2022,Vehicles,200000.0
+2312,Sweden,Historical,EV stock,PHEV,2012,Vehicles,650.0
+2313,Sweden,Historical,EV stock,PHEV,2013,Vehicles,1600.0
+2314,Sweden,Historical,EV stock,PHEV,2014,Vehicles,4900.0
+2315,Sweden,Historical,EV stock,PHEV,2015,Vehicles,9800.0
+2316,Sweden,Historical,EV stock,PHEV,2016,Vehicles,19000.0
+2317,Sweden,Historical,EV stock,PHEV,2017,Vehicles,32000.0
+2318,Sweden,Historical,EV stock,PHEV,2018,Vehicles,49000.0
+2319,Sweden,Historical,EV stock,PHEV,2019,Vehicles,67000.0
+2320,Sweden,Historical,EV stock,PHEV,2020,Vehicles,120000.0
+2321,Sweden,Historical,EV stock,PHEV,2021,Vehicles,190000.0
+2322,Sweden,Historical,EV stock,PHEV,2022,Vehicles,240000.0
+2323,Sweden,Historical,EV stock share,EV,2010,percent,9.20000020414e-05
+2324,Sweden,Historical,EV stock share,EV,2011,percent,0.0041000000201165
+2325,Sweden,Historical,EV stock share,EV,2012,percent,0.0280000008642673
+2326,Sweden,Historical,EV stock share,EV,2013,percent,0.0590000003576278
+2327,Sweden,Historical,EV stock share,EV,2014,percent,0.1500000059604644
+2328,Sweden,Historical,EV stock share,EV,2015,percent,0.3100000023841858
+2329,Sweden,Historical,EV stock share,EV,2016,percent,0.550000011920929
+2330,Sweden,Historical,EV stock share,EV,2017,percent,0.8899999856948853
+2331,Sweden,Historical,EV stock share,EV,2018,percent,1.399999976158142
+2332,Sweden,Historical,EV stock share,EV,2019,percent,2.0
+2333,Sweden,Historical,EV stock share,EV,2020,percent,3.5999999046325684
+2334,Sweden,Historical,EV stock share,EV,2021,percent,6.0
+2335,Sweden,Historical,EV stock share,EV,2022,percent,8.800000190734863
+2336,Switzerland,Historical,EV sales,BEV,2011,Vehicles,400.0
+2337,Switzerland,Historical,EV sales,BEV,2012,Vehicles,340.0
+2338,Switzerland,Historical,EV sales,BEV,2013,Vehicles,1200.0
+2339,Switzerland,Historical,EV sales,BEV,2014,Vehicles,2700.0
+2340,Switzerland,Historical,EV sales,BEV,2015,Vehicles,3300.0
+2341,Switzerland,Historical,EV sales,BEV,2016,Vehicles,3300.0
+2342,Switzerland,Historical,EV sales,BEV,2017,Vehicles,4800.0
+2343,Switzerland,Historical,EV sales,BEV,2018,Vehicles,5100.0
+2344,Switzerland,Historical,EV sales,BEV,2019,Vehicles,13000.0
+2345,Switzerland,Historical,EV sales,BEV,2020,Vehicles,20000.0
+2346,Switzerland,Historical,EV sales,BEV,2021,Vehicles,32000.0
+2347,Switzerland,Historical,EV sales,BEV,2022,Vehicles,40000.0
+2348,Switzerland,Historical,EV sales,PHEV,2011,Vehicles,41.0
+2349,Switzerland,Historical,EV sales,PHEV,2012,Vehicles,400.0
+2350,Switzerland,Historical,EV sales,PHEV,2013,Vehicles,170.0
+2351,Switzerland,Historical,EV sales,PHEV,2014,Vehicles,200.0
+2352,Switzerland,Historical,EV sales,PHEV,2015,Vehicles,2400.0
+2353,Switzerland,Historical,EV sales,PHEV,2016,Vehicles,2800.0
+2354,Switzerland,Historical,EV sales,PHEV,2017,Vehicles,3600.0
+2355,Switzerland,Historical,EV sales,PHEV,2018,Vehicles,4400.0
+2356,Switzerland,Historical,EV sales,PHEV,2019,Vehicles,4300.0
+2357,Switzerland,Historical,EV sales,PHEV,2020,Vehicles,14000.0
+2358,Switzerland,Historical,EV sales,PHEV,2021,Vehicles,22000.0
+2359,Switzerland,Historical,EV sales,PHEV,2022,Vehicles,19000.0
+2360,Switzerland,Historical,EV sales share,EV,2011,percent,0.1400000005960464
+2361,Switzerland,Historical,EV sales share,EV,2012,percent,0.2300000041723251
+2362,Switzerland,Historical,EV sales share,EV,2013,percent,0.4300000071525574
+2363,Switzerland,Historical,EV sales share,EV,2014,percent,0.959999978542328
+2364,Switzerland,Historical,EV sales share,EV,2015,percent,1.7000000476837158
+2365,Switzerland,Historical,EV sales share,EV,2016,percent,1.899999976158142
+2366,Switzerland,Historical,EV sales share,EV,2017,percent,2.700000047683716
+2367,Switzerland,Historical,EV sales share,EV,2018,percent,3.200000047683716
+2368,Switzerland,Historical,EV sales share,EV,2019,percent,5.599999904632568
+2369,Switzerland,Historical,EV sales share,EV,2020,percent,14.0
+2370,Switzerland,Historical,EV sales share,EV,2021,percent,23.0
+2371,Switzerland,Historical,EV sales share,EV,2022,percent,25.0
+2372,Switzerland,Historical,EV stock,BEV,2011,Vehicles,400.0
+2373,Switzerland,Historical,EV stock,BEV,2012,Vehicles,740.0
+2374,Switzerland,Historical,EV stock,BEV,2013,Vehicles,1900.0
+2375,Switzerland,Historical,EV stock,BEV,2014,Vehicles,4600.0
+2376,Switzerland,Historical,EV stock,BEV,2015,Vehicles,7800.0
+2377,Switzerland,Historical,EV stock,BEV,2016,Vehicles,11000.0
+2378,Switzerland,Historical,EV stock,BEV,2017,Vehicles,16000.0
+2379,Switzerland,Historical,EV stock,BEV,2018,Vehicles,21000.0
+2380,Switzerland,Historical,EV stock,BEV,2019,Vehicles,34000.0
+2381,Switzerland,Historical,EV stock,BEV,2020,Vehicles,54000.0
+2382,Switzerland,Historical,EV stock,BEV,2021,Vehicles,86000.0
+2383,Switzerland,Historical,EV stock,BEV,2022,Vehicles,130000.0
+2384,Switzerland,Historical,EV stock,PHEV,2011,Vehicles,41.0
+2385,Switzerland,Historical,EV stock,PHEV,2012,Vehicles,440.0
+2386,Switzerland,Historical,EV stock,PHEV,2013,Vehicles,600.0
+2387,Switzerland,Historical,EV stock,PHEV,2014,Vehicles,810.0
+2388,Switzerland,Historical,EV stock,PHEV,2015,Vehicles,3200.0
+2389,Switzerland,Historical,EV stock,PHEV,2016,Vehicles,5000.0
+2390,Switzerland,Historical,EV stock,PHEV,2017,Vehicles,9000.0
+2391,Switzerland,Historical,EV stock,PHEV,2018,Vehicles,14000.0
+2392,Switzerland,Historical,EV stock,PHEV,2019,Vehicles,16000.0
+2393,Switzerland,Historical,EV stock,PHEV,2020,Vehicles,30000.0
+2394,Switzerland,Historical,EV stock,PHEV,2021,Vehicles,53000.0
+2395,Switzerland,Historical,EV stock,PHEV,2022,Vehicles,71000.0
+2396,Switzerland,Historical,EV stock share,EV,2011,percent,0.0099999997764825
+2397,Switzerland,Historical,EV stock share,EV,2012,percent,0.0280000008642673
+2398,Switzerland,Historical,EV stock share,EV,2013,percent,0.0579999983310699
+2399,Switzerland,Historical,EV stock share,EV,2014,percent,0.1199999973177909
+2400,Switzerland,Historical,EV stock share,EV,2015,percent,0.25
+2401,Switzerland,Historical,EV stock share,EV,2016,percent,0.3600000143051147
+2402,Switzerland,Historical,EV stock share,EV,2017,percent,0.5400000214576721
+2403,Switzerland,Historical,EV stock share,EV,2018,percent,0.7599999904632568
+2404,Switzerland,Historical,EV stock share,EV,2019,percent,1.100000023841858
+2405,Switzerland,Historical,EV stock share,EV,2020,percent,1.7999999523162842
+2406,Switzerland,Historical,EV stock share,EV,2021,percent,2.900000095367432
+2407,Switzerland,Historical,EV stock share,EV,2022,percent,4.199999809265137
+2408,Turkiye,Historical,EV sales,BEV,2012,Vehicles,92.0
+2409,Turkiye,Historical,EV sales,BEV,2014,Vehicles,46.0
+2410,Turkiye,Historical,EV sales,BEV,2015,Vehicles,120.0
+2411,Turkiye,Historical,EV sales,BEV,2016,Vehicles,44.0
+2412,Turkiye,Historical,EV sales,BEV,2017,Vehicles,77.0
+2413,Turkiye,Historical,EV sales,BEV,2018,Vehicles,190.0
+2414,Turkiye,Historical,EV sales,BEV,2019,Vehicles,230.0
+2415,Turkiye,Historical,EV sales,BEV,2020,Vehicles,890.0
+2416,Turkiye,Historical,EV sales,BEV,2021,Vehicles,3000.0
+2417,Turkiye,Historical,EV sales,BEV,2022,Vehicles,7000.0
+2418,Turkiye,Historical,EV sales,PHEV,2013,Vehicles,1.0
+2419,Turkiye,Historical,EV sales,PHEV,2014,Vehicles,22.0
+2420,Turkiye,Historical,EV sales,PHEV,2015,Vehicles,110.0
+2421,Turkiye,Historical,EV sales,PHEV,2016,Vehicles,83.0
+2422,Turkiye,Historical,EV sales,PHEV,2017,Vehicles,34.0
+2423,Turkiye,Historical,EV sales,PHEV,2018,Vehicles,45.0
+2424,Turkiye,Historical,EV sales,PHEV,2019,Vehicles,94.0
+2425,Turkiye,Historical,EV sales,PHEV,2020,Vehicles,400.0
+2426,Turkiye,Historical,EV sales,PHEV,2021,Vehicles,920.0
+2427,Turkiye,Historical,EV sales,PHEV,2022,Vehicles,540.0
+2428,Turkiye,Historical,EV sales share,EV,2012,percent,0.0160000007599592
+2429,Turkiye,Historical,EV sales share,EV,2013,percent,0.000159999995958
+2430,Turkiye,Historical,EV sales share,EV,2014,percent,0.0120000001043081
+2431,Turkiye,Historical,EV sales share,EV,2015,percent,0.0309999994933605
+2432,Turkiye,Historical,EV sales share,EV,2016,percent,0.0170000009238719
+2433,Turkiye,Historical,EV sales share,EV,2017,percent,0.0149999996647238
+2434,Turkiye,Historical,EV sales share,EV,2018,percent,0.0450000017881393
+2435,Turkiye,Historical,EV sales share,EV,2019,percent,0.0839999988675117
+2436,Turkiye,Historical,EV sales share,EV,2020,percent,0.1700000017881393
+2437,Turkiye,Historical,EV sales share,EV,2021,percent,0.550000011920929
+2438,Turkiye,Historical,EV sales share,EV,2022,percent,1.0
+2439,Turkiye,Historical,EV stock,BEV,2013,Vehicles,230.0
+2440,Turkiye,Historical,EV stock,BEV,2014,Vehicles,260.0
+2441,Turkiye,Historical,EV stock,BEV,2015,Vehicles,370.0
+2442,Turkiye,Historical,EV stock,BEV,2016,Vehicles,420.0
+2443,Turkiye,Historical,EV stock,BEV,2017,Vehicles,500.0
+2444,Turkiye,Historical,EV stock,BEV,2018,Vehicles,650.0
+2445,Turkiye,Historical,EV stock,BEV,2019,Vehicles,1300.0
+2446,Turkiye,Historical,EV stock,BEV,2020,Vehicles,2900.0
+2447,Turkiye,Historical,EV stock,BEV,2021,Vehicles,6800.0
+2448,Turkiye,Historical,EV stock,BEV,2022,Vehicles,14000.0
+2449,Turkiye,Historical,EV stock,PHEV,2016,Vehicles,210.0
+2450,Turkiye,Historical,EV stock,PHEV,2017,Vehicles,240.0
+2451,Turkiye,Historical,EV stock,PHEV,2018,Vehicles,280.0
+2452,Turkiye,Historical,EV stock,PHEV,2019,Vehicles,540.0
+2453,Turkiye,Historical,EV stock,PHEV,2020,Vehicles,1000.0
+2454,Turkiye,Historical,EV stock,PHEV,2021,Vehicles,1800.0
+2455,Turkiye,Historical,EV stock,PHEV,2022,Vehicles,2300.0
+2456,Turkiye,Historical,EV stock share,EV,2013,percent,0.0035999999381601
+2457,Turkiye,Historical,EV stock share,EV,2014,percent,0.0038000000640749
+2458,Turkiye,Historical,EV stock share,EV,2015,percent,0.0052999998442828
+2459,Turkiye,Historical,EV stock share,EV,2016,percent,0.0082999998703598
+2460,Turkiye,Historical,EV stock share,EV,2017,percent,0.0093000000342726
+2461,Turkiye,Historical,EV stock share,EV,2018,percent,0.0120000001043081
+2462,Turkiye,Historical,EV stock share,EV,2019,percent,0.0230000000447034
+2463,Turkiye,Historical,EV stock share,EV,2020,percent,0.0320000015199184
+2464,Turkiye,Historical,EV stock share,EV,2021,percent,0.0729999989271164
+2465,Turkiye,Historical,EV stock share,EV,2022,percent,0.1400000005960464
+2466,USA,Historical,EV sales,BEV,2010,Vehicles,1200.0
+2467,USA,Historical,EV sales,BEV,2011,Vehicles,9800.0
+2468,USA,Historical,EV sales,BEV,2012,Vehicles,15000.0
+2469,USA,Historical,EV sales,BEV,2013,Vehicles,48000.0
+2470,USA,Historical,EV sales,BEV,2014,Vehicles,63000.0
+2471,USA,Historical,EV sales,BEV,2015,Vehicles,71000.0
+2472,USA,Historical,EV sales,BEV,2016,Vehicles,87000.0
+2473,USA,Historical,EV sales,BEV,2017,Vehicles,100000.0
+2474,USA,Historical,EV sales,BEV,2018,Vehicles,240000.0
+2475,USA,Historical,EV sales,BEV,2019,Vehicles,240000.0
+2476,USA,Historical,EV sales,BEV,2020,Vehicles,230000.0
+2477,USA,Historical,EV sales,BEV,2021,Vehicles,470000.0
+2478,USA,Historical,EV sales,BEV,2022,Vehicles,800000.0
+2479,USA,Historical,EV sales,PHEV,2011,Vehicles,8000.0
+2480,USA,Historical,EV sales,PHEV,2012,Vehicles,39000.0
+2481,USA,Historical,EV sales,PHEV,2013,Vehicles,49000.0
+2482,USA,Historical,EV sales,PHEV,2014,Vehicles,55000.0
+2483,USA,Historical,EV sales,PHEV,2015,Vehicles,43000.0
+2484,USA,Historical,EV sales,PHEV,2016,Vehicles,73000.0
+2485,USA,Historical,EV sales,PHEV,2017,Vehicles,94000.0
+2486,USA,Historical,EV sales,PHEV,2018,Vehicles,120000.0
+2487,USA,Historical,EV sales,PHEV,2019,Vehicles,85000.0
+2488,USA,Historical,EV sales,PHEV,2020,Vehicles,64000.0
+2489,USA,Historical,EV sales,PHEV,2021,Vehicles,160000.0
+2490,USA,Historical,EV sales,PHEV,2022,Vehicles,190000.0
+2491,USA,Historical,EV sales share,EV,2010,percent,0.0109999999403953
+2492,USA,Historical,EV sales share,EV,2011,percent,0.1700000017881393
+2493,USA,Historical,EV sales share,EV,2012,percent,0.4099999964237213
+2494,USA,Historical,EV sales share,EV,2013,percent,0.7400000095367432
+2495,USA,Historical,EV sales share,EV,2014,percent,0.8899999856948853
+2496,USA,Historical,EV sales share,EV,2015,percent,0.7799999713897705
+2497,USA,Historical,EV sales share,EV,2016,percent,1.0
+2498,USA,Historical,EV sales share,EV,2017,percent,1.2000000476837158
+2499,USA,Historical,EV sales share,EV,2018,percent,2.0
+2500,USA,Historical,EV sales share,EV,2019,percent,2.0999999046325684
+2501,USA,Historical,EV sales share,EV,2020,percent,2.200000047683716
+2502,USA,Historical,EV sales share,EV,2021,percent,4.5
+2503,USA,Historical,EV sales share,EV,2022,percent,7.699999809265137
+2504,USA,Historical,EV stock,BEV,2010,Vehicles,3800.0
+2505,USA,Historical,EV stock,BEV,2011,Vehicles,14000.0
+2506,USA,Historical,EV stock,BEV,2012,Vehicles,28000.0
+2507,USA,Historical,EV stock,BEV,2013,Vehicles,76000.0
+2508,USA,Historical,EV stock,BEV,2014,Vehicles,140000.0
+2509,USA,Historical,EV stock,BEV,2015,Vehicles,210000.0
+2510,USA,Historical,EV stock,BEV,2016,Vehicles,300000.0
+2511,USA,Historical,EV stock,BEV,2017,Vehicles,400000.0
+2512,USA,Historical,EV stock,BEV,2018,Vehicles,640000.0
+2513,USA,Historical,EV stock,BEV,2019,Vehicles,880000.0
+2514,USA,Historical,EV stock,BEV,2020,Vehicles,1100000.0
+2515,USA,Historical,EV stock,BEV,2021,Vehicles,1500000.0
+2516,USA,Historical,EV stock,BEV,2022,Vehicles,2100000.0
+2517,USA,Historical,EV stock,PHEV,2011,Vehicles,8000.0
+2518,USA,Historical,EV stock,PHEV,2012,Vehicles,47000.0
+2519,USA,Historical,EV stock,PHEV,2013,Vehicles,96000.0
+2520,USA,Historical,EV stock,PHEV,2014,Vehicles,150000.0
+2521,USA,Historical,EV stock,PHEV,2015,Vehicles,190000.0
+2522,USA,Historical,EV stock,PHEV,2016,Vehicles,270000.0
+2523,USA,Historical,EV stock,PHEV,2017,Vehicles,360000.0
+2524,USA,Historical,EV stock,PHEV,2018,Vehicles,480000.0
+2525,USA,Historical,EV stock,PHEV,2019,Vehicles,570000.0
+2526,USA,Historical,EV stock,PHEV,2020,Vehicles,640000.0
+2527,USA,Historical,EV stock,PHEV,2021,Vehicles,720000.0
+2528,USA,Historical,EV stock,PHEV,2022,Vehicles,860000.0
+2529,USA,Historical,EV stock share,EV,2010,percent,0.001700000022538
+2530,USA,Historical,EV stock share,EV,2011,percent,0.0098999999463558
+2531,USA,Historical,EV stock share,EV,2012,percent,0.0340000018477439
+2532,USA,Historical,EV stock share,EV,2013,percent,0.0780000016093254
+2533,USA,Historical,EV stock share,EV,2014,percent,0.1400000005960464
+2534,USA,Historical,EV stock share,EV,2015,percent,0.1899999976158142
+2535,USA,Historical,EV stock share,EV,2016,percent,0.2599999904632568
+2536,USA,Historical,EV stock share,EV,2017,percent,0.3300000131130218
+2537,USA,Historical,EV stock share,EV,2018,percent,0.4799999892711639
+2538,USA,Historical,EV stock share,EV,2019,percent,0.6200000047683716
+2539,USA,Historical,EV stock share,EV,2020,percent,0.7699999809265137
+2540,USA,Historical,EV stock share,EV,2021,percent,0.949999988079071
+2541,USA,Historical,EV stock share,EV,2022,percent,1.2999999523162842
+2542,USA,Historical,Electricity demand,EV,2010,GWh,96.0
+2543,USA,Historical,Electricity demand,EV,2011,GWh,130.0
+2544,USA,Historical,Electricity demand,EV,2012,GWh,300.0
+2545,USA,Historical,Electricity demand,EV,2013,GWh,540.0
+2546,USA,Historical,Electricity demand,EV,2014,GWh,820.0
+2547,USA,Historical,Electricity demand,EV,2015,GWh,1900.0
+2548,USA,Historical,Electricity demand,EV,2016,GWh,3500.0
+2549,USA,Historical,Electricity demand,EV,2017,GWh,3700.0
+2550,USA,Historical,Electricity demand,EV,2018,GWh,5000.0
+2551,USA,Historical,Electricity demand,EV,2019,GWh,6300.0
+2552,USA,Historical,Electricity demand,EV,2020,GWh,5400.0
+2553,USA,Historical,Electricity demand,EV,2021,GWh,6500.0
+2554,USA,Historical,Electricity demand,EV,2022,GWh,15000.0
+2555,USA,Historical,Oil displacement Mbd,EV,2010,Milion barrels per day,0.000159999995958
+2556,USA,Historical,Oil displacement Mbd,EV,2011,Milion barrels per day,0.0006399999838322
+2557,USA,Historical,Oil displacement Mbd,EV,2012,Milion barrels per day,0.0015999999595806
+2558,USA,Historical,Oil displacement Mbd,EV,2013,Milion barrels per day,0.0044999998062849
+2559,USA,Historical,Oil displacement Mbd,EV,2014,Milion barrels per day,0.0083999997004866
+2560,USA,Historical,Oil displacement Mbd,EV,2015,Milion barrels per day,0.0109999999403953
+2561,USA,Historical,Oil displacement Mbd,EV,2016,Milion barrels per day,0.0140000004321336
+2562,USA,Historical,Oil displacement Mbd,EV,2017,Milion barrels per day,0.0189999993890523
+2563,USA,Historical,Oil displacement Mbd,EV,2018,Milion barrels per day,0.0289999991655349
+2564,USA,Historical,Oil displacement Mbd,EV,2019,Milion barrels per day,0.0390000008046627
+2565,USA,Historical,Oil displacement Mbd,EV,2020,Milion barrels per day,0.0430000014603138
+2566,USA,Historical,Oil displacement Mbd,EV,2021,Milion barrels per day,0.0689999982714653
+2567,USA,Historical,Oil displacement Mbd,EV,2022,Milion barrels per day,0.1099999994039535
+2568,USA,Historical,"Oil displacement, million lge",EV,2010,"Oil displacement, million lge",9.199999809265137
+2569,USA,Historical,"Oil displacement, million lge",EV,2011,"Oil displacement, million lge",37.0
+2570,USA,Historical,"Oil displacement, million lge",EV,2012,"Oil displacement, million lge",91.0
+2571,USA,Historical,"Oil displacement, million lge",EV,2013,"Oil displacement, million lge",260.0
+2572,USA,Historical,"Oil displacement, million lge",EV,2014,"Oil displacement, million lge",480.0
+2573,USA,Historical,"Oil displacement, million lge",EV,2015,"Oil displacement, million lge",630.0
+2574,USA,Historical,"Oil displacement, million lge",EV,2016,"Oil displacement, million lge",830.0
+2575,USA,Historical,"Oil displacement, million lge",EV,2017,"Oil displacement, million lge",1100.0
+2576,USA,Historical,"Oil displacement, million lge",EV,2018,"Oil displacement, million lge",1700.0
+2577,USA,Historical,"Oil displacement, million lge",EV,2019,"Oil displacement, million lge",2200.0
+2578,USA,Historical,"Oil displacement, million lge",EV,2020,"Oil displacement, million lge",2500.0
+2579,USA,Historical,"Oil displacement, million lge",EV,2021,"Oil displacement, million lge",4000.0
+2580,USA,Historical,"Oil displacement, million lge",EV,2022,"Oil displacement, million lge",6400.0
+2581,United Kingdom,Historical,EV sales,BEV,2010,Vehicles,240.0
+2582,United Kingdom,Historical,EV sales,BEV,2011,Vehicles,1200.0
+2583,United Kingdom,Historical,EV sales,BEV,2012,Vehicles,1600.0
+2584,United Kingdom,Historical,EV sales,BEV,2013,Vehicles,2600.0
+2585,United Kingdom,Historical,EV sales,BEV,2014,Vehicles,6700.0
+2586,United Kingdom,Historical,EV sales,BEV,2015,Vehicles,10000.0
+2587,United Kingdom,Historical,EV sales,BEV,2016,Vehicles,10000.0
+2588,United Kingdom,Historical,EV sales,BEV,2017,Vehicles,14000.0
+2589,United Kingdom,Historical,EV sales,BEV,2018,Vehicles,16000.0
+2590,United Kingdom,Historical,EV sales,BEV,2019,Vehicles,38000.0
+2591,United Kingdom,Historical,EV sales,BEV,2020,Vehicles,110000.0
+2592,United Kingdom,Historical,EV sales,BEV,2021,Vehicles,190000.0
+2593,United Kingdom,Historical,EV sales,BEV,2022,Vehicles,270000.0
+2594,United Kingdom,Historical,EV sales,PHEV,2010,Vehicles,21.0
+2595,United Kingdom,Historical,EV sales,PHEV,2011,Vehicles,7.0
+2596,United Kingdom,Historical,EV sales,PHEV,2012,Vehicles,970.0
+2597,United Kingdom,Historical,EV sales,PHEV,2013,Vehicles,1100.0
+2598,United Kingdom,Historical,EV sales,PHEV,2014,Vehicles,7800.0
+2599,United Kingdom,Historical,EV sales,PHEV,2015,Vehicles,19000.0
+2600,United Kingdom,Historical,EV sales,PHEV,2016,Vehicles,29000.0
+2601,United Kingdom,Historical,EV sales,PHEV,2017,Vehicles,35000.0
+2602,United Kingdom,Historical,EV sales,PHEV,2018,Vehicles,46000.0
+2603,United Kingdom,Historical,EV sales,PHEV,2019,Vehicles,37000.0
+2604,United Kingdom,Historical,EV sales,PHEV,2020,Vehicles,68000.0
+2605,United Kingdom,Historical,EV sales,PHEV,2021,Vehicles,120000.0
+2606,United Kingdom,Historical,EV sales,PHEV,2022,Vehicles,100000.0
+2607,United Kingdom,Historical,EV sales share,EV,2010,percent,0.0130000002682209
+2608,United Kingdom,Historical,EV sales share,EV,2011,percent,0.0630000010132789
+2609,United Kingdom,Historical,EV sales share,EV,2012,percent,0.1299999952316284
+2610,United Kingdom,Historical,EV sales share,EV,2013,percent,0.1700000017881393
+2611,United Kingdom,Historical,EV sales share,EV,2014,percent,0.6000000238418579
+2612,United Kingdom,Historical,EV sales share,EV,2015,percent,1.100000023841858
+2613,United Kingdom,Historical,EV sales share,EV,2016,percent,1.399999976158142
+2614,United Kingdom,Historical,EV sales share,EV,2017,percent,1.899999976158142
+2615,United Kingdom,Historical,EV sales share,EV,2018,percent,2.5999999046325684
+2616,United Kingdom,Historical,EV sales share,EV,2019,percent,3.200000047683716
+2617,United Kingdom,Historical,EV sales share,EV,2020,percent,11.0
+2618,United Kingdom,Historical,EV sales share,EV,2021,percent,19.0
+2619,United Kingdom,Historical,EV sales share,EV,2022,percent,23.0
+2620,United Kingdom,Historical,EV stock,BEV,2010,Vehicles,1500.0
+2621,United Kingdom,Historical,EV stock,BEV,2011,Vehicles,2600.0
+2622,United Kingdom,Historical,EV stock,BEV,2012,Vehicles,4100.0
+2623,United Kingdom,Historical,EV stock,BEV,2013,Vehicles,6200.0
+2624,United Kingdom,Historical,EV stock,BEV,2014,Vehicles,12000.0
+2625,United Kingdom,Historical,EV stock,BEV,2015,Vehicles,21000.0
+2626,United Kingdom,Historical,EV stock,BEV,2016,Vehicles,30000.0
+2627,United Kingdom,Historical,EV stock,BEV,2017,Vehicles,42000.0
+2628,United Kingdom,Historical,EV stock,BEV,2018,Vehicles,56000.0
+2629,United Kingdom,Historical,EV stock,BEV,2019,Vehicles,91000.0
+2630,United Kingdom,Historical,EV stock,BEV,2020,Vehicles,190000.0
+2631,United Kingdom,Historical,EV stock,BEV,2021,Vehicles,380000.0
+2632,United Kingdom,Historical,EV stock,BEV,2022,Vehicles,550000.0
+2633,United Kingdom,Historical,EV stock,PHEV,2010,Vehicles,21.0
+2634,United Kingdom,Historical,EV stock,PHEV,2011,Vehicles,28.0
+2635,United Kingdom,Historical,EV stock,PHEV,2012,Vehicles,990.0
+2636,United Kingdom,Historical,EV stock,PHEV,2013,Vehicles,2000.0
+2637,United Kingdom,Historical,EV stock,PHEV,2014,Vehicles,9700.0
+2638,United Kingdom,Historical,EV stock,PHEV,2015,Vehicles,27000.0
+2639,United Kingdom,Historical,EV stock,PHEV,2016,Vehicles,55000.0
+2640,United Kingdom,Historical,EV stock,PHEV,2017,Vehicles,87000.0
+2641,United Kingdom,Historical,EV stock,PHEV,2018,Vehicles,130000.0
+2642,United Kingdom,Historical,EV stock,PHEV,2019,Vehicles,160000.0
+2643,United Kingdom,Historical,EV stock,PHEV,2020,Vehicles,220000.0
+2644,United Kingdom,Historical,EV stock,PHEV,2021,Vehicles,330000.0
+2645,United Kingdom,Historical,EV stock,PHEV,2022,Vehicles,400000.0
+2646,United Kingdom,Historical,EV stock share,EV,2010,percent,0.0054999999701976
+2647,United Kingdom,Historical,EV stock share,EV,2011,percent,0.0093000000342726
+2648,United Kingdom,Historical,EV stock share,EV,2012,percent,0.0179999992251396
+2649,United Kingdom,Historical,EV stock share,EV,2013,percent,0.0280000008642673
+2650,United Kingdom,Historical,EV stock share,EV,2014,percent,0.0719999969005584
+2651,United Kingdom,Historical,EV stock share,EV,2015,percent,0.1500000059604644
+2652,United Kingdom,Historical,EV stock share,EV,2016,percent,0.270000010728836
+2653,United Kingdom,Historical,EV stock share,EV,2017,percent,0.4000000059604645
+2654,United Kingdom,Historical,EV stock share,EV,2018,percent,0.5600000023841858
+2655,United Kingdom,Historical,EV stock share,EV,2019,percent,0.7599999904632568
+2656,United Kingdom,Historical,EV stock share,EV,2020,percent,1.2999999523162842
+2657,United Kingdom,Historical,EV stock share,EV,2021,percent,2.0999999046325684
+2658,United Kingdom,Historical,EV stock share,EV,2022,percent,2.799999952316284
