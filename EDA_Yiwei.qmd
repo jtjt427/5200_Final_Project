@@ -1,0 +1,85 @@
+---
+title: "Yiwei Qi"
+format:
+  html:
+    embed-resources: true
+    toc: true
+code-fold: true
+---
+# Part 2: Vehicle Registration Counts by State
+
+
+
+```{python}
+import numpy as np
+import pandas as pd
+file_path = 'data/registration_data.xlsx'
+data = pd.read_excel(file_path)
+```
+
+```{python}
+import warnings
+warnings.filterwarnings('ignore')
+
+import pandas as pd
+import plotly.graph_objects as go
+def prepare_data(df):
+    melted = df.melt(id_vars=['State', 'Year'], var_name='Vehicle Type', value_name='Registrations')
+
+    top_3 = melted.groupby(['State', 'Year'], as_index=False, group_keys=False).apply(lambda x: x.nlargest(3, 'Registrations'))
+    return top_3
+
+prepared_data = prepare_data(data)
+
+def create_interactive_chart(df):
+    fig = go.Figure()
+
+    for state in df['State'].unique():
+        state_data = df[df['State'] == state]
+        
+        for vehicle_type in state_data['Vehicle Type'].unique():
+            filtered_data = state_data[state_data['Vehicle Type'] == vehicle_type]
+            fig.add_trace(
+                go.Bar(
+                    x=filtered_data['Year'],
+                    y=filtered_data['Registrations'],
+                    name=vehicle_type,
+                    visible=False,
+                )
+            )
+
+    buttons = []
+    for i, state in enumerate(df['State'].unique()):
+        visible = [False] * len(fig.data)
+        start_idx = i * 3
+        for j in range(start_idx, start_idx + 3):
+            visible[j] = True
+
+        buttons.append(dict(label=state,
+                            method='update',
+                            args=[{'visible': visible},
+                                  {'title': f'{state} - Electric Vehicle Registrations Top 3 Types per Year'}]))
+
+    fig.update_layout(
+        updatemenus=[dict(active=0,
+                          buttons=buttons,
+                          x=1.05,
+                          xanchor='right',
+                          y=1.1,
+                          yanchor='top')],
+        title=f'Electric Vehicle Registrations Top 3 Types per Year',
+        xaxis_title='Year',
+        yaxis_title='Registrations',
+        barmode='group'
+    )
+
+    for j in range(3):
+        fig.data[j].visible = True
+
+    return fig
+
+chart = create_interactive_chart(prepared_data)
+chart.show()
+```
+
+
