@@ -8,7 +8,7 @@ code-fold: true
 ---
 # Part 2: Vehicle Registration Counts by State
 
-  In the previous section, we obtained a comprehensive overview of global new energy vehicle market sales and inventories. In this section, we will focus on the domestic market in the United States and provide a detailed analysis of the registration trends of new energy vehicles in each state from 2016 to 2022. 
+  In the previous section, we obtained a comprehensive overview of global new energy vehicle market sales and inventories. The United States is an important market for new energy vehicles. In this section, we will focus on the domestic market in the United States and provide a detailed analysis of the registration trends of new energy vehicles in each state from 2016 to 2022. 
 
   Data can be downloaded here: https://afdc.energy.gov/vehicle-registration
 
@@ -22,7 +22,6 @@ data = pd.read_excel(file_path)
 
 
 ```{python}
-
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -39,119 +38,98 @@ new_energy_data = prepare_new_energy_data(data)
 def create_interactive_new_energy_chart(df):
     fig = go.Figure()
 
-    for state in df['State'].unique():
+    states = df['State'].unique()
+    for state in states:
         state_data = df[df['State'] == state]
         fig.add_trace(
             go.Scatter(
                 x=state_data['Year'],
                 y=state_data['Total New Energy Registrations'],
                 mode='lines+markers',
-                name=state,
-                visible=False
+                name=state
             )
         )
 
-    buttons = []
-    for i, state in enumerate(df['State'].unique()):
-        visible = [False] * len(fig.data)
-        visible[i] = True
+    steps = []
+    for i, state in enumerate(states):
+        step = dict(
+            method='update',
+            args=[{'visible': [state == s for s in states]},
+                  {'title': f'{state} - Total New Energy Vehicle Registrations Per Year'}],
+            label=state
+        )
+        steps.append(step)
 
-        buttons.append(dict(label=state,
-                            method='update',
-                            args=[{'visible': visible},
-                                  {'title': f'{state} - Total New Energy Vehicle Registrations Per Year'}]))
+    sliders = [dict(
+        active=0,
+        currentvalue={"prefix": "State: "},
+        steps=steps
+    )]
 
     fig.update_layout(
-        updatemenus=[dict(active=0,
-                          buttons=buttons,
-                          x=1.05,
-                          xanchor='right',
-                          y=1.1,
-                          yanchor='top')],
-        title=f'Total New Energy Vehicle Registrations Per Year',
+        sliders=sliders,
+        title='Total New Energy Vehicle Registrations Per Year',
         xaxis_title='Year',
-        yaxis_title='Total Registrations',
+        yaxis_title='Total Registrations'
     )
 
-    fig.data[0].visible = True
+    for i, state in enumerate(states):
+        fig.data[i].visible = (i == 0)
 
     return fig
 
 chart = create_interactive_new_energy_chart(new_energy_data)
 chart.show()
+
 ```
 
 
 
-  By analyzing the data during this period, we  can observe that the registration volume of new energy vehicles in most states showed obvious annual growth. This trend not only reflects the development of the maturity of new energy vehicle technology and the increase in market acceptance, but also reflects consumers' increasing preference for environmentally friendly travel options.
+  By analyzing the data during this period, wwe can observe that the number of new energy vehicle registrations in all states in the United States has shown significant year-on-year growth. This trend not only reflects the development of the maturity of new energy vehicle technology and the increase in market acceptance, but also reflects consumers' increasing preference for environmentally friendly travel options. Next, we’ll compare differences in registrations between states.
 
 
 
 ```{python}
 
-def prepare_data(df):
-    melted = df.melt(id_vars=['State', 'Year'], var_name='Vehicle Type', value_name='Registrations')
+def prepare_new_energy_data(df):
+    new_energy_types = ['Electric (EV)', 'Plug-In Hybrid Electric (PHEV)', 'Hydrogen']
+    df['Total New Energy Registrations'] = df[new_energy_types].sum(axis=1)
+    return df[['State', 'Year', 'Total New Energy Registrations']]
 
-    top_3 = melted.groupby(['State', 'Year'], as_index=False, group_keys=False).apply(lambda x: x.nlargest(3, 'Registrations'))
-    return top_3
+def create_interactive_new_energy_chart(df):
+    top_states = df.groupby('State')['Total New Energy Registrations'].sum().nlargest(10).index
 
-prepared_data = prepare_data(data)
-
-def create_interactive_chart(df):
+    df_top = df[df['State'].isin(top_states)]
+    
     fig = go.Figure()
 
-    for state in df['State'].unique():
-        state_data = df[df['State'] == state]
-        
-        for vehicle_type in state_data['Vehicle Type'].unique():
-            filtered_data = state_data[state_data['Vehicle Type'] == vehicle_type]
-            fig.add_trace(
-                go.Bar(
-                    x=filtered_data['Year'],
-                    y=filtered_data['Registrations'],
-                    name=vehicle_type,
-                    visible=False,
-                )
+    for state in top_states:
+        state_data = df_top[df_top['State'] == state]
+        fig.add_trace(
+            go.Scatter(
+                x=state_data['Year'],
+                y=state_data['Total New Energy Registrations'],
+                mode='lines+markers',
+                name=state
             )
-
-    buttons = []
-    for i, state in enumerate(df['State'].unique()):
-        visible = [False] * len(fig.data)
-        start_idx = i * 3
-        for j in range(start_idx, start_idx + 3):
-            visible[j] = True
-
-        buttons.append(dict(label=state,
-                            method='update',
-                            args=[{'visible': visible},
-                                  {'title': f'{state} - Electric Vehicle Registrations Top 3 Types per Year'}]))
+        )
 
     fig.update_layout(
-        updatemenus=[dict(active=0,
-                          buttons=buttons,
-                          x=1.05,
-                          xanchor='right',
-                          y=1.1,
-                          yanchor='top')],
-        title=f'Electric Vehicle Registrations Top 3 Types per Year',
+        title='Top 10 States - Total New Energy Vehicle Registrations Per Year',
         xaxis_title='Year',
-        yaxis_title='Registrations',
-        barmode='group'
+        yaxis_title='Total Registrations',
+        legend_title="State"
     )
-
-    for j in range(3):
-        fig.data[j].visible = True
 
     return fig
 
-chart = create_interactive_chart(prepared_data)
+new_energy_data = prepare_new_energy_data(data)
+chart = create_interactive_new_energy_chart(new_energy_data)
 chart.show()
+
 ```
 
-
-
-
-  A detailed visualization of vehicle registrations by state from 2016 to 2022 shows that gasoline vehicles still dominate in most states. Among the top three models, new energy vehicles powered by E85 show a trend of first rising and then falling slightly. To be more specific, it reached a peak in 2020, but declined slightly in the following two years. This finding combined with our previous observation of a yearly increase in total NEV registrations, suggesting that the NEV market is becoming more and more diverse and balanced across different energy types. Consumer choice is becoming broader, likely reflecting the maturation of new energy technologies in the market.
+The figure shows the growth trend of the top ten states in the United States in total new energy vehicle registrations from 2016 to 2022. It can be seen that compared with other states, California has the characteristics of rapid growth and large size. Below we will take California as an example for further analysis.
 
 
 我不写总结段了因为子宁写了承上启下的开头。
