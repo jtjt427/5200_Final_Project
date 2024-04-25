@@ -1,0 +1,475 @@
+---
+title: "Yiwei Qi"
+format:
+  html:
+    embed-resources: true
+    toc: true
+code-fold: true
+---
+
+# Part 2: Vehicle Registration Counts by State
+
+  In the previous section, we obtained a comprehensive overview of global new energy vehicle market sales and inventories. The United States is an important market for new energy vehicles. In this section, we will focus on the domestic market in the United States and provide a detailed analysis of the registration trends of new energy vehicles in each state from 2016 to 2022. 
+
+  Data can be downloaded here: https://afdc.energy.gov/vehicle-registration
+
+```{r, warning=FALSE, message=FALSE, echo=FALSE}
+
+library(reticulate)
+repl_python()
+```
+
+
+```{python, warning=FALSE, message=FALSE, echo=FALSE}
+import numpy as np
+import pandas as pd
+file_path = 'data/registration_data.xlsx'
+data = pd.read_excel(file_path)
+```
+
+
+```{python, warning=FALSE, message=FALSE, echo=FALSE}
+import warnings
+warnings.filterwarnings('ignore')
+
+import pandas as pd
+import plotly.graph_objects as go
+
+def prepare_new_energy_data(df):
+    new_energy_types = ['Electric (EV)', 'Plug-In Hybrid Electric (PHEV)', 'Hydrogen']
+    df['Total New Energy Registrations'] = df[new_energy_types].sum(axis=1)
+    return df[['State', 'Year', 'Total New Energy Registrations']]
+
+new_energy_data = prepare_new_energy_data(data)
+
+def create_interactive_new_energy_chart(df):
+    fig = go.Figure()
+
+    states = df['State'].unique()
+    for state in states:
+        state_data = df[df['State'] == state]
+        fig.add_trace(
+            go.Scatter(
+                x=state_data['Year'],
+                y=state_data['Total New Energy Registrations'],
+                mode='lines+markers',
+                name=state
+            )
+        )
+
+    steps = []
+    for i, state in enumerate(states):
+        step = dict(
+            method='update',
+            args=[{'visible': [state == s for s in states]},
+                  {'title': f'{state} - Total New Energy Vehicle Registrations Per Year'}],
+            label=state
+        )
+        steps.append(step)
+
+    sliders = [dict(
+        active=0,
+        currentvalue={"prefix": "State: "},
+        steps=steps
+    )]
+
+    fig.update_layout(
+        sliders=sliders,
+        title='Total New Energy Vehicle Registrations Per Year',
+        xaxis_title='Year',
+        yaxis_title='Total Registrations'
+    )
+
+    for i, state in enumerate(states):
+        fig.data[i].visible = (i == 0)
+
+    return fig
+
+chart = create_interactive_new_energy_chart(new_energy_data)
+chart.show()
+
+```
+
+
+
+  By analyzing the data during this period, wwe can observe that the number of new energy vehicle registrations in all states in the United States has shown significant year-on-year growth. This trend not only reflects the development of the maturity of new energy vehicle technology and the increase in market acceptance, but also reflects consumers' increasing preference for environmentally friendly travel options. Next, we’ll compare differences in registrations between states.
+
+
+
+```{python, warning=FALSE, message=FALSE, echo=FALSE}
+
+def prepare_new_energy_data(df):
+    new_energy_types = ['Electric (EV)', 'Plug-In Hybrid Electric (PHEV)', 'Hydrogen']
+    df['Total New Energy Registrations'] = df[new_energy_types].sum(axis=1)
+    return df[['State', 'Year', 'Total New Energy Registrations']]
+
+def create_interactive_new_energy_chart(df):
+    top_states = df.groupby('State')['Total New Energy Registrations'].sum().nlargest(10).index
+
+    df_top = df[df['State'].isin(top_states)]
+    
+    fig = go.Figure()
+
+    for state in top_states:
+        state_data = df_top[df_top['State'] == state]
+        fig.add_trace(
+            go.Scatter(
+                x=state_data['Year'],
+                y=state_data['Total New Energy Registrations'],
+                mode='lines+markers',
+                name=state
+            )
+        )
+
+    fig.update_layout(
+        title='Top 10 States - Total New Energy Vehicle Registrations Per Year',
+        xaxis_title='Year',
+        yaxis_title='Total Registrations',
+        legend_title="State"
+    )
+
+    return fig
+
+new_energy_data = prepare_new_energy_data(data)
+chart = create_interactive_new_energy_chart(new_energy_data)
+chart.show()
+
+```
+
+The figure shows the growth trend of the top ten states in the United States in total new energy vehicle registrations from 2016 to 2022. It can be seen that compared with other states, California has the characteristics of rapid growth and large size. Below we will take California as an example for further analysis.
+
+# Part 3: Alternative Fuel Charging Station
+
+As stated above in the previous parts, as the EV sales and registration have been increasing in the past decades, some may wonder: is the complimentory facilities keeping up with the boosting of EV? So let us take a closer look at the charging/alternative fuel station's distribution in the US. The data is retrieved from [U.S. Department of Energy](https://afdc.energy.gov/stations#/find/nearest)
+
+```{python, warning=FALSE, message=FALSE, echo=FALSE}
+import pandas as pd
+import numpy as np
+
+df = pd.read_csv("data/alt_fuel_stations (Mar 15 2024).csv")
+
+```
+
+
+Within this dataset, there are 6 alternative fuel kinds in total, each of them reprensents: 
+
+ELEC: Electricity. 
+
+E85: Ethanol Fuel Blend (85% ethanol, 15% gasoline). 
+
+LPG: Liquefied Petroleum Gas. 
+
+BD: Biodiesel. 
+
+CNG: Compressed Natural Gas. 
+RD: Renewable Diesel. 
+
+LNG: Liquefied Natural Gas. 
+
+HY: Hydrogen. 
+
+
+```{python, warning=FALSE, message=FALSE, echo=FALSE}
+df['Fuel Type Code'].value_counts()
+
+```
+
+## Histogram with drop-down bar for each state. 
+
+```{python, warning=FALSE, message=FALSE, echo=FALSE}
+import plotly.graph_objs as go
+from plotly.offline import init_notebook_mode, iplot
+import pandas as pd
+
+states = df['State'].unique()
+
+# Create a figure
+fig = go.Figure()
+
+# Add one trace (bar) for each state to the figure
+for state in states:
+    fig.add_trace(
+        go.Histogram(
+            x=df[df['State'] == state]['Fuel Type Code'],
+            name=state,  # This will be the label in the dropdown
+            visible=(state == states[0])  # Only the first state is visible initially
+        )
+    )
+
+# Create dropdown menus
+dropdown_buttons = [
+    {'label': state,
+     'method': 'update',
+     'args': [{'visible': [s == state for s in states]},
+              {'title': f'Histogram of Values for {state}'}]}  # This changes the figure title
+    for state in states]
+
+# Add dropdown to the figure
+fig.update_layout(
+    updatemenus=[{'buttons': dropdown_buttons,
+                  'direction': 'down',
+                  'showactive': True,}]
+)
+
+# Show the figure
+iplot(fig)
+
+```
+
+## Horizontal Stacked histogram for fuel type for each state. 
+
+```{python, warning=FALSE, message=FALSE, echo=FALSE}
+states = df['State'].unique()
+fuel_types = df['Fuel Type Code'].unique()
+
+# Initialize an empty list for the traces
+traces = []
+
+# Create a trace for each fuel type
+for fuel_type in fuel_types:
+    # Initialize a list to hold the counts for each state
+    counts = []
+    for state in states:
+        # Count the occurrences of the fuel type in the current state
+        count = df[(df['State'] == state) & (df['Fuel Type Code'] == fuel_type)].shape[0]
+        counts.append(count)
+    
+    # Create a horizontal bar trace for the current fuel type
+    traces.append(go.Bar(
+        y=states,  # Swap x and y
+        x=counts,  # Swap x and y
+        name=fuel_type,
+        orientation='h'  # Specify horizontal orientation
+    ))
+
+# Create the figure and update layout for stacked histogram (bar chart)
+fig = go.Figure(data=traces)
+fig.update_layout(
+    barmode='stack',
+    title_text='Stacked Histogram of Fuel Types by State',  # Chart title
+    yaxis_title_text='State',  
+    xaxis_title_text='Frequency', 
+    height = 1000,
+    width = 800
+)
+
+# Show the plot
+fig.show()
+```
+
+From the horizontal stacked histogram categorized by states, we can see that for each state: the majority of alternative fuel stations are electrical charging station, which the proportion is rather donimant compares to other alternative kinds. Specifically, the number of alternative fuel stations (both electric and all combined) in California (CA) out-numbered other states. A more straight-forward geographical demonstration below displayes the density of the stations on a US, and a world map. 
+
+## Geospatial Dataset:
+
+```{python, warning=FALSE, message=FALSE, echo=FALSE}
+import geopandas as gpd
+import pandas as pd
+import plotly.express as px
+
+geojson_path = 'data/alt_fuel_stations (Mar 15 2024).geojson'
+gdf = gpd.read_file(geojson_path)
+
+state_col_name = 'state'  
+fuel_type_col_name = 'fuel_type_code'  
+
+```
+
+## As scattered points
+
+```{python, warning=FALSE, message=FALSE, echo=FALSE}
+df = pd.DataFrame(gdf.drop(columns='geometry'))
+df['longitude'] = gdf.geometry.x
+df['latitude'] = gdf.geometry.y
+
+fuel_type_col = 'fuel_type_code'
+
+fig = px.scatter_geo(df,
+                     lon='longitude',
+                     lat='latitude',
+                     color=fuel_type_col, 
+                     hover_name=fuel_type_col, 
+                     title='Fuel Stations by Fuel Type across the USA')
+
+fig.update_traces(marker=dict(size=3))
+
+fig.update_layout(
+    height = 500,
+    width = 800
+)
+
+fig.update_geos(
+    projection_type="kavrayskiy7",  
+    landcolor="lightgrey",
+    lakecolor="white",
+    showocean=True, oceancolor="azure",
+)
+
+fig.show()
+```
+
+
+## As heat map
+
+```{python, warning=FALSE, message=FALSE, echo=FALSE}
+import plotly.graph_objs as go
+from plotly.offline import init_notebook_mode, iplot
+import pandas as pd
+
+geojson_path = 'data/alt_fuel_stations (Mar 15 2024).geojson'
+df = pd.DataFrame(gdf.drop(columns='geometry'))
+df['longitude'] = gdf.geometry.x
+df['latitude'] = gdf.geometry.y
+df_aggregated = df.groupby(['fuel_type_code', 'latitude', 'longitude']).size().reset_index(name='Count')
+
+fuel_types = df_aggregated['fuel_type_code'].unique()
+
+# Create a figure
+fig = go.Figure()
+
+for fuel_type in fuel_types:
+    df_filtered = df_aggregated[df_aggregated['fuel_type_code'] == fuel_type]
+    
+    # Create a heatmap for each fuel type
+    fig.add_trace(
+        go.Densitymapbox(lat=df_filtered['latitude'], lon=df_filtered['longitude'],
+                         z=df_filtered['Count'], name=fuel_type, visible=False)
+    )
+
+# Make the first fuel type visible by default
+fig.data[0].visible = True
+
+# Set mapbox style
+fig.update_layout(mapbox_style="light", mapbox_center_lon=180)
+fig.update_layout(mapbox=dict(center=dict(lat=38, lon=-94), zoom=1))
+
+# Create dropdown buttons
+buttons = []
+
+for i, fuel_type in enumerate(fuel_types):
+    button = dict(
+        label=fuel_type,
+        method="update",
+        args=[{"visible": [False] * len(fuel_types)},
+              {"title": f"Heatmap of {fuel_type} Fuel Stations"}])
+    button["args"][0]["visible"][i] = True  
+    buttons.append(button)
+
+fig.update_layout(
+    height = 500,
+    width = 800,
+    updatemenus=[
+        dict(
+            buttons=buttons,
+            direction="down",
+            pad={"r": 10, "t": 10},
+            showactive=True,
+            x=0.1,
+            xanchor="left",
+            y=1.1,
+            yanchor="top"
+        ),
+    ]
+)
+
+mapbox_access_token = 'pk.eyJ1IjoiY2F0aHl6d24iLCJhIjoiY2x1a2VnN2FjMDNhdzJpbGw5Y3Jud2Q5MyJ9.bjGv9ATrYWnL4B66WwCH7g'
+fig.update_layout(mapbox_accesstoken=mapbox_access_token)
+
+fig.show()
+
+```
+
+From the geographical vizualization: heat map for each type of alternative fuel station, we could see that more stations are gathered in california, especially electric charging stations. According to one journal that: established in January 2018, the California Zero-Emission Vehicle (ZEV) Action Plan set an ambitious target of 1.5 million ZEVs (a mix of PHEVs, BEVs and FCEVs) on the road by 2025, on a path to 5 million by 2030. California has established mandates that require auto manufacturers to make available specific numbers of these vehicles to support achieving these targets. [Reference](https://www.sciencedirect.com/science/article/pii/S0965856422002701#:~:text=Second%2C%20California%20has%20a%20larger,opportunity%20for%20a%20detailed%20assessment.)
+
+So, with intervention of the state policy, the transition from heavily reply on fossil fuel to EV is rather successful in the CA state comparing to other states. 
+
+# Part 4
+
+```{python, warning=FALSE, message=FALSE, echo=FALSE}
+import pandas as pd
+import plotly.graph_objects as go
+import plotly.io as pio
+
+pio.renderers.default = "plotly_mimetype+notebook_connected"
+
+# Load the dataset
+ghg_data = pd.read_csv('./data/GHG.csv')  # Make sure the path to your CSV is correct
+
+# Transpose the dataset for easier plotting with Plotly
+ghg_data_transposed = ghg_data.set_index('U.S. Emissions, Transportation Sector, MMT CO2 eq.').T.reset_index()
+ghg_data_transposed.rename(columns={'index': 'Year'}, inplace=True)
+
+# Ensure that all data used in calculations are numeric by converting them to floats
+ghg_data_transposed[ghg_data_transposed.columns[1:]] = ghg_data_transposed[ghg_data_transposed.columns[1:]].astype(float)
+
+# Calculate percentage of each sector for each year
+percentage_data = ghg_data_transposed.iloc[:, 1:-1].div(ghg_data_transposed.iloc[:, -1], axis=0).multiply(100)
+percentage_data['Year'] = ghg_data_transposed['Year']
+
+# Initialize two separate figures
+fig_total_emissions = go.Figure()
+fig_percentage = go.Figure()
+
+# Custom color palette for clarity and visual appeal
+colors = ['#636EFA', '#EF553B', '#00CC96', '#AB63FA', '#FFA15A', '#19D3F3', '#FF6692', '#B6E880', '#FF97FF', '#FECB52']
+
+# Add traces for the total emissions
+for i, column in enumerate(ghg_data_transposed.columns[1:-1]):  # Skip the first and last columns as they're the year and total
+    fig_total_emissions.add_trace(
+        go.Scatter(x=ghg_data_transposed['Year'], y=ghg_data_transposed[column], name=column,
+                   marker_color=colors[i % len(colors)],
+                   mode='lines+markers',  # Add markers to lines for better visibility
+                   )
+    )
+
+# Update layout for the total emissions figure
+fig_total_emissions.update_layout(
+    title_text="U.S. Emissions in the Transportation Sector (1990-2021)",
+    xaxis_title="Year",
+    yaxis_title="MMT CO2 eq.",
+    legend=dict(orientation="v", y=0.5, x=1.1, yanchor="middle", xanchor="left")
+)
+
+# Add traces for the percentage contribution as a stacked bar chart
+for i, column in enumerate(percentage_data.columns[:-1]):  # Skip the last column as it's the year
+    fig_percentage.add_trace(
+        go.Bar(x=percentage_data['Year'], y=percentage_data[column], name=column,
+               marker_color=colors[i % len(colors)],
+               )
+    )
+
+# Update layout for the percentage figure
+fig_percentage.update_layout(
+    barmode='stack',
+    title_text="Percentage Contribution by Sector to U.S. Emissions in the Transportation Sector (1990-2021)",
+    xaxis_title="Year",
+    yaxis_title="Percentage",
+    legend=dict(orientation="v", y=0.5, x=1.1, yanchor="middle", xanchor="left")
+)
+
+# Show the total emissions plot
+fig_total_emissions.show()
+
+# Show the percentage contribution plot
+fig_percentage.show()
+
+```
+
+According to a document issued by White House in November 2020, [the united states is aming for a net zero greenhouse gas(GHG) emissions by 2050](https://www.whitehouse.gov/wp-content/uploads/2021/10/us-long-term-strategy.pdf). The transportation sector, being a major contributor to GHG emissions in the U.S., plays a crucial role in the country's efforts to reach the goal. Therefore, the last part of our analysis focuses on different emission sources within the transportation sector, including fossil fuel combustion (carbon dioxide), the use of fluorinated gases, other greenhouse gases from fossil fuel combustion, and non-energy use of transportation fuels.
+
+**Emission Trends (1990-2021)**
+
+The interactive line graph displayed trends in emissions from different sources within the transportation sector from 1990 to 2021. Here are some key observations:
+
+- Fossil fuel combustion (carbon dioxide): This is by far the largest source of emissions, showing a generally increasing trend until 2018, followed by a sharp decline in 2020 likely due to reduced transportation activities during the COVID-19 pandemic, before rising again in 2021. The long-term increase reflects growing transportation demands.
+- Use of fluorinated gases: Although starting from a zero base in 1990, emissions from this source have grown, albeit with fluctuations. These gases are potent greenhouse gases used in refrigeration and air conditioning systems in vehicles.
+- Other greenhouse gases from fossil fuel combustion: Emissions from this category showed a slight decreasing trend over time, indicating improvements in fuel efficiency and vehicle emissions standards.
+- Non-energy use of transportation fuels: This category showed relatively stable emissions over the years, with minor fluctuations.
+
+
+**Percentage Contribution by Sector (1990-2021)**
+
+The stacked bar chart depicts the proportional impact of different sources of GHG emissions within the transportation sector across the given timeframe. We observed that:
+
+- There is a pronounced preeminence of carbon dioxide emissions originating from the combustion of fossil fuels, which consistently accounts for the vast majority(exceeding 95%) of total emissions. This trend underscores the pressing necessity to transition to electric modes of transportation and harness renewable energy resources.
+- Although relatively minor, the incremental rise in emissions due to fluorinated gases calls for a pivot towards more eco-friendly refrigerants and the enhancement of system designs to curb leakage.
+- There is a modest downtrend in emissions from other greenhouse gases reflects progressive enhancements in both emission regulation and vehicular technology.
