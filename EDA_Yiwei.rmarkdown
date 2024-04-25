@@ -6,17 +6,18 @@ format:
     toc: true
 code-fold: true
 ---
+
 # Part 2: Vehicle Registration Counts by State
 
   In the previous section, we obtained a comprehensive overview of global new energy vehicle market sales and inventories. The United States is an important market for new energy vehicles. In this section, we will focus on the domestic market in the United States and provide a detailed analysis of the registration trends of new energy vehicles in each state from 2016 to 2022. 
 
   Data can be downloaded here: https://afdc.energy.gov/vehicle-registration
 
+
 ```{r}
 library(reticulate)
 repl_python()
 ```
-
 
 ```{python}
 import numpy as np
@@ -24,7 +25,6 @@ import pandas as pd
 file_path = 'data/registration_data.xlsx'
 data = pd.read_excel(file_path)
 ```
-
 
 ```{python}
 import warnings
@@ -90,7 +90,9 @@ chart.show()
 
 
 
+
   By analyzing the data during this period, wwe can observe that the number of new energy vehicle registrations in all states in the United States has shown significant year-on-year growth. This trend not only reflects the development of the maturity of new energy vehicle technology and the increase in market acceptance, but also reflects consumers' increasing preference for environmentally friendly travel options. Next, we’ll compare differences in registrations between states.
+
 
 
 
@@ -134,7 +136,9 @@ chart.show()
 
 ```
 
+
 The figure shows the growth trend of the top ten states in the United States in total new energy vehicle registrations from 2016 to 2022. It can be seen that compared with other states, California has the characteristics of rapid growth and large size. Below we will take California as an example for further analysis.
 
 
 我不写总结段了因为子宁写了承上启下的开头。
+
